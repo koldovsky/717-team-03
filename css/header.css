@@ -10,7 +10,7 @@
     font-size: 14px;
     background-color: #d60307;
     color: #FFFFFF;
-    
+
 }
 
 .header__logo-container {
@@ -27,3 +27,12 @@
     padding-bottom: 40px;
 }
 
+.header__upperline-contacts {
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+.header__upperline-contacts:hover {
+    text-decoration: underline;
+}
