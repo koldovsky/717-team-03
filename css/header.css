@@ -1,4 +1,8 @@
-header {
-    background-image: url(img/background_header.jpg)
+.header {
+    background-image: url(img/background_header.jpg);
+}
+
+.header__logo-container {
+    width: 168;
 }
 
