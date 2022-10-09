@@ -10,7 +10,7 @@
     font-size: 14px;
     background-color: #d60307;
     color: #FFFFFF;
-
+    
 }
 
 .header__logo-container {
@@ -20,5 +20,10 @@
 .header__social-icons {
     width: 30px;
     height: 30px;
+}
+
+.header__nav {
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
