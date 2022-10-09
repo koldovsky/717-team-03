@@ -1,8 +1,24 @@
 .header {
-    background-image: url(img/background_header.jpg);
+    background-image:
+}
+
+.header__upperline {
+    padding-top: 8px;
+    padding-bottom: 40px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #d60307;
+    color: #FFFFFF;
+
 }
 
 .header__logo-container {
-    width: 168;
+    width: 154px;
+}
+
+.header__social-icons {
+    width: 30px;
+    height: 30px;
 }
 
