@@ -15,7 +15,8 @@
 }
 
 .header__logo-container {
-    width: 154px;
+    width: 174px;
+    height: 72px;
 }
 
 .header__social-icons {
@@ -31,9 +32,13 @@
 .header__upperline-contacts {
     text-decoration: none;
     color: var(--alternate-p-text-color)
-    
 }
 
 .header__upperline-contacts:hover {
     text-decoration: underline;
+}
+
+#logo {
+    width: 154px;
+    height: 36px;
 }
