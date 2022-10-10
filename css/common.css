@@ -9,18 +9,20 @@
 
 :root {
   font-family: 'Bebas Neue', cursive;
-  --text-color: #222323;;
+  --text-color: #222323;
+  ;
   --alternate-text-color: #f40106;
   --paragraph-text-color: #717474;
 }
 
+/*
 img {
-  width: 30%;
+  width:30%;
   display: block;
 }
 
 h1 {
-    color: var(--text-color);
+  color: var(--text-color);
 }
 
 h2 {
@@ -34,15 +36,19 @@ span {
   padding: 0;
   font-size: 40px;
   text-align: left;
-  color: #f40106!important;
+  color: #f40106 !important;
 }
 
-p {font-family: 'PT Sans', sans-serif;
+p {
+  font-family: 'PT Sans', sans-serif;
 }
 
-p {font-size: 30px;
+p {
+  font-size: 30px;
   text-align: left;
-  color:  #717474;
+  color: #717474;
   margin: 20px;
   padding: 10px;
 }
+
+*/
