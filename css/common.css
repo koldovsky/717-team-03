@@ -14,7 +14,11 @@
   --paragraph-text-color: #717474;
   --alternate-p-text-color:#fff;
   --uperline-background-color: #d60307;
+}
 
+.container {
+  max-width: 980px;
+  margin: auto;
 }
 
 /*
