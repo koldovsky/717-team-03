@@ -8,8 +8,8 @@
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     font-size: 14px;
-    background-color: #d60307;
-    color: #FFFFFF;
+    background-color: var(--uperline-background-color);
+    color: var(--alternate-p-text-color);
 
 }
 
@@ -29,7 +29,7 @@
 
 .header__upperline-contacts {
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--alternate-p-text-color)
     
 }
 
