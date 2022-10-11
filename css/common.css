@@ -8,11 +8,12 @@
 }
 
 :root {
-  font-family: 'Bebas Neue', cursive;
+   font-family: 'Bebas Neue', cursive;
   --main-text-color: #222323;
   --alternate-text-color: #f40106;
   --paragraph-text-color: #717474;
-  --alternate-p-text-color:#fff;
+  --paragraph-text-color-accent-light: #e0e0e0;
+  --alternate-p-text-color: #fff;
   --uperline-background-color: #d60307;
 }
 
