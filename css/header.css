@@ -1,16 +1,17 @@
 .header {
-    background-image:url(../img/background_header.jpg)
+    background-image: url(../img/background_header.jpg)
 }
 
 .header__upperline {
-    padding-top: 8px;
-    padding-bottom: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.87rem;
     background-color: var(--uperline-background-color);
     color: var(--alternate-p-text-color);
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .header__logo-container {
@@ -21,23 +22,81 @@
 .header__social-icons {
     width: 30px;
     height: 30px;
+    display: flex;
+}
+
+.header__social-icons-list {
+    display: flex;
+
 }
 
 .header__nav {
     padding-top: 30px;
     padding-bottom: 40px;
+    background-color: var(--main-text-color);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-.header__upperline-contacts {
+.header__upperline-contacts-link {
     text-decoration: none;
-    color: var(--alternate-p-text-color)
+    color: var(--alternate-p-text-color);
+    margin-left: 12px;
 }
 
-.header__upperline-contacts:hover {
+
+.header__upperline-contacts-link:hover {
     text-decoration: underline;
 }
 
 #logo {
     width: 154px;
     height: 36px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: flex-start;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: var(--alternate-p-text-color);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+
+.header__menu-link:hover {
+    text-decoration: underline;
+}
+
+.header__banner {
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+
+.header__banner-inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7.75rem;
+    color: var(--main-text-color);
+}
+
+.header__title_collections {
+    color: var(--alternate-text-color);
+}
+
+.header__title_dot {
+    color: var(--alternate-text-color);
+}
+
+.header__subtitle {
+    font-size: 1.5rem;
+    color: var(--paragraph-text-color);
 }

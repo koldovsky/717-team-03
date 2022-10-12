@@ -22,6 +22,9 @@
   margin: auto;
 }
 
+li {
+  list-style: none;
+}
 /*
 img {
   width:30%;
