@@ -13,6 +13,7 @@
 .why-subtitle {
   color: var(--paragraph-text-color);
   font-family: "PT Sans", sans-serif;
+
   font-size: 20px;
   line-height: 30px;
   text-align: center;
@@ -39,4 +40,22 @@
   .why-categories {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+.wrapper-why-choose-us {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.why-categories-item-title {
+  color: var(--main-text-color);
+  font-size: 22px;
+  line-height: 30px;
+}
+.why-categories-item-description {
+  color: var(--paragraph-text-color);
+  font-size: 16px;
+  line-height: 27px;
+  font-family: "PT Sans", sans-serif;
+}
+.red-dot {
+  color: var(--alternate-text-color);
 }
