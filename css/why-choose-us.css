@@ -17,3 +17,26 @@
   line-height: 30px;
   text-align: center;
 }
+.why-categories-item {
+  border: 1px solid var(--paragraph-text-color);
+  padding: 5px;
+}
+@media (min-width: 560px) {
+  .why-categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+}
+
+@media (min-width: 660px) {
+  .why-categories {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 960px) {
+  .why-categories {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
