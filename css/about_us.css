@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+
+.about__us {
+    background-color: rgb(31, 30, 30);
+    
+    
+}
+
+.about-us__basic {
+    color: white;
+    font-size: 50px;
+    padding: 70px 100px;
+}
+
+.information__about-us {
+    color: white;
+    padding: 65px;
+}
+
+.about__point {
+    color: red;
+}
+
+.about-us__image {
+    height: 100%;
+}
+
+.basic__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: l;
+    height: 80px;
+    width: 40vw;
+    padding: 5px;
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80px;
+    width: 40vw;
+    padding: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.description_final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80px;
+    width: 40vw;
+    padding: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+}
