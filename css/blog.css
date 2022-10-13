@@ -20,3 +20,18 @@
 .red-dot {
   color: var(--alternate-text-color);
 }
+.blog-content {
+  color: var(--main-text-color);
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid rgba(33, 39, 54, 0.12);
+  display: flex;
+  height: 450px;
+  max-width: 1000px;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32;
+  align-items: center;
+  margin: 0 auto;
+}
