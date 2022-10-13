@@ -17,3 +17,6 @@
   line-height: 30px;
   text-align: center;
 }
+.red-dot {
+  color: var(--alternate-text-color);
+}
