@@ -1,0 +1,19 @@
+.divider-component {
+  margin: 0 auto;
+  height: 2px;
+  width: 8%;
+  background-color: var(--paragraph-text-color-accent-light);
+}
+.blog-title {
+  color: var(--main-text-color);
+  font-size: 38px;
+  line-height: 43px;
+  text-align: center;
+}
+.blog-subtitle {
+  color: var(--paragraph-text-color);
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
