@@ -20,11 +20,12 @@
 }
 .why-categories-item {
   border: 1px solid var(--paragraph-text-color);
-  padding: 5px;
+  padding: 30px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 @media (min-width: 560px) {
   .why-categories {
