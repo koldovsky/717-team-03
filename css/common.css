@@ -8,7 +8,7 @@
 }
 
 :root {
-   font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue', cursive;
   --main-text-color: #222323;
   --alternate-text-color: #f40106;
   --paragraph-text-color: #717474;
@@ -18,13 +18,20 @@
 }
 
 .container {
-  max-width: 980px;
-  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 li {
   list-style: none;
 }
+
 /*
 img {
   width:30%;
