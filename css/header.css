@@ -3,15 +3,32 @@
 }
 
 .header__upperline {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    font-size: 0.87rem;
-    background-color: var(--uperline-background-color);
-    color: var(--alternate-p-text-color);
+    display: none;
+}
+
+@media (min-width: 991px) {
+    .header__upperline {
+        padding: 8px 40px;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: bold;
+        font-size: 0.87rem;
+        background-color: var(--uperline-background-color);
+        color: var(--alternate-p-text-color);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        min-height: 48px;
+        align-items: center;
+    }
+}
+
+.header__upperline-box {
     display: flex;
     justify-content: space-between;
+}
+
+.header__upperline-contacts {
+    justify-content: flex-end;
 }
 
 .header__logo-container {
@@ -27,7 +44,6 @@
 
 .header__social-icons-list {
     display: flex;
-
 }
 
 .header__nav {
