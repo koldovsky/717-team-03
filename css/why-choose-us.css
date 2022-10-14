@@ -19,7 +19,7 @@
   text-align: center;
 }
 .why-categories-item {
-  border: 1px solid var(--paragraph-text-color);
+  border: 1px solid rgba(33, 39, 54, 0.2);
   padding: 30px 15px;
   display: flex;
   flex-direction: column;
