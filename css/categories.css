@@ -1,0 +1,31 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.block {
+    max-width: 300px;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+
+.categories-arrivals {
+    background-image: url(../img/categories/sneakers.svg);
+    
+}
+
+.categories-trainers {
+    background-image: url(../img/categories/skateboard.png);
+}
+
+.categories-sale {
+    background-image: url(../img/categories/sport_top_and_bottle.png);
+}
