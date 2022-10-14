@@ -45,4 +45,7 @@
 .carousel__brands-item {
   border: 1px solid rgba(33, 39, 54, 0.12);
   height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
