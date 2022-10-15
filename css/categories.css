@@ -22,20 +22,23 @@
 }
 
 .categories-arrivals {
-    background-image: url(../img/categories/sneakers.svg);
+    background: url(../img/categories/sneakers.svg) 14.53% 36.12% / cover no-repeat, var(--paragraph-text-color-accent-light);
+    
 
 }
 
 .categories-trainers {
-    background-image: url(../img/categories/skateboard.png);
+    background: url(../img/categories/skateboard.png) 50% 50% / cover no-repeat;
 }
 
 .categories-sale {
-    background-image: url(../img/categories/sport_top_and_bottle.png);
+    background: url(../img/categories/sport_top_and_bottle.png) 23.28% 35.83% / cover no-repeat;
 }
 
 .categories>div>p {
     font-size: 2.4rem;
+    line-height: 1.14;
+    letter-spacing: 0;
 }
 
 .categories>div>a {
