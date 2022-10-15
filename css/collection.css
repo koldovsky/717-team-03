@@ -1,131 +1,130 @@
-/* test comment */
 .collection-container {
-    max-width: 1230px;
-    padding: 0 15px;
-    margin-top: 90px; /*temporary distance between sections*/
-    margin-right: auto;
-    margin-bottom: 120px; /*temporary distance between sections*/
-    margin-left: auto;
-  }
- 
-  .collection-title {
-    padding-bottom: 15px;
-    font-size: 52px;
-    font-weight: 400;
-    color: var(--main-text-color);
-    text-align: center;
-  }
- 
-  .collection-title-point {
-    color: var(--alternate-text-color);
-  }
- 
-  .collection-divider-line {
-    height: 2px;
-    width: 8%;
-    background-color: var(--paragraph-text-color-accent-light);
-    margin: auto;
-  }
- 
-  .collection-text {
-    padding-top: 15px;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: var(--paragraph-text-color);
-    text-align: center;
-    margin-bottom: 50px;
-  }
- 
-  .collection-tab-box {
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
- 
-  .collection-tab {
-    display: flex;
-    justify-content: center;
-  }
- 
-  .collection-tablinks {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 15px 20px;
-    transition: 0.5s;
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--paragraph-text-color-accent-light);
-  }
- 
-  .collection-tablinks:hover {
-    color: var(--paragraph-text-color);
-  }
- 
-  .collection-tablinks--active {
-    color: var(--paragraph-text-color);
-    border-bottom: 3px solid var(--alternate-text-color);
-  }
- 
-  .collection-tabcontent {
-    padding-top: 4px;
-    border-top: 1px solid var(--paragraph-text-color-accent-light);
-  }
- 
-  .collection-card-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px;
-    margin-top: 20px;
-  }
- 
-  .collection-card-link {
-    text-decoration: none;
-    border: 0;
-    outline: none;
-  }
- 
-  .collection-card-img {
-    width: 100%;
-    display: block;
-  }
- 
-  .collection-card-title {
-    margin-top: 24px;
-    transition: 0, 5s;
-    cursor: pointer;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 400;
-    color: var(--paragraph-text-color);
-  }
- 
-  .collection-card-title:hover {
-    text-decoration: underline;
-  }
- 
-  .collection-card-price {
-    margin-bottom: 24px;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 400;
-    color: var(--alternate-text-color);
-  }
- 
-  .collection-card-btn {
-    width: 125px;
-    height: 50px;
-    border: none;
-    cursor: pointer;
-    transition: 0.5s;
-    background-color: var(--main-text-color);
-    font-style: 15px;
-    font-weight: 700;
-    color: var(--alternate-p-text-color);
-  }
- 
-  .collection-card-btn:hover {
-    background-color: var(--alternate-text-color);
-  }
+  max-width: 1200px;
+  padding: 0 15px;
+  margin-top: 90px;
+  /*temporary distance between sections*/
+  margin-right: auto;
+  margin-bottom: 120px;
+  /*temporary distance between sections*/
+  margin-left: auto;
+}
+
+.collection-title {
+  padding-bottom: 15px;
+  font-size: 52px;
+  font-weight: 400;
+  color: var(--main-text-color);
+  text-align: center;
+}
+
+.collection-title-point {
+  color: var(--alternate-text-color);
+}
+
+.collection-divider-line {
+  height: 2px;
+  width: 8%;
+  background-color: var(--paragraph-text-color-accent-light);
+  margin: auto;
+}
+
+.collection-text {
+  padding-top: 15px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--paragraph-text-color);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.collection-tab-box {
+  margin: 0 auto;
+}
+
+.collection-tab {
+  display: flex;
+  justify-content: center;
+}
+
+.collection-tablinks {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 15px 20px;
+  transition: 0.5s;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--paragraph-text-color-accent-light);
+}
+
+.collection-tablinks:hover {
+  color: var(--paragraph-text-color);
+}
+
+.collection-tablinks--active {
+  color: var(--paragraph-text-color);
+  border-bottom: 3px solid var(--alternate-text-color);
+}
+
+.collection-tabcontent {
+  padding-top: 4px;
+  border-top: 1px solid var(--paragraph-text-color-accent-light);
+}
+
+.collection-card-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin-top: 20px;
+}
+
+.collection-card-link {
+  text-decoration: none;
+  border: 0;
+  outline: none;
+}
+
+.collection-card-img {
+  width: 100%;
+  display: block;
+}
+
+.collection-card-title {
+  margin-top: 24px;
+  transition: 0, 5s;
+  cursor: pointer;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: var(--paragraph-text-color);
+}
+
+.collection-card-title:hover {
+  text-decoration: underline;
+}
+
+.collection-card-price {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: var(--alternate-text-color);
+}
+
+.collection-card-btn {
+  width: 125px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: var(--main-text-color);
+  font-style: 15px;
+  font-weight: 700;
+  color: var(--alternate-p-text-color);
+}
+
+.collection-card-btn:hover {
+  background-color: var(--alternate-text-color);
+}
