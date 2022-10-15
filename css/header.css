@@ -181,7 +181,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap:1rem;
+    gap: 1rem;
 }
 
 .header__title {
@@ -194,7 +194,7 @@
 
 .header__title_collections {
     color: var(--alternate-text-color);
-   
+
 }
 
 .header__title_dot {
@@ -206,4 +206,32 @@
     font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
     color: var(--paragraph-text-color);
+}
+
+.header__banner-btn {
+    margin-top: 50px;
+    margin-left: 15px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-width: 2px;
+    background-color: var(--alternate-text-color);
+    position: absolute;
+    width: 164px;
+    height: 58px;
+}
+
+
+.header__banner-btn>a {
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--alternate-p-text-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 32px;
+
 }
