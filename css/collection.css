@@ -12,6 +12,7 @@
 .collection-title {
   padding-bottom: 15px;
   font-size: 52px;
+  line-height: 59px;
   font-weight: 400;
   color: var(--main-text-color);
   text-align: center;
@@ -32,6 +33,7 @@
   padding-top: 15px;
   font-family: 'PT Sans', sans-serif;
   font-size: 20px;
+  line-height: 30px;
   font-weight: 400;
   color: var(--paragraph-text-color);
   text-align: center;
@@ -53,7 +55,9 @@
   cursor: pointer;
   padding: 15px 20px;
   transition: 0.5s;
+  font-family: 'PT Sans', sans-serif;
   font-size: 16px;
+  line-height: 27px;
   font-weight: 400;
   color: var(--paragraph-text-color-accent-light);
 }
@@ -109,7 +113,7 @@
   margin-bottom: 24px;
   font-size: 18px;
   line-height: 28px;
-  font-weight: 400;
+  font-weight: 700;
   color: var(--alternate-text-color);
 }
 
@@ -120,11 +124,42 @@
   cursor: pointer;
   transition: 0.5s;
   background-color: var(--main-text-color);
+  font-family: 'PT Sans', sans-serif;
   font-style: 15px;
+  line-height: 20px;
   font-weight: 700;
   color: var(--alternate-p-text-color);
 }
 
 .collection-card-btn:hover {
   background-color: var(--alternate-text-color);
+}
+
+
+@media (max-width: 1279px) {
+  .collection-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .collection-container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .collection-title {
+    font-size: 45px;
+    line-height: 51px;
+  }
+}
+@media (max-width: 991px) {
+   .collection-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  } 
+  .collection-title {
+    font-size: 38px;
+    line-height: 43px;
+  }
 }
