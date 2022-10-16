@@ -26,12 +26,15 @@
           <img src="img/icon/logo-icon.svg" alt="logo" id="logo">
         </div>
 
-        <button class="header__burger">
-
-          <span class="header__burger-span"></span>
-
-        </button>
-
+        <div class="burger-menu">
+          <button class="burger-menu-btn" type="button" aria-label="menu button" aria-controls="header__nav">
+            <span class="burger-menu-inner">
+              <span class="burger-menu-inner-line" aria-hidden="false"></span>
+              <span class="burger-menu-inner-line" aria-hidden="false"></span>
+              <span class="burger-menu-inner-line" aria-hidden="false"></span>
+            </span>
+          </button>
+        </div>
 
         <ul class="header__menu">
           <li class="header__menu-item">
@@ -85,25 +88,30 @@
 
   <main class="main">
     <div class="categories">
-      <!--first promo div, background photo shoud be added-->
+
       <div class="categories-arrivals block">
-        <p class="categories-arrivals-title">
+        <p class="categories-title">
           NEW ARRIVALS <span class="dot">.</span>
         </p>
+
+        <div class="categories-divider"></div>
+
         <a href="#collection" class="categories-arrivals-link button">Shop Collection<span
             class="categories-arrow">→</span></a>
       </div>
-      <!--second promo div, background photo shoud be added-->
+
       <div class="categories-trainers block">
-        <p class="categories-trainers-title">
+        <p class="categories-title">
           TRAINERS <span class="dot">.</span>
         </p>
+        <div class="categories-divider"></div>
         <a href="#collection" class="categories-trainers-link button">Shop Collection<span
             class="categories-arrow">→</span></a>
       </div>
-      <!--third promo div, background photo shoud be added-->
+
       <div class="categories-sale block">
-        <p class="categories-sale-title">HOT SALE <span class="dot">.</span></p>
+        <p class="categories-title">HOT SALE <span class="dot">.</span></p>
+        <div class="categories-divider"></div>
         <a href="#sale" class="categories-sale-link button">Shop Collection<span class="categories-arrow">→</span></a>
       </div>
     </div>
@@ -162,7 +170,7 @@
 
     <!--Daria Meush starts -->
     <!--image-->
-    <section class="about__us" id="about">
+    <section class="about__us line" id="about">
       <div class="about-us__image">
         <img alt="Image placeholder" src="/img/about-us.jpg" width="780">
       </div>
@@ -171,44 +179,48 @@
         <h2 class="about-us__basic">
           ABOUT US
           <span class="about__point">.</span>
+          <hr color \u003d "red>
         </h2>
-      </div>
-      <div class="divider-component divider-component_1rG"
-        style="height: 2px; width: 5%; background-color: rgb(255, 0, 0)"></div>
-      <!--information "about us"-->
-      <div class="information__about-us">
-        <p class="basic__description">
-          Workout is an American fitness store created by fitness geeks for
-          those who love sport and try to keep fit.
-        </p>
-        <p class="description">
-          At Workout, we know that great results do not come from standing
-          still. We all need to move, push boundaries, and achieve better
-          results every day. The mission of our shop is to support you in
-          this.
-        </p>
-        <p class="description_final">
-          We're sure that everyday fitness can change your lives and bodies
-          forever. And we keep selling comfortable and high-tech clothes and
-          shoes for your outstanding results.
-        </p>
-      </div>
-      <!--navigation social networks-->
-      <nav>
-        <div class="about-us__social-icons">
-          <ul class="about-us__social-icons-list">
-            <li>
-              <a href="https://www.facebook.com/"><img src="img/icon/facebook-icon.svg" alt="Facebook icon"></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/"><img src="img/icon/instagram-icon.svg" alt="Instagram icon"></a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/"><img src="img/icon/youtube-icon.svg" alt="Youtube icon"></a>
-            </li>
-          </ul>
+        <!--
+        <div class="divider-component"
+          style="height: 2px; width: 15%; background-color: rgb(255, 0, 0)" >
+      </div>-->
+        <!--information "about us"-->
+        <div class="information__about-us">
+          <p class="basic__description">
+            Workout is an American fitness store created by fitness geeks for
+            those who love sport and try to keep fit.
+          </p>
+          <p class="description">
+            At Workout, we know that great results do not come from standing
+            still. We all need to move, push boundaries, and achieve better
+            results every day. The mission of our shop is to support you in
+            this.
+          </p>
+          <p class="description_final">
+            We're sure that everyday fitness can change your lives and bodies
+            forever. And we keep selling comfortable and high-tech clothes and
+            shoes for your outstanding results.
+          </p>
+
         </div>
-      </nav>
+        <!--navigation social networks-->
+        <nav>
+          <div class="about-us__social-icons">
+            <ul class="about-us__social-icons-list">
+              <li class="facebook">
+                <a href="https://www.facebook.com/"><img src="img/icon/facebook-icon.svg" alt="Facebook icon"></a>
+              </li>
+              <li class="instagram">
+                <a href="https://www.instagram.com/"><img src="img/icon/instagram-icon.svg" alt="Instagram icon"></a>
+              </li>
+              <li class="youtube">
+                <a href="https://www.youtube.com/"><img src="img/icon/youtube-icon.svg" alt="Youtube icon"></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </section>
     <!--end Daria Meush-->
 
