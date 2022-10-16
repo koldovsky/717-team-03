@@ -13,7 +13,7 @@
 .about-us__basic {
     color: white;
     font-size: 50px;
-    padding: 120px 35px 0;
+    padding: 100px 100px 0 100px;
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -48,7 +48,7 @@ hr {
     justify-content: left;
     height: 80px;
     width: 40vw;
-    padding: 5px;
+    padding: 20px 70px 20px 70px;
     font-size: 22px;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
@@ -60,7 +60,7 @@ hr {
     justify-content: left;
     height: 80px;
     width: 40vw;
-    padding: 5px;
+    padding: 50px 70px 50px 70px;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 2;
 }
@@ -71,19 +71,30 @@ hr {
     justify-content: start;
     height: 80px;
     width: 40vw;
-    padding: 5px;
+    padding: 50px 70px 50px 70px;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 2;
 }
 
 /*тут :) */
-.information__about-us>p {
+.information__about-us {
     margin-top: 1em;
     margin-bottom: 2em;
 }
 
 .about-us__social-icons-list {
     display: flex;
-    padding: 0 35px;
+    padding: 30px 90px;
 }
 
+.facebook {
+    padding: 0 10px 0 10px;
+}
+
+.instagram {
+    padding: 0 10px 0 10px;
+}
+
+.youtube {
+    padding: 0 10px 0 10px;
+}
