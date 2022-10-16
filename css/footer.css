@@ -1,15 +1,10 @@
 footer {
     background-color: #222323;
-}
-
-.brand__description {
-    color: rgba(255, 255, 255, 0.65);
+    display: flex;
 }
 
 .footer__logo {
-    width: 100px;
+    max-width: 180px;
+    display: block;
 }
 
-footer {
-    margin-top: 20px;
-}
