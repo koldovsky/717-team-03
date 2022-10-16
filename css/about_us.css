@@ -1,21 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald&display=swap');
 
 .about__us {
     background-color: rgb(31, 30, 30);
     display: flex;
-    
+    justify-content: left;
 }
 
 .about-us__basic {
     color: white;
     font-size: 50px;
-    padding: 70px 100px;
+    padding: 120px 120px 10px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+hr {
+    width: 100px;
+    margin-top: 10px;
+    color: red;
 }
 
 .information__about-us {
     color: white;
-    padding: 65px;
+    padding: 110px;
 }
 
 .about__point {
@@ -24,39 +34,49 @@
 
 .about-us__image {
     height: 100%;
+    width: 50%;
+}
+
+.about-us__text {
+    text-align: left;
 }
 
 .basic__description {
     display: flex;
     flex-direction: column;
-    justify-content: l;
+    justify-content: left;
     height: 80px;
     width: 40vw;
     padding: 5px;
     font-size: 22px;
     font-family: 'Source Sans Pro', sans-serif;
-
+    line-height: 1.5;
 }
 
 .description {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     height: 80px;
     width: 40vw;
     padding: 5px;
     font-family: 'Source Sans Pro', sans-serif;
-
+    line-height: 2;
 }
 
 .description_final {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     height: 80px;
     width: 40vw;
     padding: 5px;
     font-family: 'Source Sans Pro', sans-serif;
+    line-height: 2;
+}
 
+p {
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
-}
+
