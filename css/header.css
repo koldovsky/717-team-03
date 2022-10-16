@@ -43,8 +43,6 @@
 
 /* nav */
 
-.burger-menu {}
-
 
 @media(min-width:992px) {
     .burger-menu {
@@ -70,7 +68,6 @@
     width: 100%;
     height: 2p;
     left: 0;
-    background-color: red;
 }
 
 
@@ -202,7 +199,7 @@
 }
 
 .header__subtitle {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
     color: var(--paragraph-text-color);

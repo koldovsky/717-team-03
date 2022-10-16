@@ -76,7 +76,8 @@ hr {
     line-height: 2;
 }
 
-p {
+/*тут :) */
+.information__about-us>p {
     margin-top: 1em;
     margin-bottom: 2em;
 }
