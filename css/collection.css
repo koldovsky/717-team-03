@@ -125,7 +125,7 @@
   transition: 0.5s;
   background-color: var(--main-text-color);
   font-family: 'PT Sans', sans-serif;
-  font-style: 15px;
+  font-size: 15px;
   line-height: 20px;
   font-weight: 700;
   color: var(--alternate-p-text-color);
