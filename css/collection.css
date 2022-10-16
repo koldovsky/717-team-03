@@ -1,3 +1,12 @@
+/*temporary styles for #men and #shoes before starting js*/
+#men {
+  display: none;
+}
+
+#shoes {
+  display: none;
+}
+
 .collection-container {
   max-width: 1200px;
   padding: 0 15px;
@@ -20,6 +29,7 @@
 
 .collection-title-point {
   color: var(--alternate-text-color);
+  line-height: 0;
 }
 
 .collection-divider-line {
@@ -47,6 +57,8 @@
 .collection-tab {
   display: flex;
   justify-content: center;
+  border-bottom: 1px solid var(--paragraph-text-color-accent-light);
+  margin-bottom: 30px;
 }
 
 .collection-tablinks {
@@ -71,26 +83,22 @@
   border-bottom: 3px solid var(--alternate-text-color);
 }
 
-.collection-tabcontent {
-  padding-top: 4px;
-  border-top: 1px solid var(--paragraph-text-color-accent-light);
-}
-
 .collection-card-box {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
-  margin-top: 20px;
 }
 
 .collection-card-link {
   text-decoration: none;
   border: 0;
   outline: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .collection-card-img {
-  width: 100%;
+  max-width: 100%;
   display: block;
 }
 
@@ -111,6 +119,7 @@
 
 .collection-card-price {
   margin-bottom: 24px;
+  font-family: 'PT Sans', sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-weight: 700;
@@ -135,7 +144,6 @@
   background-color: var(--alternate-text-color);
 }
 
-
 @media (max-width: 1279px) {
   .collection-container {
     padding-left: 40px;
@@ -148,18 +156,63 @@
     padding-left: 32px;
     padding-right: 32px;
   }
+
   .collection-title {
     font-size: 45px;
     line-height: 51px;
   }
+
+  .collection-card-box {
+    max-width: 991px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+
+  .collection-card {
+    max-width: 48%;
+  }
 }
+
+@media (max-width: 814px) {
+  .collection-card {
+    max-width: 47%;
+  }
+}
+
 @media (max-width: 767px) {
-   .collection-container {
+  .collection-container {
     padding-left: 24px;
     padding-right: 24px;
-  } 
+  }
+
   .collection-title {
     font-size: 38px;
     line-height: 43px;
+  }
+
+  .collection-tab {
+    justify-content: flex-start;
+  }
+
+  .collection-card-box {
+    display: block;
+  }
+
+  .collection-card {
+    max-width: 100%;
+  }
+
+  .collection-card-img {
+    width: 100%;
+  }
+
+  .collection-card-title {
+    margin-top: 8px;
+  }
+
+  .collection-card-btn {
+    margin-bottom: 24px;
   }
 }
