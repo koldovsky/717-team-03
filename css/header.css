@@ -2,6 +2,7 @@
     background: url(../img/background_header.jpg) 38%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: 68px;
 }
 
 .header__upperline {
