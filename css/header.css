@@ -1,5 +1,7 @@
 .header {
-    background: url(../img/background_header.jpg) no-repeat 18.44% 49.55% /cover;
+    background: url(../img/background_header.jpg) 38%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header__upperline {
