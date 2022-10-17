@@ -6,7 +6,7 @@
 .about__us {
     background-color: rgb(31, 30, 30);
     display: flex;
-    justify-content: left;
+    
     height: 100%;
 }
 
@@ -17,11 +17,6 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-.about-line {
-height: 2px;
-width: 35px;
-color: red;
-}
 
 .information__about-us {
     color: white;
@@ -41,6 +36,14 @@ color: red;
 .about-us__text {
     text-align: left;
 }
+
+.about-divider-component {
+    margin-left: 100px;
+    height: 2px;
+    width: 85px;
+    background-color: red;
+}
+
 
 .basic__description {
     display: flex;
