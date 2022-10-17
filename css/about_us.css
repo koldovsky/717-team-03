@@ -17,10 +17,10 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-hr {
-    width: 100px;
-    margin-top: 10px;
-    color: red;
+.about-line {
+height: 2px;
+width: 35px;
+color: red;
 }
 
 .information__about-us {
