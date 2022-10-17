@@ -2,13 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 30px;
-    margin-top: 60px;
+    padding-top: 90px;
+    padding-bottom: 60px;
     padding-left: 15px;
     padding-right: 15px;
-    width: calc(100% + 30px);
-    margin-left: -15px;
-    margin-right: -15px;
 }
 
 @media (min-width:992px) {
@@ -35,7 +34,12 @@
 
 .categories-arrivals {
     background: url(../img/categories/sneakers.svg) 14.53% 36.12% / cover no-repeat, var(--paragraph-text-color-accent-light);
-    max-width: 50%;
+}
+
+@media (min-width:992px) {
+    .categories-arrivals {
+        max-width: 50%;
+    }
 }
 
 .categories-trainers {
@@ -45,7 +49,6 @@
 .categories-sale {
     background: url(../img/categories/sport_top_and_bottle.png) 23.28% 35.83% / cover no-repeat;
 }
-
 
 .categories>div>p {
     font-size: 2.4rem;
@@ -70,4 +73,8 @@
     background-color: var(--alternate-text-color);
     height: 2px;
     width: 35%;
+}
+
+.categories-arrivals>.categories-divider {
+    width: 18%;
 }
