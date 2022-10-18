@@ -5,13 +5,18 @@
     background-position-y: 68px;
 }
 
+.container {
+    width: 100%;
+}
+
 .header__upperline {
     display: none;
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
-@media (min-width: 992px) {
+
+@media (min-width: 970px) {
     .header__upperline {
         padding: 0 40px;
         font-family: 'PT Sans', sans-serif;
@@ -27,6 +32,8 @@
         width: calc(100% + 20px);
     }
 }
+
+
 
 .header__upperline-contacts {
     justify-content: flex-end;
@@ -87,15 +94,12 @@
     align-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 @media (min-width: 992px) {
     .header__nav {
         padding: 0 40px;
-        margin-left: -20px;
-        margin-right: -20px;
+
     }
 }
 
