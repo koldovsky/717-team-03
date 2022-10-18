@@ -25,13 +25,13 @@ display: flex;
     font-size: 120px;
     width: 700px;
     line-height: 1;
-    padding: 100px 0 0 200px;
+    padding: 100px 0 0 180px;
     
 }
 
 .deal-of-the-month__image {
     width: 50%;
-    height: 800px;
+    height: 700px;
     justify-items: right;
 }
 
@@ -42,7 +42,7 @@ display: flex;
 .condition__text {
     width: 700px;
     line-height: 1;
-    padding: 50px 0 0 200px;
+    padding: 50px 0 0 180px;
     font-size: 20px;
 
 }
@@ -59,7 +59,7 @@ display: flex;
 .description__deal {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
-    padding-left: 200px;
+    padding-left: 180px;
     padding-top: 40px;
     width: 650px;
 }
@@ -67,7 +67,7 @@ display: flex;
 .link_details {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
-    padding-left: 200px;
+    padding-left: 180px;
     padding-top: 30px;
     width: 650px;
 }
