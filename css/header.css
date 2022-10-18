@@ -216,7 +216,6 @@
 .header__banner {
     padding-top: 110px;
     padding-bottom: 110px;
-    position: relative;
     min-width: 320px;
     line-height: 1.7;
     font-family: PT Sans, sans-serif;
@@ -228,6 +227,11 @@
         padding-top: 210px;
         padding-bottom: 210px;
     }
+
+    .header__title {
+        font-size: 7.75rem;
+    }
+
 }
 
 .header__banner-inner {
