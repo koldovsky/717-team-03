@@ -3,7 +3,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 68px;
-    
 }
 
 .header__upperline {
@@ -25,7 +24,6 @@
         flex-direction: row;
         min-height: 48px;
         align-items: center;
-        margin-right: -15px;
         width: calc(100% + 20px);
     }
 }
@@ -96,6 +94,8 @@
 @media (min-width: 992px) {
     .header__nav {
         padding: 0 40px;
+        margin-left: -20px;
+        margin-right: -20px;
     }
 }
 
