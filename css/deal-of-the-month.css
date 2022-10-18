@@ -1,0 +1,81 @@
+.deal-of-the-month {
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    height: 800px;
+    width: 100%;
+}
+
+.deal__point {
+    color: red;
+}
+
+.deal__text{
+    color: white;
+}
+
+.term {
+display: flex;
+}
+
+.countdown__item {
+    width: 100px;
+}
+
+.basic__text {
+    font-size: 120px;
+    width: 700px;
+    line-height: 1;
+    padding: 100px 0 0 180px;
+    
+}
+
+.deal-of-the-month__image {
+    width: 50%;
+    height: 700px;
+    justify-items: right;
+}
+
+.deal__condition__text {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.condition__text {
+    width: 700px;
+    line-height: 1;
+    padding: 50px 0 0 180px;
+    font-size: 20px;
+
+}
+
+.price__text {
+    color: red;
+    font-size: 60px;
+}
+
+.price__text__crossed-out {
+    font-size: 40px; 
+}
+
+.description__deal {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    padding-left: 180px;
+    padding-top: 40px;
+    width: 650px;
+}
+
+.link_details {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    padding-left: 180px;
+    padding-top: 30px;
+    width: 650px;
+}
+
+.arrow {
+    padding-top: 10px;
+}
+
+.countdown__item {
+    color: white;
+}

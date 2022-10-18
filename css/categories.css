@@ -1,0 +1,94 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width:992px) {
+    .categories {
+        padding-top: 120px;
+        padding-bottom: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.block {
+    max-width: 300px;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 30px 15px;
+}
+
+.categories-arrivals {
+    background: url(../img/categories/sneakers.svg) 14.53% 36.12% / cover no-repeat, var(--paragraph-text-color-accent-light);
+}
+
+@media (min-width: 768px) {
+    .categories-arrivals {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+}
+
+.categories-trainers {
+    background: url(../img/categories/skateboard.png) 50% 50% / cover no-repeat;
+}
+
+@media (min-width: 768px) {
+    .categories-trainers {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+}
+
+.categories-sale {
+    background: url(../img/categories/sport_top_and_bottle.png) 23.28% 35.83% / cover no-repeat;
+}
+
+@media (min-width: 768px) {
+    .categories-sale {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+}
+.categories>div>p {
+    font-size: 2.4rem;
+    line-height: 1.14;
+    letter-spacing: 0;
+}
+
+.categories>div>a {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-weight: bold;
+}
+
+.dot {
+    color: var(--alternate-text-color);
+    margin-left: -7px;
+}
+
+.categories-divider {
+    background-color: var(--alternate-text-color);
+    height: 2px;
+    width: 35%;
+}
+
+.categories-arrivals>.categories-divider {
+    width: 18%;
+}

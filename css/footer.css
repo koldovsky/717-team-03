@@ -1,15 +1,120 @@
 footer {
+    box-sizing: border-box;
     background-color: #222323;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
+.footer {
+    margin: 70px 24px 45px 24px;
+}
+
+.footer-line {
+    color: #f40106;
+}
+/* ------Import Font------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+/* -----Description--------------------------------------------------- */
 .brand__description {
+    font-weight: 400;
     color: rgba(255, 255, 255, 0.65);
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 30px;
 }
 
 .footer__logo {
-    width: 100px;
+    max-width: 180px;
+    align-items: center;
 }
 
-footer {
+/* ------Infozone--------------------------------------------------------------- */
+
+.infozone {
+    width: 1fr;
+}
+
+/* ------Navigation------------------------------------------------------------- */
+
+.footer-navigation {
+    margin-top: 50px;
+}
+
+.footer__navigation-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.footer__nav-item {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    margin: 10px 0px 10px 0px;
+}
+
+/* -------Shop---------------------------------------------------------- */
+
+.footer-shop {
+    margin-top: 50px;
+   
+}
+.footer-shop__heading {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.footer-shop__item {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    margin: 10px 0px 10px 0px;
+}
+
+/* -------Follow------------------------------------------------------- */
+.follow-nav {
+    margin-top: 50px;
+}
+.footer__follow-navigation {
+    font-weight: 400;
+    color: white;
+}
+
+.media-icon {
+    width: 16px;
+    background-color:#222323;
+}
+.media-icon:hover {
+    background-color: #f40106;
+}
+
+.footer__follow-instagram {
+    margin: 0px 15px 0px 15px
+}
+
+
+/* ------Copyright------------------------------------------------------------------------ */
+
+.copyright {
+    padding-top: 5px;
+    border-top: 5px
+}
+.created-by{
     margin-top: 20px;
+    color: white;
+}
+.all__rights-reserved {
+    margin-top: 20px;
+    color: white;
 }

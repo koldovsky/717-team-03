@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+{background-image: url(../img/background_learnmore.jpg);}
+
+:root{
+    
+    font-family: 'Bebas Neue', cursive;
+    --text-color: #255,255,255,0.62; 
+    --alternate-text-color: #96132d;
