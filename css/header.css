@@ -98,6 +98,7 @@
     }
 }
 
+/*
 @media (max-width:970px) {
 
     .navigation-wrapper.active {
@@ -135,8 +136,9 @@
         height: auto;
     }
 }
+*/
 
- .header__nav {
+.header__nav {
     background-color: var(--main-text-color);
     width: 100%;
 }
