@@ -33,6 +33,7 @@ display: flex;
     width: 50%;
     height: 700px;
     justify-items: right;
+    background-image: url(../img/background-timer.jpg)
 }
 
 .deal__condition__text {
