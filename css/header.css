@@ -8,6 +8,7 @@
 
 .header__container {
     max-width: 1200px;
+    width: 100%;
     min-width: 320px;
     margin: auto;
 }
@@ -209,6 +210,15 @@
         padding: 10px 10px;
     }
 
+    .header__banner {
+        padding-top: 210px;
+        padding-bottom: 210px;
+    }
+
+    .header__title {
+        font-size: 7.75rem;
+    }
+
 }
 
 /* banner */
@@ -222,17 +232,7 @@
     font-weight: 400;
 }
 
-@media (min-width: 992px) {
-    .header__banner {
-        padding-top: 210px;
-        padding-bottom: 210px;
-    }
-
-    .header__title {
-        font-size: 7.75rem;
-    }
-
-}
+@media (min-width: 992px) {}
 
 .header__banner-inner {
     padding-left: 15px;
