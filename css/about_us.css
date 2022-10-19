@@ -30,6 +30,8 @@
     height: 100%;
     width: 50%;
     max-width: 100%;
+    background-image: url(../img/about-us.jpg);
+    background-color: transparent;
 }
 
 .about-us__text {
@@ -80,7 +82,7 @@
     font-size: 16px;
 }
 
-/*тут :) */
+
 .information__about-us {
     margin-top: 1em;
     margin-bottom: 2em;
