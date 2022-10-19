@@ -38,6 +38,7 @@
         flex-direction: row;
         align-items: center;
         max-width: 1200px;
+        margin-top: 5px;
     }
 }
 
