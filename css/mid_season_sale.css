@@ -1,18 +1,7 @@
-p {
-    font-size: 20px;
-  }
-
-  /* Only change code below this line */
-
-  @media (min-width: 768px) {
-    
-    p {
-      font-size: 30px;
-    }
-    
-  }
-  .mid_season_sale {
+ .mid_season_sale {
     display: flex;
     flex-direction: row;
   }
-  
+  .money_sale {
+    color: red;
+  }

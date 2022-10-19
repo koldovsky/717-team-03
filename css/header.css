@@ -19,7 +19,7 @@
     padding-bottom: 8px;
 }
 
-@media (min-width: 970px) {
+@media (min-width: 991px) {
     .header__upperline {
         display: block;
         width: 100%;
@@ -63,12 +63,18 @@
 }
 
 @media (min-width:320px) and (max-width:991px) {
+    .header__nav-container {
+        position: relative;
+    }
+
     .navigation-burger {
         display: block;
-        position: relative;
+        position: absolute;
+        top: 34px;
+        right: 20px;
         width: 30px;
         height: 20px;
-        padding: 12px;
+        padding: 9px;
         cursor: pointer;
         z-index: 5;
     }
@@ -98,6 +104,8 @@
     }
 }
 
+
+/*
 @media (max-width:970px) {
 
     .navigation-wrapper.active {
@@ -135,8 +143,9 @@
         height: auto;
     }
 }
+*/
 
- .header__nav {
+.header__nav {
     background-color: var(--main-text-color);
     width: 100%;
 }
