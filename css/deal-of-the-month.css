@@ -9,12 +9,12 @@
     color: red;
 }
 
-.deal__text{
+.deal__text {
     color: white;
 }
 
 .term {
-display: flex;
+    display: flex;
 }
 
 .countdown__item {
@@ -26,15 +26,19 @@ display: flex;
     width: 700px;
     line-height: 1;
     padding: 100px 0 0 180px;
-    
+
 }
 
 .deal-of-the-month__image {
     width: 50%;
-    height: 100%;
-    justify-items: left;
+    height: 800px;
     background-image: url(../img/background-timer.jpg);
     background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: absolute;
+    left: 50%;
 }
 
 .deal__condition__text {
@@ -46,7 +50,6 @@ display: flex;
     line-height: 1;
     padding: 50px 0 0 180px;
     font-size: 20px;
-
 }
 
 .price__text {
@@ -55,7 +58,7 @@ display: flex;
 }
 
 .price__text__crossed-out {
-    font-size: 40px; 
+    font-size: 40px;
 }
 
 .description__deal {
@@ -78,6 +81,6 @@ display: flex;
     padding-top: 10px;
 }
 
-.countdown__item {
-    color: white;
-}
+.countdown__item {}
+
+.countdown {}
