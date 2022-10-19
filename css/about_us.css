@@ -27,11 +27,13 @@
 }
 
 .about-us__image {
-    height: 100%;
+    height: auto;
     width: 50%;
     max-width: 100%;
     background-image: url(../img/about-us.jpg);
-    background-color: transparent;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .about-us__text {
