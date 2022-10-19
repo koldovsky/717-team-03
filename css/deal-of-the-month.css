@@ -31,9 +31,10 @@ display: flex;
 
 .deal-of-the-month__image {
     width: 50%;
-    height: 700px;
-    justify-items: right;
-    background-image: url(../img/background-timer.jpg)
+    height: 100%;
+    justify-items: left;
+    background-image: url(../img/background-timer.jpg);
+    background-color: transparent;
 }
 
 .deal__condition__text {
