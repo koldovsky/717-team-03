@@ -1,0 +1,7 @@
+ .mid_season_sale {
+    display: flex;
+    flex-direction: row;
+  }
+  .money_sale {
+    color: red;
+  }

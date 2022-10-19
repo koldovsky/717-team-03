@@ -8,6 +8,7 @@
     padding-bottom: 60px;
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 
 @media (min-width:992px) {
@@ -17,6 +18,8 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        max-width: 1200px;
+        margin: auto;
     }
 }
 
@@ -36,9 +39,10 @@
     background: url(../img/categories/sneakers.svg) 14.53% 36.12% / cover no-repeat, var(--paragraph-text-color-accent-light);
 }
 
-@media (min-width:992px) {
+@media (min-width: 768px) {
     .categories-arrivals {
         max-width: 50%;
+        flex-basis: 50%;
     }
 }
 
@@ -46,10 +50,23 @@
     background: url(../img/categories/skateboard.png) 50% 50% / cover no-repeat;
 }
 
+@media (min-width: 768px) {
+    .categories-trainers {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+}
+
 .categories-sale {
     background: url(../img/categories/sport_top_and_bottle.png) 23.28% 35.83% / cover no-repeat;
 }
 
+@media (min-width: 768px) {
+    .categories-sale {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+}
 .categories>div>p {
     font-size: 2.4rem;
     line-height: 1.14;

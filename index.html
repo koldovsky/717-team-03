@@ -11,82 +11,91 @@
 </head>
 
 <body>
+
   <!--Yaryna Martyniuk starts-->
-  <header class="header container" id="header">
+  <header class="header" id="header">
+
+
     <div class="header__upperline">
-      <span class="header__upperline-text">We've extended our returns period to 30 days.</span>
-      <div class="header__upperline-contacts">
-        <a class="header__upperline-contacts-link" href="mailto:workout@email.com">workout@email.com</a>
-        <a class="header__upperline-contacts-link" href="tel:+12345678900">+1 (234) 567 89 00</a>
+      <div class="header__container">
+        <div class="header__upperline-inner">
+          <span class="header__upperline-text">We've extended our returns period to 30 days.</span>
+          <div class="header__upperline-contacts">
+            <a class="header__upperline-contacts-link" href="mailto:workout@email.com">workout@email.com</a>
+            <a class="header__upperline-contacts-link" href="tel:+12345678900">+1 (234) 567 89 00</a>
+          </div>
+        </div>
       </div>
     </div>
+
     <nav class="header__nav">
-      <div class="header__nav-container">
-        <div class="header__logo-container">
-          <img src="img/icon/logo-icon.svg" alt="logo" id="logo">
-        </div>
+      <div class="header__container">
+        <div class="header__nav-container">
+          <div class="header__logo-container">
+            <img src="img/icon/logo-icon.svg" alt="logo" id="logo">
+          </div>
 
-        <div class="burger-menu">
-          <button class="burger-menu-btn" type="button" aria-label="menu button" aria-controls="header__nav">
-            <span class="burger-menu-inner">
-              <span class="burger-menu-inner-line" aria-hidden="true"></span>
-              <span class="burger-menu-inner-line" aria-hidden="true"></span>
-              <span class="burger-menu-inner-line" aria-hidden="true"></span>
-            </span>
-          </button>
-        </div>
+          <div class="navigation-burger">
+            <span></span>
+          </div>
 
-        <ul class="header__menu">
-          <li class="header__menu-item">
-            <a class="header__menu-link" href="#about">About us.</a>
-          </li>
-          <li class="header__menu-item">
-            <a class="header__menu-link" href="#sale">Sale.</a>
-          </li>
-          <li class="header__menu-item">
-            <a class="header__menu-link" href="#collection">Collections.</a>
-          </li>
-          <li class="header__menu-item">
-            <a class="header__menu-link" href="#blog">Blog.</a>
-          </li>
-          <li class="header__menu-item">
-            <a class="header__menu-link" href="#contact-us">Contact us.</a>
-          </li>
-        </ul>
-        <div class="header__social-icons">
-          <ul class="header__social-icons-list">
-            <li>
-              <a href="https://www.facebook.com/"><img class="header__social-icons-img" src="img/icon/facebook-icon.svg"
-                  alt="Facebook icon"></a>
+          <div class="navigation-wrapper background-wrapper"></div>
+          <ul class="header__menu">
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#about">About us.</a>
             </li>
-            <li>
-              <a href="https://www.instagram.com/"><img class="header__social-icons-img"
-                  src="img/icon/instagram-icon.svg" alt="Instagram icon"></a>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#sale">Sale.</a>
             </li>
-            <li>
-              <a href="https://www.youtube.com/"><img class="header__social-icons-img" src="img/icon/youtube-icon.svg"
-                  alt="Youtube icon"></a>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#collection">Collections.</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#blog">Blog.</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#contact-us">Contact us.</a>
             </li>
           </ul>
+          <div class="header__social-icons">
+            <ul class="header__social-icons-list">
+              <li>
+                <a href="https://www.facebook.com/"><img class="header__social-icons-img"
+                    src="img/icon/facebook-icon.svg" alt="Facebook icon"></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/"><img class="header__social-icons-img"
+                    src="img/icon/instagram-icon.svg" alt="Instagram icon"></a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/"><img class="header__social-icons-img" src="img/icon/youtube-icon.svg"
+                    alt="Youtube icon"></a>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </nav>
 
     <section class="header__banner">
-      <div class="header__banner-inner">
-        <p class="header__subtitle">Aspire to move</p>
-        <h1 class="header__title">
-          New <span class="header__title_collections"> collections </span> by
-          top brands <span class="header__title_dot">.</span>
-        </h1>
-      </div>
-      <div class="header__banner-btn">
-        <a href="#collection">Shop now <span class="arrow"> → </span></a>
+      <div class="header__container">
+        <div class="header__banner-inner">
+          <p class="header__subtitle">Aspire to move</p>
+          <h1 class="header__title">
+            New <span class="header__title_collections"> collections </span> by
+            top brands <span class="header__title_dot">.</span>
+          </h1>
+        </div>
+        <div class="header__banner-btn">
+          <a href="#collection">Shop now <span class="header__banner-arrow"> → </span></a>
+        </div>
       </div>
     </section>
+
   </header>
 
-  <main class="main container">
+  <main class="main">
     <div class="categories">
 
       <div class="categories-arrivals block">
@@ -170,17 +179,16 @@
 
     <!--Daria Meush starts -->
     <!--image-->
-    <section class="about__us line" id="about">
+    <section class="about__us" id="about">
       <div class="about-us__image">
-        <img alt="Image placeholder" src="/img/about-us.jpg" width="780">
       </div>
       <!--title "about us"-->
       <div class="about-us__text">
         <h2 class="about-us__basic">
           ABOUT US
           <span class="about__point">.</span>
-          <hr color \u003d "red>
         </h2>
+        <div class="about-divider-component"></div>
         <!--
         <div class="divider-component"
           style="height: 2px; width: 15%; background-color: rgb(255, 0, 0)" >
@@ -202,20 +210,59 @@
             forever. And we keep selling comfortable and high-tech clothes and
             shoes for your outstanding results.
           </p>
-
         </div>
         <!--navigation social networks-->
         <nav>
           <div class="about-us__social-icons">
             <ul class="about-us__social-icons-list">
               <li class="facebook">
-                <a href="https://www.facebook.com/"><img src="img/icon/facebook-icon.svg" alt="Facebook icon"></a>
+                <a href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30"
+                    class="si633b489f671e76000d9f254ec7719488fcba4b97ace44a4d829a68a71664829608023 svgIcon_1J7 outlined_2wD darkTheme_3jZ"
+                    viewBox="0 0 32 32">
+                    <path class="outer_bDW" fill="#222323"
+                      d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z">
+                    </path>
+                    <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"
+                      fill="#f40106"></path>
+                    <path class="logo_2gS"
+                      d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z"
+                      fill="#f40106"></path>
+                  </svg></a>
               </li>
               <li class="instagram">
-                <a href="https://www.instagram.com/"><img src="img/icon/instagram-icon.svg" alt="Instagram icon"></a>
+                <a href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30"
+                    class="si633b489f671e76000d9f254ec7719488fcba4b97ace44a4d829a68a71664829608023 svgIcon_1J7 outlined_2wD darkTheme_3jZ"
+                    viewBox="0 0 32 32">
+                    <g>
+                      <path class="outer_bDW" fill="#222323"
+                        d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                      </path>
+                    </g>
+                    <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"
+                      fill="#f40106"></path>
+                    <g>
+                      <path class="logo_2gS" fill="#f40106"
+                        d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                      </path>
+                    </g>
+                  </svg></a>
               </li>
               <li class="youtube">
-                <a href="https://www.youtube.com/"><img src="img/icon/youtube-icon.svg" alt="Youtube icon"></a>
+                <a href="https://www.youtube.com/"><svg xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30"
+                    class="si633b489f671e76000d9f254ec7719488fcba4b97ace44a4d829a68a71664829608023 svgIcon_1J7 outlined_2wD darkTheme_3jZ"
+                    viewBox="0 0 32 32">
+                    <path class="outer_bDW" fill="#222323"
+                      d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
+                    </path>
+                    <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"
+                      fill="#f40106"></path>
+                    <path class="logo_2gS" fill="#f40106"
+                      d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
+                    </path>
+                  </svg></a>
               </li>
             </ul>
           </div>
@@ -233,7 +280,7 @@
       </div>
       <a href="#collection" class="shopping-link-button">Shop now</a>
       <div>
-        <img width="800" src="img/background_new_fitness_collection.jpg" alt="background_new_fitness_collection">
+        <img width="1600" src="img/background_new_fitness_collection.jpg" alt="background_new_fitness_collection">
         <!--video shoud be added-->
         <svg width="50" class="video-button" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 96 96" x="0px" y="0px"
@@ -262,13 +309,13 @@
           buying experience!
         </p>
       </div>
-      <div>
+      <div class="mid_season_sale">
         <div class="trainers-adidas" id="trainers-adidas">
           <div>
             <img src="img/mid_season_sale/trainers-adidas.jpg" alt="trainers-adidas">
             <a href="">Adidas Cloudfoam Trainers</a>
           </div>
-          <p>$60,00</p>
+          <p class="money_sale">$60,00</p>
           <button>Add to Cart</button>
         </div>
         <div class="rebook-shorts" id="rebook-shorts">
@@ -276,7 +323,7 @@
             <img src="img/mid_season_sale/rebook-shorts.jpg" alt="rebook-shorts">
             <a href="">Reebok Workout Shorts</a>
           </div>
-          <p>$25,00</p>
+          <p class="money_sale">$25,00</p>
           <button>Add to Cart</button>
         </div>
         <div class="puma-shoes" id="puma-shoes">
@@ -284,7 +331,7 @@
             <img src="img/mid_season_sale/puma-shoes.jpg" alt="puma-shoes">
             <a href="">Puma Fitness Shoes in Grey</a>
           </div>
-          <p>$60,00</p>
+          <p class="money_sale">$60,00</p>
           <button>Add to Cart</button>
         </div>
         <div class="puma-tank_top" id="puma-tank_top">
@@ -292,7 +339,7 @@
             <img src="img/mid_season_sale/puma-tank_top.jpg" alt="puma-tank_top">
             <a href="">Puma Essential Tank Top</a>
           </div>
-          <p>$43,00</p>
+          <p class="money_sale">$43,00</p>
           <button>Add to Cart</button>
         </div>
         <div class="nike-t-shirt" id="nike-t-shirt">
@@ -300,7 +347,7 @@
             <img src="img/mid_season_sale/nike-t-shirt.jpg" alt="nike-T-shirt">
             <a href="">Nike Classic Polo T-Shirt</a>
           </div>
-          <p>$23,00</p>
+          <p class="money_sale">$23,00</p>
           <button>Add to Cart</button>
         </div>
       </div>
@@ -446,21 +493,12 @@
             <s>$70</s>
           </span>
         </p>
-        <p>
-          <span class="description__deal">
-            Start your fitness story right away with this comfortable bra and
-            get advantage of our discount.
-          </span>
+        <p class="description__deal">
+          Start your fitness story right away with this comfortable bra and
+          get advantage of our discount.
         </p>
-      </div>
-      <!--image-->
-      <div class="deal-of-the-month__image">
-        <img alt="Image placeholder" src="/img/background-timer.jpg" width="800">
-      </div>
-      <!--the question is whether the button or a link-->
-      <nav class="link_new-arrivals">
-        <div class="link_details">
-          <span class="details">
+        <nav class="link_new-arrivals">
+          <div class="link_details">
             <a href="#new__arrivals">More Details</a>
             <svg class="arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
               version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"
@@ -471,51 +509,54 @@
                   fill="currentColor"></polygon>
               </g>
             </svg>
-          </span>
+          </div>
+        </nav>
+        <!--block readout-->
+        <div class="term">
+          <div class="countdown__item">
+            <svg class="countdown__term">
+              <text data-unit="days" x="50%" y="50%" class="countdown">
+                420
+              </text>
+              <text x="50%" y="50%" dy="28" class="countdown__caption">
+                Days
+              </text>
+            </svg>
+          </div>
+          <div class="countdown__item">
+            <svg class="countdown__term">
+              <text data-unit="hours" x="50%" y="50%" class="countdown">
+                15
+              </text>
+              <text x="50%" y="50%" dy="28" class="countdown__caption">
+                Hours
+              </text>
+            </svg>
+          </div>
+          <div class="countdown__item">
+            <svg class="countdown__term">
+              <text data-unit="minutes" x="50%" y="50%" class="countdown">
+                50
+              </text>
+              <text x="50%" y="50%" dy="28" class="countdown__caption">
+                Minutes
+              </text>
+            </svg>
+          </div>
+          <div class="countdown__item">
+            <svg class="countdown__term">
+              <text data-unit="seconds" x="50%" y="50%" class="countdown">
+                8
+              </text>
+              <text x="50%" y="50%" dy="28" class="countdown__caption">
+                Seconds
+              </text>
+            </svg>
+          </div>
         </div>
-      </nav>
-      <!--block readout-->
-      <div class="term">
-        <div class="countdown__item">
-          <svg class="countdown__term">
-            <text data-unit="days" x="50%" y="50%" class="countdown">
-              420
-            </text>
-            <text x="50%" y="50%" dy="28" class="countdown__caption">
-              Days
-            </text>
-          </svg>
-        </div>
-        <div class="countdown__item">
-          <svg class="countdown__term">
-            <text data-unit="hours" x="50%" y="50%" class="countdown">
-              15
-            </text>
-            <text x="50%" y="50%" dy="28" class="countdown__caption">
-              Hours
-            </text>
-          </svg>
-        </div>
-        <div class="countdown__item">
-          <svg class="countdown__term">
-            <text data-unit="minutes" x="50%" y="50%" class="countdown">
-              50
-            </text>
-            <text x="50%" y="50%" dy="28" class="countdown__caption">
-              Minutes
-            </text>
-          </svg>
-        </div>
-        <div class="countdown__item">
-          <svg class="countdown__term">
-            <text data-unit="seconds" x="50%" y="50%" class="countdown">
-              8
-            </text>
-            <text x="50%" y="50%" dy="28" class="countdown__caption">
-              Seconds
-            </text>
-          </svg>
-        </div>
+      </div>
+      <!--image-->
+      <div class="deal-of-the-month__image">
       </div>
     </section>
     <!--end Daria Meush-->
@@ -593,15 +634,19 @@
       </div>
     </div>
     <div class="w-icon-list">
+      <!--
       <ul>
-        <img src="//res2.weblium.site/res/60080b98d4893c0021b21b64/60095cc44e8e2700215e5b82" class="w-icon-list"alt="icon""  width="20">
+        <img src="//res2.weblium.site/res/60080b98d4893c0021b21b64/60095cc44e8e2700215e5b82" class="w-icon-list"
+          alt="icon" width="20">
         <li style="display:inline">Top brands</li>
-        <img src="//res2.weblium.site/res/60080b98d4893c0021b21b64/60095cc44e8e2700215e5b82" class="w-icon-list" alt="icon""  width="20">
+        <img src="//res2.weblium.site/res/60080b98d4893c0021b21b64/60095cc44e8e2700215e5b82" class="w-icon-list"
+          alt="icon" width="20">
         <li style="display:inline">Delivery with DHL</li>
-        <img src="//res2.weblium.site/res/60080b98d4893c0021b21b64/60095cc44e8e2700215e5b82" class="w-icon-list" alt="icon""  width="20">
+        <img src="//res2.weblium.site/res/60080b98d4893c0021b21b64/60095cc44e8e2700215e5b82" class="w-icon-list"
+          alt="icon" width="20">
         <li style="display:inline">Easy returns</li>
       </ul>
-
+-->
       <p class="brands__sport-subtitle">
         Workout offers fitness clothing and footwear for those who want to
         change their lives and bodies for better. We work only with the best
@@ -649,7 +694,7 @@
     <!--Valentyna Vilchak ends div 12-->
   </main>
   <!-- Start Max Pal -->
-  <section class="contacts" id="contact-us">
+  <div class="contacts" id="contact-us">
     <!-- Maps integration start -->
     <div class="maps">
       <iframe
@@ -672,7 +717,7 @@
       <!-- End of Contacts integration -->
     </div>
     <!-- Maps integtation finish -->
-  </section>
+  </div>
   <footer>
     <section class="footer">
       <div class="infozone">
@@ -686,30 +731,33 @@
         <h4 class="footer__navigation-heading">NAVIGATION</h4>
         <span class="footer-line">_______</span>
         <nav class="footer__nav">
-            <a href="#about" class="footer__nav-item">About us.</a>
-            <a href="#sale" class="footer__nav-item">Sale.</a>
-            <a href="#collection" class="footer__nav-item">Collections.</a>
-            <a href="#blog" class="footer__nav-item">Blog.</a>
-            <a href="#contact-us" class="footer__nav-item">Contact us.</a>
+          <a href="#about" class="footer__nav-item">About us.</a>
+          <a href="#sale" class="footer__nav-item">Sale.</a>
+          <a href="#collection" class="footer__nav-item">Collections.</a>
+          <a href="#blog" class="footer__nav-item">Blog.</a>
+          <a href="#contact-us" class="footer__nav-item">Contact us.</a>
         </nav>
       </div>
       <div class="footer-shop">
         <h4 class="footer-shop__heading">SHOP</h4>
         <span class="footer-line">_______</span>
         <nav class="footer__shop-navigation">
-            <a href="#women" class="footer-shop__item"> Women.</a>
-            <a href="#men" class="footer-shop__item">Men.</a>
-            <a href="#shoes" class="footer-shop__item">Shoes.</a>
-            <a href="#sale" class="footer-shop__item">Sale</a>
+          <a href="#women" class="footer-shop__item"> Women.</a>
+          <a href="#men" class="footer-shop__item">Men.</a>
+          <a href="#shoes" class="footer-shop__item">Shoes.</a>
+          <a href="#sale" class="footer-shop__item">Sale</a>
         </nav>
       </div>
       <div class="follow-nav">
         <h4 class="footer__follow-navigation">FOLLOW</h4>
         <span class="footer-line">_______</span>
         <nav class="footer__socialmedia-follow">
-          <a href="https://www.facebook.com/" class="footer__follow-item"><img src="./img/icon/facebook.png" alt="facebook icon" class="media-icon"></a>
-          <a href="https://www.instagram.com/" class="footer__follow-instagram"><img src="./img/icon/instagram.png" alt="instagram icon"class=" media-icon"></a>
-          <a href="https://www.youtube.com" class="footer__follow-item"><img src="./img/icon/youtube.png" alt="youtube icon" class="media-icon"></a>
+          <a href="https://www.facebook.com/" class="footer__follow-item"><img src="./img/icon/facebook.png"
+              alt="facebook icon" class="media-icon"></a>
+          <a href="https://www.instagram.com/" class="footer__follow-instagram"><img src="./img/icon/instagram.png"
+              alt="instagram icon" class=" media-icon"></a>
+          <a href="https://www.youtube.com" class="footer__follow-item"><img src="./img/icon/youtube.png"
+              alt="youtube icon" class="media-icon"></a>
         </nav>
       </div>
       <div class="copyright">
