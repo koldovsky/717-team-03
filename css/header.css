@@ -19,7 +19,7 @@
     padding-bottom: 8px;
 }
 
-@media (min-width: 970px) {
+@media (min-width: 991px) {
     .header__upperline {
         display: block;
         width: 100%;
@@ -62,7 +62,7 @@
     }
 }
 
-@media (min-width:320px) and (max-width:970px) {
+@media (min-width:320px) and (max-width:991px) {
     .header__nav-container {
         position: relative;
     }
