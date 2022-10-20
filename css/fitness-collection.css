@@ -5,13 +5,15 @@
     font-family: Bebas Neue, cursive;
     }
 
-    .fitness__collection {
+    .fitness-collection {
         background-image: url(../img/background_new_fitness_collection.jpg);
-        border-image-repeat: stretch;
-        border-image-slice: 100%;
-        border-image-width: 1;
-        box-sizing: border-box;
-        display: flex;
+        background-position: top center;
+        background-position: no repeat;
+        background-size: cover;
+        max-width: 100%;
+        height: auto;
+        padding-top: 200px;
+        padding-bottom: 210px;
     }
 
     .heading-subtitle {
