@@ -64,30 +64,6 @@
         padding-top: 0px;  
     }
 
-    .point-button {
-        font-family: Bebas Neue, cursive;
-        color: #f40106;;
-        font-size: 93px;
-        font-stretch: 100%;
-        font-weight: 400;
-        letter-spacing: normal;
-        display: flex;
-        font-weight: 400;
-        text-align: left;
-        line-height: 93px;
-        vertical-align: baseline;
-        list-style: 31.28px;
-        margin-bottom:0px;
-        margin-left: 175px;
-        margin-right: 0px;
-        margin-top: 0px;
-        overflow-wrap: break-word;
-        padding-bottom: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-top: 0px;    
-    }
-
     .video-button {
         color: #fff;
         box-sizing: border-box;
