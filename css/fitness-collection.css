@@ -105,9 +105,10 @@
         background-color: var(--alternate-text-color);
         width: 164px;
         height: 58px;
+        margin-left: 175px;
     }
         
-        .shopping__link__btn>a {
+    .shopping__link__btn>a {
         font-family: PT Sans;
         font-size: 1rem;
         font-weight: 700;
