@@ -1,15 +1,119 @@
-.heading-subtitle {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 23px;
-    color: var(--paragraph-text-color);
-    font-weight: 400;
-    line-height: 1;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.heading-section-title {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 93px;
-    color: var(--main-text-color);
-    font-weight: 400;
-    line-height: 1
-}
+
+:root{ 
+    font-family: Bebas Neue, cursive;
+    }
+
+    .fitness__collection {
+        background-image: url(../img/background_new_fitness_collection.jpg);
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-width: 1;
+        box-sizing: border-box;
+        display: flex;
+    }
+
+    .heading-subtitle {
+        font-family: Bebas Neue, cursive;
+        color: #717474;
+        font-size: 23px;
+        font-stretch: 100%;
+        display: flex;
+        font-weight: 400;
+        
+        letter-spacing: normal;
+        list-style: 31.28px;
+        margin-bottom:0px;
+        margin-left: 175px;
+        margin-right: 0px;
+        margin-top: 0px;
+        overflow-wrap: break-word;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    
+    .heading-section-title {
+        font-family: Bebas Neue, cursive;
+        color: #222323;
+        font-size: 93px;
+        font-stretch: 100%;
+        font-weight: 400;
+        letter-spacing: normal;
+        border-image-repeat: stretch;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        font-weight: 400;
+        text-align: left;
+        line-height: 93px;
+        vertical-align: baseline;
+        list-style: 31.28px;
+        margin-bottom:0px;
+        margin-left: 175px;
+        margin-right: 0px;
+        margin-top: 0px;
+        overflow-wrap: break-word;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;  
+    }
+
+    .point-button {
+        font-family: Bebas Neue, cursive;
+        color: #f40106;;
+        font-size: 93px;
+        font-stretch: 100%;
+        font-weight: 400;
+        letter-spacing: normal;
+        display: flex;
+        font-weight: 400;
+        text-align: left;
+        line-height: 93px;
+        vertical-align: baseline;
+        list-style: 31.28px;
+        margin-bottom:0px;
+        margin-left: 175px;
+        margin-right: 0px;
+        margin-top: 0px;
+        overflow-wrap: break-word;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;    
+    }
+
+    .video-button {
+        color: #717474;
+        box-sizing: border-box;
+        height: 70px;
+        max-height: 100%;
+        max-width: 100%
+    }
+
+    .shopping__link__btn {
+        margin-top: 50px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-width: 2px;
+        background-color: var(--alternate-text-color);
+        width: 164px;
+        height: 58px;
+    }
+        
+        .shopping__link__btn>a {
+        font-family: PT Sans;
+        font-size: 1rem;
+        font-weight: 700;
+        text-decoration: none;
+        color: var(--alternate-p-text-color);
+        padding-left: 0;
+        padding-right: 32px;
+        margin-left: 20px;
+    }
