@@ -512,46 +512,22 @@
           </div>
         </nav>
         <!--block readout-->
-        <div class="term">
-          <div class="countdown__item">
-            <svg class="countdown__term">
-              <text data-unit="days" x="50%" y="50%" class="countdown">
-                420
-              </text>
-              <text x="50%" y="50%" dy="28" class="countdown__caption">
-                Days
-              </text>
-            </svg>
+        <div  id="countdown" class="countdown">
+          <div class="time">
+            <h2 id="days">00</h2>
+            <small>days</small>
           </div>
-          <div class="countdown__item">
-            <svg class="countdown__term">
-              <text data-unit="hours" x="50%" y="50%" class="countdown">
-                15
-              </text>
-              <text x="50%" y="50%" dy="28" class="countdown__caption">
-                Hours
-              </text>
-            </svg>
+          <div class="time">
+            <h2 id="hours">00</h2>
+            <small>hours</small>       
           </div>
-          <div class="countdown__item">
-            <svg class="countdown__term">
-              <text data-unit="minutes" x="50%" y="50%" class="countdown">
-                50
-              </text>
-              <text x="50%" y="50%" dy="28" class="countdown__caption">
-                Minutes
-              </text>
-            </svg>
+          <div class="time">
+            <h2 id="minutes">00</h2>
+            <small>minutes</small>
           </div>
-          <div class="countdown__item">
-            <svg class="countdown__term">
-              <text data-unit="seconds" x="50%" y="50%" class="countdown">
-                8
-              </text>
-              <text x="50%" y="50%" dy="28" class="countdown__caption">
-                Seconds
-              </text>
-            </svg>
+          <div class="time">
+            <h2 id="seconds">00</h2>
+            <small>seconds</small>
           </div>
         </div>
       </div>
@@ -766,6 +742,7 @@
       </div>
     </section>
   </footer>
+  <script src="js/countdown.js"></script>
 </body>
 
 </html>

@@ -13,13 +13,7 @@
     color: white;
 }
 
-.term {
-    display: flex;
-}
 
-.countdown__item {
-    width: 100px;
-}
 
 .basic__text {
     font-size: 120px;
@@ -81,6 +75,16 @@
     padding-top: 10px;
 }
 
-.countdown__item {}
+.time {
+margin: 50px 10px 0 10px;
+border: 0.5px solid;
+width: 100px;
+height: 100px;
+padding: 10px;
+border-radius: 5px;
+  }
 
-.countdown {}
+.countdown {
+    margin-left: 170px;
+    display: flex;
+}
