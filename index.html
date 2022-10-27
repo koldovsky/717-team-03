@@ -28,33 +28,35 @@
       </div>
     </div>
 
-    <nav class="header__nav">
-      <div class="header__container">
+    <div class="header__container">
+      <nav class="header__nav">
+
         <div class="header__nav-container">
           <div class="header__logo-container">
             <img src="img/icon/logo-icon.svg" alt="logo" id="logo">
-          </div>
 
-          <div class="navigation-burger">
-            <span></span>
-          </div>
+            <div class="navigation-burger">
+              <span></span>
+            </div>
 
-          <div class="navigation-wrapper background-wrapper"></div>
+          </div>
+        </div>
+        <div class="navigation-wrapper background-wrapper">
           <ul class="header__menu">
             <li class="header__menu-item">
-              <a class="header__menu-link" href="#about">About us.</a>
+              <a class="header__menu-link navigation__link" href="#about">About us.</a>
             </li>
             <li class="header__menu-item">
-              <a class="header__menu-link" href="#sale">Sale.</a>
+              <a class="header__menu-link navigation__link" href="#sale">Sale.</a>
             </li>
             <li class="header__menu-item">
-              <a class="header__menu-link" href="#collection">Collections.</a>
+              <a class="header__menu-link navigation__link" href="#collection">Collections.</a>
             </li>
             <li class="header__menu-item">
-              <a class="header__menu-link" href="#blog">Blog.</a>
+              <a class="header__menu-link navigation__link" href="#blog">Blog.</a>
             </li>
             <li class="header__menu-item">
-              <a class="header__menu-link" href="#contact-us">Contact us.</a>
+              <a class="header__menu-link navigation__link" href="#contact-us">Contact us.</a>
             </li>
           </ul>
           <div class="header__social-icons">
@@ -73,25 +75,25 @@
               </li>
             </ul>
           </div>
+        </div>
+      </nav>
 
+      <section class="header__banner">
+        <div class="header__container">
+          <div class="header__banner-inner">
+            <p class="header__subtitle">Aspire to move</p>
+            <h1 class="header__title">
+              New <span class="header__title_collections"> collections </span> by
+              top brands <span class="header__title_dot">.</span>
+            </h1>
+          </div>
+          <div class="header__banner-btn">
+            <a href="#collection">Shop now <span class="header__banner-arrow"> → </span></a>
+          </div>
         </div>
-      </div>
-    </nav>
+      </section>
+    </div>
 
-    <section class="header__banner">
-      <div class="header__container">
-        <div class="header__banner-inner">
-          <p class="header__subtitle">Aspire to move</p>
-          <h1 class="header__title">
-            New <span class="header__title_collections"> collections </span> by
-            top brands <span class="header__title_dot">.</span>
-          </h1>
-        </div>
-        <div class="header__banner-btn">
-          <a href="#collection">Shop now <span class="header__banner-arrow"> → </span></a>
-        </div>
-      </div>
-    </section>
 
   </header>
 
@@ -276,24 +278,25 @@
     <section class="fitness-collection">
       <div class="heading-section">
         <p class="heading-subtitle">TRENDING</p>
-         <h2 class="heading-section-title">NEW FITNESS COLLECTION<span class="point" style="color: var(--alternate-text-color);">.</span></h2>
-      <div>
-        <!--video shoud be added-->
-        <svg width="100" class="video-button" xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 96 96" x="0px" y="0px"
-          style="max-width: 100%" height="100%">
-          <path
-            d="M38 68.476c-0.328 0-0.652-0.080-0.948-0.244-0.648-0.34-1.052-1.020-1.052-1.756v-36.952c0-0.736 0.404-1.416 1.052-1.752 0.644-0.352 1.432-0.32 2.048 0.088l28 18.476c0.56 0.368 0.9 0.992 0.9 1.664s-0.336 1.304-0.9 1.672l-28 18.476c-0.332 0.22-0.716 0.328-1.1 0.328zM40 33.244v29.524l22.368-14.756-22.368-14.768z"
-            fill="currentColor"></path>
-          <path
-            d="M48 4c24.256 0 44 19.744 44 44s-19.744 44-44 44c-24.26 0-44-19.744-44-44s19.74-44 44-44zM48 0c-26.508 0-48 21.492-48 48s21.492 48 48 48 48-21.492 48-48-21.492-48-48-48v0z"
-            fill="currentColor"></path>
-        </svg>
-      </div>
-      <div class="shopping__link__btn">
-       <a href="#collection" class="shopping-link-button">Shop now<span class="categories-arrow"> →</span></a>
-      </div>
-           </section>
+        <h2 class="heading-section-title">NEW FITNESS COLLECTION<span class="point"
+            style="color: var(--alternate-text-color);">.</span></h2>
+        <div>
+          <!--video shoud be added-->
+          <svg width="100" class="video-button" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 96 96" x="0px" y="0px"
+            style="max-width: 100%" height="100%">
+            <path
+              d="M38 68.476c-0.328 0-0.652-0.080-0.948-0.244-0.648-0.34-1.052-1.020-1.052-1.756v-36.952c0-0.736 0.404-1.416 1.052-1.752 0.644-0.352 1.432-0.32 2.048 0.088l28 18.476c0.56 0.368 0.9 0.992 0.9 1.664s-0.336 1.304-0.9 1.672l-28 18.476c-0.332 0.22-0.716 0.328-1.1 0.328zM40 33.244v29.524l22.368-14.756-22.368-14.768z"
+              fill="currentColor"></path>
+            <path
+              d="M48 4c24.256 0 44 19.744 44 44s-19.744 44-44 44c-24.26 0-44-19.744-44-44s19.74-44 44-44zM48 0c-26.508 0-48 21.492-48 48s21.492 48 48 48 48-21.492 48-48-21.492-48-48-48v0z"
+              fill="currentColor"></path>
+          </svg>
+        </div>
+        <div class="shopping__link__btn">
+          <a href="#collection" class="shopping-link-button">Shop now<span class="categories-arrow"> →</span></a>
+        </div>
+    </section>
     <!-- Oleksandra Mrykhina ends 5-th section (finess collection) -->
 
     <!--start Bohdan Lutsiv-->
@@ -512,14 +515,14 @@
           </div>
         </nav>
         <!--block readout-->
-        <div  id="countdown" class="countdown">
+        <div id="countdown" class="countdown">
           <div class="time">
             <h2 id="days">00</h2>
             <small>days</small>
           </div>
           <div class="time">
             <h2 id="hours">00</h2>
-            <small>hours</small>       
+            <small>hours</small>
           </div>
           <div class="time">
             <h2 id="minutes">00</h2>
@@ -597,32 +600,33 @@
 
     <!--Maria Maksymyak starts-->
     <link rel="stylesheet" href="css/brands.css">
-    <div class="brands_wrapper"> 
-        <div class="brands">
-         <div class="brands_sport">
-            <p class="brands_sport_title">
-            100% ORIGINAL BRANDS   
-            </p>
-         </div>
-            <h2 class="brands_sport_subtitle">
-            KEEP FIT WITH COMFORT.
-            </h2>
+    <div class="brands_wrapper">
+      <div class="brands">
+        <div class="brands_sport">
+          <p class="brands_sport_title">
+            100% ORIGINAL BRANDS
+          </p>
+        </div>
+        <h2 class="brands_sport_subtitle">
+          KEEP FIT WITH COMFORT.
+        </h2>
         <div class="w-icon-list">
           <ul>
-                <li style="display:inline">Top brands</li>
-                <li style="display:inline">Delivery with DHL</li>
-                <li style="display:inline">Easy returns</li>
+            <li style="display:inline">Top brands</li>
+            <li style="display:inline">Delivery with DHL</li>
+            <li style="display:inline">Easy returns</li>
           </ul>
         </div>
-        <div class="brands_sport_text"
-            <p class="brands_sport_text">
-                Workout offers fitness clothing and footwear for those who want to change their lives and bodies for better. We work only with the best sport brands to ensure that your training is really effective and comfortable.
-            </p>
+        <div class="brands_sport_text">
+          <p class="brands_sport_text">
+            Workout offers fitness clothing and footwear for those who want to change their lives and bodies for better.
+            We work only with the best sport brands to ensure that your training is really effective and comfortable.
+          </p>
         </div>
-            <a href="#learnmore" class="brands_sport_linkbutton">Learn more <span> → </span></a>         
-        </div>
+        <a href="#learnmore" class="brands_sport_linkbutton">Learn more <span> → </span></a>
       </div>
-      
+    </div>
+
     <!--end Maria Maksymyak finish-->
 
     <!--Valentyna Vilchak starts div 12-->
@@ -735,5 +739,7 @@
     </section>
   </footer>
   <script src="js/countdown.js"></script>
+  <script src="js/burger-menu.js"></script>
 </body>
+
 </html>

@@ -1,7 +1,8 @@
 @import url(common.css);
 @import url(controls.css); 
 @import url(header.css); /*YARYNA MARTINUK*/
-@import url(categories.css);
+@import url(banner.css);
+@import url(categories.css);/*YARYNA MARTINUK*/
 @import url(collection.css); /*Iryna Litvinova*/
 @import url(products.css);
 @import url(footer.css); /*MAX PAL*/
