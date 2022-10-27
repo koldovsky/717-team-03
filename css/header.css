@@ -1,9 +1,8 @@
-.header {
+.banner-bg {
     background: url(../img/background_header.jpg) 38%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 68px;
-    min-width: 320px;
 }
 
 .header__container {
@@ -11,6 +10,7 @@
     width: 100%;
     min-width: 320px;
     margin: auto;
+    padding: 0 24px;
 }
 
 .header__upperline {
@@ -79,10 +79,6 @@
         z-index: 10;
     }
 
-    .header__nav-container {
-        position: relative;
-    }
-
     .navigation-burger {
         display: block;
         position: absolute;
@@ -140,10 +136,7 @@
     .header__container {
         position: relative;
     }
-}
 
-/*
-@media (max-width:970px) {
 
     .navigation-wrapper.active {
         position: fixed;
@@ -153,34 +146,58 @@
         height: 100%;
         background-color: var(--main-text-color);
         z-index: 2;
+        transition: top 0.3s ease-in;
         padding: 15px 24px 50px 24px;
+        transition: top 0.3s ease-in 0.1s;
         overflow: hidden;
         margin: auto;
     }
 
-    .background-wrapper {
+    .navigation-wrapper {
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
-        background-color: var(--main-text-color);
+    }
+
+    .header__nav.active {
+        top: 0;
+    }
+
+    .navigation-wrapper.active {
+        top: 0;
     }
 
     .header__menu {
         position: relative;
-        font-size: 0.9rem;
+        font-size: 0.92rem;
         font-weight: 700;
+        line-height: 3rem;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        padding-top: 100px;
-        z-index: 10;
         height: auto;
+        z-index: -1;
+        padding-top: 100px;
+    }
+
+    .header__social-icons {
+        z-index: -1;
     }
 }
-*/
+
+@media (min-width:991px) {
+    .navigation-wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 75%;
+    }
+
+}
+
 .header__nav {
     background-color: var(--main-text-color);
     width: 100%;
@@ -195,7 +212,7 @@
     max-width: 1200px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 991px) {
     .header__nav-container {
         padding: 30px 40px;
     }
