@@ -1,12 +1,3 @@
-/*temporary styles for #men and #shoes before starting js*/
-#men {
-  display: none;
-}
-
-#shoes {
-  display: none;
-}
-
 .collection-container {
   max-width: 1200px;
   padding: 0 15px;
@@ -80,7 +71,7 @@
 
 .collection-tablinks--active {
   color: var(--paragraph-text-color);
-  border-bottom: 3px solid var(--alternate-text-color);
+  border-bottom: 2px solid var(--alternate-text-color);
 }
 
 .collection-card-box {
