@@ -7,7 +7,7 @@
     font-weight: 400;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 991px) {
 
     .header__menu {
         display: flex;
