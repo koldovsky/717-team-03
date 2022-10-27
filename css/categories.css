@@ -8,10 +8,9 @@
     padding-bottom: 60px;
     padding-left: 15px;
     padding-right: 15px;
-    
 }
 
-@media (min-width:992px) {
+@media (min-width:991px) {
     .categories {
         padding-top: 120px;
         padding-bottom: 60px;
@@ -36,25 +35,11 @@
 }
 
 .categories-arrivals {
-    background: url(../img/categories/sneakers.svg) 14.53% 36.12% / cover no-repeat, var(--paragraph-text-color-accent-light);
-}
-
-@media (min-width: 768px) {
-    .categories-arrivals {
-        max-width: 50%;
-        flex-basis: 50%;
-    }
+    background: url(../img/categories/sneakers.svg) 14.53% 36.12% / cover no-repeat;
 }
 
 .categories-trainers {
     background: url(../img/categories/skateboard.png) 50% 50% / cover no-repeat;
-}
-
-@media (min-width: 768px) {
-    .categories-trainers {
-        flex-basis: 25%;
-        max-width: 25%;
-    }
 }
 
 .categories-sale {
@@ -62,11 +47,17 @@
 }
 
 @media (min-width: 768px) {
+    .categories-arrivals {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+
     .categories-sale {
         flex-basis: 25%;
         max-width: 25%;
     }
 }
+
 .categories>div>p {
     font-size: 2.4rem;
     line-height: 1.14;
