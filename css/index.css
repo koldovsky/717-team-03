@@ -1,15 +1,15 @@
 @import url(common.css);
-@import url(controls.css);
-@import url(header.css);
+@import url(controls.css); 
+@import url(header.css); /*YARYNA MARTINUK*/
 @import url(categories.css);
-@import url(collection.css);
+@import url(collection.css); /*Iryna Litvinova*/
 @import url(products.css);
-@import url(footer.css);
-@import url(contacts.css);
-@import url(blog.css);
-@import url(why-choose-us.css);
-@import url(about_us.css);
+@import url(footer.css); /*MAX PAL*/
+@import url(contacts.css); /*MAX PAL*/
+@import url(blog.css); /*VALENTYNA VILCHAK*/
+@import url(why-choose-us.css); /*VALENTYNA VILCHAK*/
+@import url(about_us.css); /*DARIA MEUSH*/
 @import url(discount.css);
-@import url(mid_season_sale.css);
-@import url(deal-of-the-month.css);
+@import url(mid_season_sale.css); /*Bohdan Lutsiv*/
+@import url(deal-of-the-month.css); /*DARIA MEUSH*/
 @import url(fitness-collection.css);
