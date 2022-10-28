@@ -39,4 +39,4 @@
     let date = new Date();
 let timer = date_t - date;
 
-})
+});
