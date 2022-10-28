@@ -1,10 +1,10 @@
 (function () {
   const slides = [
-    '<div class="slide"><img src="img/adidas.svg" alt="Adidas"></div>',
-    '<div class="slide"><img src="img/asics.svg" alt="Asics"></div>',
-    '<div class="slide"><img src="img/new-balance.svg" alt="New-Balance"></div>',
-    '<div class="slide"><img src="img/nike.svg" alt="Nike"></div>',
-    '<div class="slide"><img src="img/reebok.svg" alt="Reebok"></div>',
+    '<div class="slide"><img src="img/blog/adidas.svg" alt="Adidas"></div>',
+    '<div class="slide"><img src="img/blog/asics.svg" alt="Asics"></div>',
+    '<div class="slide"><img src="img/blog/new-balance.svg" alt="New-Balance"></div>',
+    '<div class="slide"><img src="img/blog/nike.svg" alt="Nike"></div>',
+    '<div class="slide"><img src="img/blog/reebok.svg" alt="Reebok"></div>',
   ];
   let currentSlideIdx = 0;
   function renderSlide() {
