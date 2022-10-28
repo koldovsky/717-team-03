@@ -1,0 +1,37 @@
+.discount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    background-image: url(../img/background-discount.jpg);
+    max-width: 100%;
+    min-height: 780px;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 75px 0px 60px 0px;
+}
+.discount-module {
+    margin: 0px 30px 0px 30px;
+}
+
+.discount-title {
+    color: rgba(255,255,255,0.62);
+    font-size: 24px;
+}
+.discount__main-text {
+    color: rgb(255, 255, 255);
+    font-size: 124px;
+    overflow-wrap: break-word;
+    max-width: 50%;
+
+}
+.discount__dot-ui {
+    color:rgb(255, 0, 0);
+    font-size: 124px;
+}
+.discount-button__link {
+    font-size: 17px;
+    border:rgb(255, 255, 255);
+    padding: 
+}
