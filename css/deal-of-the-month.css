@@ -75,14 +75,41 @@
     padding-top: 10px;
 }
 
-.time {
-margin: 50px 10px 0 10px;
-border: 0.5px solid;
-width: 100px;
-height: 100px;
-padding: 10px;
-border-radius: 5px;
-  }
+.hours {
+    margin: 50px 10px 0 10px;
+    border: 0.5px solid;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.days {
+    margin: 50px 10px 0 10px;
+    border: 0.5px solid;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.minutes {
+    margin: 50px 10px 0 10px;
+    border: 0.5px solid;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.seconds {
+    margin: 50px 10px 0 10px;
+    border: 0.5px solid;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 .countdown {
     margin-left: 170px;
