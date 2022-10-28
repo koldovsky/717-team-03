@@ -24,7 +24,13 @@
     line-height: 1;
 }
 
+@media (min-width: 991px) {
 
+    .header__title {
+        font-size: 7.75rem;
+        width: 700px;
+    }
+}
 
 .header__title_collections {
     color: var(--alternate-text-color);
@@ -33,6 +39,12 @@
 .header__title_dot {
     color: var(--alternate-text-color);
     margin-left: -20px;
+}
+
+@media (max-width:768px) {
+    .header__title_dot {
+        margin-left: -8px;
+    }
 }
 
 .header__subtitle {
@@ -69,9 +81,5 @@
     .header__banner {
         padding-top: 210px;
         padding-bottom: 210px;
-    }
-
-    .header__title {
-        font-size: 7.75rem;
     }
 }
