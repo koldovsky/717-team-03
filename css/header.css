@@ -2,7 +2,7 @@
     background: url(../img/background_header.jpg) 38%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 68px;
+    background-position-y: 16px;
 }
 
 .header__container {
@@ -254,6 +254,10 @@
         margin: 15px 15px;
         padding: 10px 10px;
     }
+
+    .header__social-icons:hover {
+        color: var(--paragraph-text-color-accent-light);
+    } /*не працює*/
 }
 
 .header__nav {

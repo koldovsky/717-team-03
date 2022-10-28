@@ -7,17 +7,6 @@
     font-weight: 400;
 }
 
-@media (min-width: 991px) {
-    .header__banner {
-        padding-top: 210px;
-        padding-bottom: 210px;
-    }
-
-    .header__title {
-        font-size: 7.75rem;
-    }
-}
-
 .header__banner-inner {
     padding-left: 15px;
     padding-right: 15px;
@@ -34,6 +23,8 @@
     font-weight: 400;
     line-height: 1;
 }
+
+
 
 .header__title_collections {
     color: var(--alternate-text-color);
@@ -71,4 +62,15 @@
     padding-left: 0;
     padding-right: 32px;
     margin-left: 20px;
+}
+
+@media (min-width: 991px) {
+    .header__banner {
+        padding-top: 210px;
+        padding-bottom: 210px;
+    }
+
+    .header__title {
+        font-size: 7.75rem;
+    }
 }
