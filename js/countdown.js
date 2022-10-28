@@ -6,7 +6,7 @@
     const seconds = document.querySelector('.seconds');
 
     function countDown () {
-        const deadLineDate = new Date(`Desember 01 2022 00:00:00`);
+        const deadLineDate = new Date(`December 01 2022 00:00:00`);
         const currentTime = new Date();
         const diff = deadLineDate - currentTime;
 
@@ -21,7 +21,7 @@
         seconds.innerText = seconds < 10 ? '0' + seconds : seconds;
     };
 
-   
+
     countDown();
     setInterval(countDown, 1000);
 
