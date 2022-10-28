@@ -32,6 +32,7 @@
 
 .header__title_dot {
     color: var(--alternate-text-color);
+    margin-left: -20px;
 }
 
 .header__subtitle {

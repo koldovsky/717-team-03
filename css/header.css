@@ -254,10 +254,6 @@
         margin: 15px 15px;
         padding: 10px 10px;
     }
-
-    .header__social-icons:hover {
-        color: var(--paragraph-text-color-accent-light);
-    } /*не працює*/
 }
 
 .header__nav {
