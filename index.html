@@ -360,7 +360,7 @@
     </section>
     <!--end Bohdan Lutsiv-->
 
-    <section class="discount">
+    <section class="discount" id="discount">
       <div class="discount-module">
         <h3 class="discount-title">
           sale of the month
@@ -372,11 +372,24 @@
           </span>
           <div class="discount-button">
             <a href="#sale" class="discount-button__link">
-              Shop now
+              Shop now →
             </a>
           </div>
-        </p>
-        
+        </p>     
+      </div>
+    </section>
+    <section class="discount-carousel">
+      <div id="carousel-wrapper">
+        <div id="menu">
+            <div id="current-option">
+              <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
+              <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
+            </div>
+            <button id="previous-option"></button>
+            <button id="next-option"></button>
+          
+        </div>
+        <div id="image"></div>
       </div>
     </section>
 
@@ -756,6 +769,7 @@
   <script src="js/burger-menu.js"></script>
   <script src="js/collection-tab.js"></script>
   <script src="js/blog.js"></script>
+  <!-- <script src="js/discount.js"></script> -->
 </body>
 
 </html>
