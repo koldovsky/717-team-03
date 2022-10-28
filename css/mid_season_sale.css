@@ -5,3 +5,6 @@
   .money_sale {
     color: red;
   }
+  .header-nav__menu-item clock {
+    size: 50px;
+  }
