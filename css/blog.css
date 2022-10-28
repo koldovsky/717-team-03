@@ -35,14 +35,35 @@
   align-items: center;
   margin: 0 auto;
 }
-.carousel__brands {
+/*.carousel__brands {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 20px;
-}
+}*/
 .carousel__brands-item {
+  border: 1px solid rgba(33, 39, 54, 0.12);
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brands-carousel {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.brands-carousel__slide-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.slide {
   border: 1px solid rgba(33, 39, 54, 0.12);
   height: 150px;
   display: flex;
