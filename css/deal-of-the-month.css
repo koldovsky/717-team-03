@@ -14,7 +14,6 @@
 }
 
 
-
 .basic__text {
     font-size: 120px;
     width: 700px;
@@ -110,7 +109,7 @@
     border-radius: 5px;
 }
 
-.countdown {
+.deal_of_the_month_countdown {
     margin-left: 170px;
     display: flex;
 }
