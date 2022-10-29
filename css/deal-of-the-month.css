@@ -73,22 +73,33 @@
     padding-top: 10px;
 }
 
-.hours {
-    margin: 50px 10px 0 10px;
-    border: 0.5px solid;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    border-radius: 5px;
-}
+
 
 .days {
     margin: 50px 10px 0 10px;
     border: 0.5px solid;
     width: 100px;
     height: 100px;
-    padding: 10px;
+    padding: 20px 20px 20px 35px;
     border-radius: 5px;
+    border-color: gray;
+    font-size: 30px;
+}
+
+.hours {
+    margin: 50px 10px 0 10px;
+    border: 0.5px solid;
+    width: 100px;
+    height: 100px;
+    padding: 20px 20px 0 35px;
+    border-radius: 5px;
+    border-color: gray;
+    font-size: 30px;
+}
+
+.hours p {
+    color: gray;
+    font-size: 15px;
 }
 
 .minutes {
@@ -96,8 +107,10 @@
     border: 0.5px solid;
     width: 100px;
     height: 100px;
-    padding: 10px;
+    padding: 20px 20px 20px 35px;
     border-radius: 5px;
+    border-color: gray;
+    font-size: 30px;
 }
 
 .seconds {
@@ -105,8 +118,14 @@
     border: 0.5px solid;
     width: 100px;
     height: 100px;
-    padding: 10px;
+    padding: 20px 20px 20px 35px;
     border-radius: 5px;
+    border-color: gray;
+    font-size: 30px;
+}
+
+small {
+    color: gray;
 }
 
 .deal_of_the_month_countdown {

@@ -6,21 +6,23 @@
     const minutes = document.querySelector('.minutes');
     const seconds = document.querySelector('.seconds');
 
+
+
+
     function countdown () {
         const deadLineDate = new Date(`December 01 2022 00:00:00`);
         const currentTime = new Date();
         const diff = deadLineDate - currentTime;
 
-        const days = Math.floor(diff / 1000 / 60 / 60 / 24);
-        const hours = Math.floor(diff / 1000 / 60 / 60) % 24;
-        const minutes = Math.floor(diff / 1000 / 60) % 60;
-        const seconds = Math.floor(diff / 1000) % 60;
+        const d = Math.floor(diff / 1000 / 60 / 60 / 24);
+        const h = Math.floor(diff / 1000 / 60 / 60) % 24;
+        const m = Math.floor(diff / 1000 / 60) % 60;
+        const s = Math.floor(diff / 1000) % 60;
 
-        days.innerText = days < 10 ? '0' + days : days;
-        hours.innerText = hours < 10 ? '0' + hours : hours;
-        minutes.innerText = minutes < 10 ? '0' + minutes : minutes;
-        seconds.innerText = seconds < 10 ? '0' + seconds : seconds;
-
+        days.innerText = d < 10 ? '0' + d : d;
+        hours.innerText = h < 10 ? '0' + h : h;
+        minutes.innerText = m < 10 ? '0' + m : m;
+        seconds.innerText = s < 10 ? '0' + s : s;
     };
 
     countdown();
