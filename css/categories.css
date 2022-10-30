@@ -52,6 +52,11 @@
         flex-basis: 50%;
     }
 
+    .categories-trainers {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+
     .categories-sale {
         flex-basis: 25%;
         max-width: 25%;
@@ -70,6 +75,14 @@
     text-decoration: none;
     color: var(--main-text-color);
     font-weight: bold;
+}
+
+.categories>div>a:hover {
+    font-size: 1.1rem;
+    transition: font-size .4s ease-in-out;
+    text-decoration: underline;
+    transition: text-decoration .6s ease-in;
+
 }
 
 .dot {
