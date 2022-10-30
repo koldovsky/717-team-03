@@ -176,6 +176,7 @@
         height: auto;
         z-index: -1;
         padding-top: 100px;
+        margin-bottom: 20px;
     }
 
     .header__menu-link {
@@ -190,7 +191,7 @@
         transition: font-size .4s ease-in;
     }
 
-    .header__social-icons {
+    .header__social-icons-list {
         position: relative;
         min-width: 172px;
         max-width: 200px;
