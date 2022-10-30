@@ -141,7 +141,7 @@
         position: relative;
     }
 
-    .navigation-wrapper.active {
+    .navigation-wrapper {
         position: fixed;
         top: -100%;
         left: 0;
@@ -156,19 +156,11 @@
         margin: auto;
     }
 
-    .navigation-wrapper {
-        position: absolute;
+    .navigation-wrapper.active {
         top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
     }
 
     .header__nav.active {
-        top: 0;
-    }
-
-    .navigation-wrapper.active {
         top: 0;
     }
 
