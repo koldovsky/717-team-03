@@ -242,7 +242,6 @@
         width: 30px;
         height: 30px;
         display: flex;
-        flex-direction: row;
         justify-content: flex-end;
         align-content: center;
     }
@@ -258,6 +257,10 @@
         color: transparent;
         margin: 15px 15px;
         padding: 10px 10px;
+    }
+
+    .header__social-icons-img:hover {
+        width: 40px;
     }
 }
 
