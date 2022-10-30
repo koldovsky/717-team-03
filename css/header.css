@@ -5,6 +5,13 @@
     background-position-y: 16px;
 }
 
+@media (min-width:768px) and (max-width:990px){
+    .banner-bg {
+        background-position-x: -270px;
+        background-position-y: 44px;
+    }
+}
+
 .header__container {
     max-width: 1200px;
     width: 100%;
@@ -285,8 +292,4 @@
     display: flex;
     justify-content: space-around;
     z-index: 10;
-}
-
-#logo {
-    width: 168px;
 }
