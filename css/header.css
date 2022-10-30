@@ -31,7 +31,6 @@
 
 .header__upperline-contacts-link:hover {
     text-decoration: underline;
-
 }
 
 @media (min-width: 991px) {
@@ -190,6 +189,13 @@
     .header__menu-link {
         color: var(--alternate-p-text-color);
         font-family: 'PT Sans', sans-serif;
+        font-size: 1rem;
+    }
+
+    .header__menu-link:hover {
+        text-decoration: underline;
+        font-size: 1.2rem;
+        transition: font-size .4s ease-in;
     }
 
     .header__social-icons {
