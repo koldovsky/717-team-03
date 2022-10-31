@@ -142,3 +142,18 @@
 .youtube:hover path.logo_2gS {
     fill: black;
 }
+
+@media (max-width:736px) {
+    .about__us {
+    display: block;
+    height: 1500px;
+}
+.about-us__image {
+    background-image: url(../img/about-us.jpg);
+    background-position: top left;
+    
+}
+.about-us__text {
+    width: 700px;
+}
+}
