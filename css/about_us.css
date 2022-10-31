@@ -20,6 +20,8 @@
 .information__about-us {
     color: white;
     padding: 0 30px 0 30px;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 .about__point {
@@ -84,12 +86,6 @@
     font-size: 16px;
 }
 
-
-.information__about-us {
-    margin-top: 1em;
-    margin-bottom: 2em;
-}
-
 .about-us__social-icons-list {
     display: flex;
     padding: 30px 90px;
@@ -109,7 +105,7 @@
 
 .facebook path {
     transition: all .3s;
-} 
+}
 
 .facebook:hover path.outer_bDW {
     fill: #f40106;
@@ -121,7 +117,7 @@
 
 .instagram path {
     transition: all .3s;
-} 
+}
 
 .instagram:hover path.outer_bDW {
     fill: #f40106;
@@ -133,7 +129,7 @@
 
 .youtube path {
     transition: all .3s;
-} 
+}
 
 .youtube:hover path.outer_bDW {
     fill: #f40106;
@@ -144,16 +140,31 @@
 }
 
 @media (max-width:736px) {
+    .about-us__image {
+        background-image: url(../img/about-us.jpg);
+        width: 100%;
+        height: 730px;
+    }
+
     .about__us {
-    display: block;
-    height: 1500px;
-}
-.about-us__image {
-    background-image: url(../img/about-us.jpg);
-    background-position: top left;
-    
-}
-.about-us__text {
-    width: 700px;
-}
+        display: block;
+        width: 100%;
+    }
+
+    .about-us__text {
+        width: 100%;
+        position: relative;
+    }
+
+    .information__about-us {
+        position: relative;
+    }
+
+    .basic__description {
+        height: 80px;
+        width: 40vw;
+        padding: 0 10px 10px 0;
+        margin: 0 0 0 0;
+        justify-items: center;
+    }
 }
