@@ -6,6 +6,10 @@ footer {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    @media (max-width: 1200px) {
+        display: flex;
+        flex-direction: row;
+    }
     
     
 }
@@ -43,7 +47,9 @@ footer {
 /* ------Infozone--------------------------------------------------------------- */
 
 .infozone {
-    width: 1fr;
+    @media (max-width: 1200px) {
+        max-width: 30vw;
+    }
 }
 
 /* ------Navigation------------------------------------------------------------- */

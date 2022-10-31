@@ -46,10 +46,32 @@
     background: url(../img/categories/sport_top_and_bottle.png) 23.28% 35.83% / cover no-repeat;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width:990px) {
     .categories-arrivals {
         max-width: 50%;
         flex-basis: 50%;
+    }
+
+    .categories-trainers {
+        max-width: 50%;
+        flex-basis: 50%
+    }
+
+    .categories-sale {
+        max-width: 50%;
+        flex-basis: 50%
+    }
+}
+
+@media (min-width: 991px) {
+    .categories-arrivals {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+
+    .categories-trainers {
+        flex-basis: 25%;
+        max-width: 25%;
     }
 
     .categories-sale {
@@ -66,10 +88,32 @@
 
 .categories>div>a {
     font-family: 'PT Sans', sans-serif;
+    position: relative;
     font-size: 0.9rem;
     text-decoration: none;
     color: var(--main-text-color);
-    font-weight: bold;
+    font-weight: 600;
+}
+
+.categories>div>a:hover {
+    font-size: 1.1rem;
+    transition: font-size .4s ease-in-out;
+}
+
+.categories>div>a:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    border-radius: 0.1rem;
+    background-color: var(--main-text-color);
+    transition: width 0.2s ease-in;
+}
+
+.categories>div>a:hover:after {
+    width: 100%;
 }
 
 .dot {

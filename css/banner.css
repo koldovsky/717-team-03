@@ -12,10 +12,6 @@
         padding-top: 210px;
         padding-bottom: 210px;
     }
-
-    .header__title {
-        font-size: 7.75rem;
-    }
 }
 
 .header__banner-inner {
@@ -27,6 +23,12 @@
     gap: 16px;
 }
 
+@media (min-width:768px) and (max-width:990px){
+    .header__banner-inner {
+        width:450px;
+    }
+}
+
 .header__title {
     font-family: 'Bebas Neue', cursive;
     font-size: 3.9rem;
@@ -35,12 +37,27 @@
     line-height: 1;
 }
 
+@media (min-width: 991px) {
+
+    .header__title {
+        font-size: 7.75rem;
+        width: 700px;
+    }
+}
+
 .header__title_collections {
     color: var(--alternate-text-color);
 }
 
 .header__title_dot {
     color: var(--alternate-text-color);
+    margin-left: -20px;
+}
+
+@media (max-width:768px) {
+    .header__title_dot {
+        margin-left: -8px;
+    }
 }
 
 .header__subtitle {
@@ -63,6 +80,11 @@
     height: 58px;
 }
 
+.header__banner-btn:hover {
+    box-shadow: inset 164px 0 0 0 var(--main-text-color);
+    transition: box-shadow .5s ease-in-out;
+}
+
 .header__banner-btn>a {
     font-size: 1rem;
     font-weight: 700;
@@ -71,4 +93,9 @@
     padding-left: 0;
     padding-right: 32px;
     margin-left: 20px;
+}
+
+.header__banner-btn>a:hover {
+    font-size: 1.2rem;
+    transition: font-size .3s ease-in-out;
 }

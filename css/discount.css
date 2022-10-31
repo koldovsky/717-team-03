@@ -1,0 +1,74 @@
+.discount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    background-image: url(../img/background-discount.jpg);
+    max-width: 100%;
+    min-height: 780px;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 75px 0px 60px 0px;
+}
+.discount-module {
+    margin: 0px 30px 0px 30px;
+}
+
+.discount-title {
+    color: rgba(255,255,255,0.62);
+    font-size: 24px;
+}
+.discount__main-text {
+    color: rgb(255, 255, 255);
+    font-size: 124px;
+    overflow-wrap: break-word;
+    max-width: 50%;
+
+}
+.discount__dot-ui {
+    color:rgb(255, 0, 0);
+    font-size: 124px;
+}
+.discount-button__link {
+    font-size: 17px;
+    border:rgb(255, 255, 255);
+}
+
+/* .eye{
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.eye-box {
+    display: flex;
+}
+
+.eye-box .eye {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: #fff;
+    margin: 0 5px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.eye-box .eye::before 
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+} */

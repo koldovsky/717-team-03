@@ -15,11 +15,11 @@
   <!--Yaryna Martyniuk starts-->
   <header class="header" id="header">
 
-
     <div class="header__upperline">
       <div class="header__container">
         <div class="header__upperline-inner">
           <span class="header__upperline-text">We've extended our returns period to 30 days.</span>
+          <div class="header__upperline-clock"></div>
           <div class="header__upperline-contacts">
             <a class="header__upperline-contacts-link" href="mailto:workout@email.com">workout@email.com</a>
             <a class="header__upperline-contacts-link" href="tel:+12345678900">+1 (234) 567 89 00</a>
@@ -109,7 +109,7 @@
 
         <div class="categories-divider"></div>
 
-        <a href="#collection" class="categories-arrivals-link button">Shop Collection<span
+        <a href="#collection" class="categories-arrivals-link categories-btn">Shop Collection<span
             class="categories-arrow">→</span></a>
       </div>
 
@@ -118,14 +118,14 @@
           TRAINERS <span class="dot">.</span>
         </p>
         <div class="categories-divider"></div>
-        <a href="#collection" class="categories-trainers-link button">Shop Collection<span
+        <a href="#collection" class="categories-trainers-link categories-btn">Shop Collection<span
             class="categories-arrow">→</span></a>
       </div>
 
       <div class="categories-sale block">
         <p class="categories-title">HOT SALE <span class="dot">.</span></p>
         <div class="categories-divider"></div>
-        <a href="#sale" class="categories-sale-link button">Shop Collection<span class="categories-arrow">→</span></a>
+        <a href="#sale" class="categories-sale-link categories-btn">Shop Collection<span class="categories-arrow">→</span></a>
       </div>
     </div>
     <!--Yaryna Martyniuk ends-->
@@ -315,6 +315,7 @@
           buying experience!
         </p>
       </div>
+      <div class="header-nav__menu-item clock"></div>
       <div class="mid_season_sale">
         <div class="trainers-adidas" id="trainers-adidas">
           <div>
@@ -359,6 +360,40 @@
       </div>
     </section>
     <!--end Bohdan Lutsiv-->
+
+    <section class="discount" id="discount">
+      <div class="discount-module">
+        <h3 class="discount-title">
+          sale of the month
+        </h3>
+        <p class="discount__main-text">
+          get your discount
+          <span class="discount__dot-ui">
+            .
+          </span>
+          <div class="discount-button">
+            <a href="#sale" class="discount-button__link">
+              Shop now →
+            </a>
+          </div>
+        </p>     
+      </div>
+    </section>
+    <section class="discount-carousel">
+      <div id="carousel-wrapper">
+        <div id="menu">
+            <div id="current-option">
+              <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
+              <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
+            </div>
+            <button id="previous-option"></button>
+            <button id="next-option"></button>
+          
+        </div>
+        <div id="image"></div>
+      </div>
+    </section>
+
 
     <!-- Iryna Litvinova starts section collection -->
     <section class="collection" id="collection">
@@ -518,20 +553,20 @@
           </div>
         </nav>
         <!--block readout-->
-        <div id="countdown" class="countdown">
-          <div class="time">
+        <div id="countdown" class="deal_of_the_month_countdown countdown">
+          <div class="days">
             <h2 id="days">00</h2>
             <small>days</small>
           </div>
-          <div class="time">
+          <div class="hours">
             <h2 id="hours">00</h2>
             <small>hours</small>
           </div>
-          <div class="time">
+          <div class="minutes">
             <h2 id="minutes">00</h2>
             <small>minutes</small>
           </div>
-          <div class="time">
+          <div class="seconds">
             <h2 id="seconds">00</h2>
             <small>seconds</small>
           </div>
@@ -733,8 +768,11 @@
   </footer>
   <script src="js/countdown.js"></script>
   <script src="js/burger-menu.js"></script>
+  <script src="js/header-clock.js"></script>
   <script src="js/collection-tab.js"></script>
   <script src="js/blog.js"></script>
+  <script src="js/sale-clock.js"></script>
+  <!-- <script src="js/discount.js"></script> -->
 </body>
 
 </html>
