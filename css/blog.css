@@ -70,3 +70,15 @@
   align-items: center;
   justify-content: center;
 }
+.fa-circle-arrow-left,
+.fa-circle-arrow-right {
+  color: #222323;
+  font-size: 2em;
+}
+
+.brands-carousel__prev,
+.brands-carousel__next {
+  outline: none;
+  border: 0;
+  background: transparent;
+}
