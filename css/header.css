@@ -5,6 +5,13 @@
     background-position-y: 16px;
 }
 
+@media (min-width:768px) and (max-width:990px){
+    .banner-bg {
+        background-position-x: -270px;
+        background-position-y: 44px;
+    }
+}
+
 .header__container {
     max-width: 1200px;
     width: 100%;
@@ -57,8 +64,7 @@
 }
 
 .header__upperline-clock {
-    color:var(--alternate-p-text-color);
-
+    color: var(--alternate-p-text-color);
 }
 
 @media (max-width:991px) {
@@ -142,7 +148,7 @@
         position: relative;
     }
 
-    .navigation-wrapper.active {
+    .navigation-wrapper {
         position: fixed;
         top: -100%;
         left: 0;
@@ -150,26 +156,18 @@
         height: 100%;
         background-color: var(--main-text-color);
         z-index: 2;
-        transition: top 0.3s ease-in;
+        transition: top 0.5s ease-in;
         padding: 15px 24px 50px 24px;
-        transition: top 0.3s ease-in 0.1s;
+        transition: top 0.5s ease-in 0.1s;
         overflow: hidden;
         margin: auto;
     }
 
-    .navigation-wrapper {
-        position: absolute;
+    .navigation-wrapper.active {
         top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
     }
 
     .header__nav.active {
-        top: 0;
-    }
-
-    .navigation-wrapper.active {
         top: 0;
     }
 
@@ -185,14 +183,22 @@
         height: auto;
         z-index: -1;
         padding-top: 100px;
+        margin-bottom: 20px;
     }
 
     .header__menu-link {
         color: var(--alternate-p-text-color);
         font-family: 'PT Sans', sans-serif;
+        font-size: 1rem;
     }
 
-    .header__social-icons {
+    .header__menu-link:hover {
+        text-decoration: underline;
+        font-size: 1.2rem;
+        transition: font-size .4s ease-in;
+    }
+
+    .header__social-icons-list {
         position: relative;
         min-width: 172px;
         max-width: 200px;
@@ -236,13 +242,14 @@
 
     .header__menu-link:hover {
         text-decoration: underline;
+        font-size: 1.2rem;
+        transition: font-size .5s ease-in-out;
     }
 
     .header__social-icons {
         width: 30px;
         height: 30px;
         display: flex;
-        flex-direction: row;
         justify-content: flex-end;
         align-content: center;
     }
@@ -258,6 +265,10 @@
         color: transparent;
         margin: 15px 15px;
         padding: 10px 10px;
+    }
+
+    .header__social-icons-img:hover {
+        width: 40px;
     }
 }
 
@@ -281,8 +292,4 @@
     display: flex;
     justify-content: space-around;
     z-index: 10;
-}
-
-#logo {
-    width: 168px;
 }
