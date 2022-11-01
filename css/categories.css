@@ -64,7 +64,7 @@
 }
 
 @media (min-width: 991px) {
-    .categories-arrivals {
+    .categories-sale {
         max-width: 50%;
         flex-basis: 50%;
     }
@@ -74,7 +74,7 @@
         max-width: 25%;
     }
 
-    .categories-sale {
+    .categories-arrivals {
         flex-basis: 25%;
         max-width: 25%;
     }
@@ -118,7 +118,6 @@
 
 .dot {
     color: var(--alternate-text-color);
-    margin-left: -7px;
 }
 
 .categories-divider {
