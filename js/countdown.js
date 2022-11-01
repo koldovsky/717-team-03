@@ -6,11 +6,8 @@
     const minutes = document.getElementById('minutes');
     const seconds = document.getElementById('seconds');
 
- 
-
-
     function countdown () {
-        const deadLineDate = new Date(`November 01 2022 00:00:00`);
+        const deadLineDate = new Date(`December 01 2022 00:00:00`);
         const currentTime = new Date();
         const diff = deadLineDate - currentTime;
 
