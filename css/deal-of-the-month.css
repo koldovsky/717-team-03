@@ -136,3 +136,40 @@ small {
     margin-left: 170px;
     display: flex;
 }
+
+@media (max-width:736px) {
+    .deal-of-the-month {
+        display: block;
+        width: 100%;
+    }
+
+    .deal-of-the-month__image {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .information__about-us {
+        padding: 0 10px 0 10px;
+        width: 100%;
+    }
+}
+
+@media (max-width:1050px) {
+    .deal-of-the-month {
+        display: block;
+        width: 100%;
+    }
+
+    .deal-of-the-month__image {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+    }
+}

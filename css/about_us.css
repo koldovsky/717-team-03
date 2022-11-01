@@ -20,6 +20,8 @@
 .information__about-us {
     color: white;
     padding: 0 30px 0 30px;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 .about__point {
@@ -52,9 +54,8 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    height: 80px;
-    width: 40vw;
-    padding: 20px 70px 20px 70px;
+    width: 700px;
+    padding: 20px 70px 0 70px;
     font-size: 22px;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
@@ -64,9 +65,8 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    height: 80px;
-    width: 40vw;
-    padding: 50px 70px 50px 70px;
+    width: 700px;
+    padding: 50px 70px 10px 70px;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 2;
     font-size: 16px;
@@ -76,23 +76,16 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    height: 80px;
-    width: 40vw;
-    padding: 70px 70px 50px 70px;
+    width: 700px;
+    padding: 50px 70px 0 70px;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 2;
     font-size: 16px;
 }
 
-
-.information__about-us {
-    margin-top: 1em;
-    margin-bottom: 2em;
-}
-
 .about-us__social-icons-list {
     display: flex;
-    padding: 30px 90px;
+    padding: 0 90px 50px 90px;
 }
 
 .facebook {
@@ -109,7 +102,7 @@
 
 .facebook path {
     transition: all .3s;
-} 
+}
 
 .facebook:hover path.outer_bDW {
     fill: #f40106;
@@ -121,7 +114,7 @@
 
 .instagram path {
     transition: all .3s;
-} 
+}
 
 .instagram:hover path.outer_bDW {
     fill: #f40106;
@@ -133,7 +126,7 @@
 
 .youtube path {
     transition: all .3s;
-} 
+}
 
 .youtube:hover path.outer_bDW {
     fill: #f40106;
@@ -141,4 +134,37 @@
 
 .youtube:hover path.logo_2gS {
     fill: black;
+}
+
+@media (max-width:736px) {
+    .about-us__image {
+        background-image: url(../img/about-us.jpg);
+        width: 100%;
+        height: 730px;
+    }
+
+    .about__us {
+        display: block;
+        width: 100%;
+    }
+
+    .about-us__text {
+        width: 100%;
+        justify-items: center;
+    }
+}
+
+@media (max-width:320px) {
+    .basic__description {
+        width: 300px;
+        font-size: 10px;
+    }
+    .description {
+        width: 300px;
+        font-size: 6px;
+    }
+    .description_final {
+        width: 300px;
+        font-size: 6px;
+    }
 }

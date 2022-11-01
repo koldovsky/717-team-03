@@ -38,16 +38,13 @@
     grid-template-columns: 40% 60%;
 }
 
-/*
-ul{ display: list-item;
-    list-style-image: url("/img/icon/icon_brands.svg");
-}
-*/
-.w-icon-list {
-    
+.icon_brands_list{
+    display:inline}
+
+.brands_list {
     font-family: PT Sans, sans-serif;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px; 
 }
 
 .brands_sport_text{
