@@ -8,6 +8,7 @@
   <title>Sport Clothes Store</title>
   <link rel="shortcut icon" href="./img/icon/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/index.css">
+  <script src="https://kit.fontawesome.com/1f41b8fc28.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -15,11 +16,11 @@
   <!--Yaryna Martyniuk starts-->
   <header class="header" id="header">
 
-
     <div class="header__upperline">
       <div class="header__container">
         <div class="header__upperline-inner">
           <span class="header__upperline-text">We've extended our returns period to 30 days.</span>
+          <div class="header__upperline-clock"></div>
           <div class="header__upperline-contacts">
             <a class="header__upperline-contacts-link" href="mailto:workout@email.com">workout@email.com</a>
             <a class="header__upperline-contacts-link" href="tel:+12345678900">+1 (234) 567 89 00</a>
@@ -87,7 +88,7 @@
             <p class="header__subtitle">Aspire to move</p>
             <h1 class="header__title">
               New <span class="header__title_collections"> collections </span> by
-              top brands <span class="header__title_dot">.</span>
+              top brands<span class="dot">.</span>
             </h1>
           </div>
           <div class="header__banner-btn">
@@ -103,31 +104,30 @@
     <div class="categories">
 
       <div class="categories-arrivals block">
-        <p class="categories-title">
-          NEW ARRIVALS <span class="dot">.</span>
+        <p class="categories-title">NEW ARRIVALS<span class="dot">.</span>
         </p>
-
         <div class="categories-divider"></div>
-
-        <a href="#collection" class="categories-arrivals-link button">Shop Collection<span
+        <a href="#collection" class="categories-arrivals-link categories-btn">Shop Collection<span
             class="categories-arrow">→</span></a>
       </div>
 
       <div class="categories-trainers block">
         <p class="categories-title">
-          TRAINERS <span class="dot">.</span>
+          TRAINERS<span class="dot">.</span>
         </p>
         <div class="categories-divider"></div>
-        <a href="#collection" class="categories-trainers-link button">Shop Collection<span
+        <a href="#collection" class="categories-trainers-link categories-btn">Shop Collection<span
             class="categories-arrow">→</span></a>
       </div>
 
       <div class="categories-sale block">
         <p class="categories-title">HOT SALE <span class="dot">.</span></p>
         <div class="categories-divider"></div>
-        <a href="#sale" class="categories-sale-link button">Shop Collection<span class="categories-arrow">→</span></a>
+        <a href="#sale" class="categories-sale-link categories-btn">Shop Collection<span
+            class="categories-arrow">→</span></a>
       </div>
     </div>
+
     <!--Yaryna Martyniuk ends-->
 
     <!--Valentyna Vilchak starts Why-choose-us-->
@@ -306,15 +306,21 @@
 
     <section class="mid-season_sale" id="sale">
       <div>
-        <h2>mid-season sale</h2>
-        <span>.....</span>
-        <p>
-          Shop clothes and trainers that are chosen by thousands of our
-          clients. Click on the image to see the product details and click Add
-          to Cart to make the purchase. We are committed to give you the best
-          buying experience!
-        </p>
+        <div class="sale-head">
+          <h2 class="sale-head-h2">mid-season sale</h2>
+          <span class="red-point-sale">.</span>
+        </div>
+        <div class="sale-line-center"></div>
+        <div class="sale-center-text">
+          <p>
+            Shop clothes and trainers that are chosen by thousands of our
+            clients. Click on the image to see the product details and click Add
+            to Cart to make the purchase. We are committed to give you the best
+            buying experience!
+          </p>
+        </div>
       </div>
+      <div class="header-nav__menu-item clock"></div>
       <div class="mid_season_sale">
         <div class="trainers-adidas" id="trainers-adidas">
           <div>
@@ -366,25 +372,28 @@
           sale of the month
         </h3>
         <p class="discount__main-text">
-          get your discount<span class="discount__dot-ui">.</span>
-          <div class="discount-button">
-            <a href="#sale" class="discount-button__link">
-              Shop now →
-            </a>
-          </div>
-        </p>     
+          get your discount
+          <span class="discount__dot-ui">
+            .
+          </span>
+        <div class="discount-button">
+          <a href="#sale" class="discount-button__link">
+            Shop now →
+          </a>
+        </div>
+        </p>
       </div>
     </section>
     <section class="discount-carousel">
       <div id="carousel-wrapper">
         <div id="menu">
-            <div id="current-option">
-              <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
-              <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
-            </div>
-            <button id="previous-option"></button>
-            <button id="next-option"></button>
-          
+          <div id="current-option">
+            <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
+            <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
+          </div>
+          <button id="previous-option"></button>
+          <button id="next-option"></button>
+
         </div>
         <div id="image"></div>
       </div>
@@ -549,20 +558,20 @@
           </div>
         </nav>
         <!--block readout-->
-        <div id="countdown" class="countdown">
-          <div class="time">
+        <div id="countdown" class="deal_of_the_month_countdown countdown">
+          <div class="days">
             <h2 id="days">00</h2>
             <small>days</small>
           </div>
-          <div class="time">
+          <div class="hours">
             <h2 id="hours">00</h2>
             <small>hours</small>
           </div>
-          <div class="time">
+          <div class="minutes">
             <h2 id="minutes">00</h2>
             <small>minutes</small>
           </div>
-          <div class="time">
+          <div class="seconds">
             <h2 id="seconds">00</h2>
             <small>seconds</small>
           </div>
@@ -644,32 +653,35 @@
         <h2 class="brands_sport_subtitle">
           KEEP FIT WITH COMFORT.
         </h2>
-        <div class="w-icon-list">
-          <ul>
-            <li style="display:inline">Top brands</li>
-            <li style="display:inline">Delivery with DHL</li>
-            <li style="display:inline">Easy returns</li>
+        <div class="brands_list">
+          <ul class="icon_brands_list">
+              <li class="icon_brands_list">
+                  <img src="img/icon/icon_brands.svg" alt="icon" width=15> Top brands </li>
+              <li class="icon_brands_list" >
+                  <img src="img/icon/icon_brands.svg" alt="icon" width=15> Delivery with DHL </li>
+              <li class="icon_brands_list" >
+                  <img src="img/icon/icon_brands.svg" alt="icon" width=15> Easy returns </li>
           </ul>
         </div>
-        <div class="brands_sport_text">
-          <p class="brands_sport_text">
-            Workout offers fitness clothing and footwear for those who want to change their lives and bodies for better.
-            We work only with the best sport brands to ensure that your training is really effective and comfortable.
-          </p>
+          <div class="brands_sport_text">
+              <p class="brands_sport_text">
+                  Workout offers fitness clothing and footwear for those who want to change their lives and bodies for better. We work only with the best sport brands to ensure that your training is really effective and comfortable.
+              </p>
+          </div>
+              <a href="#about" class="brands_sport_linkbutton">Learn more <span> → </span></a>
+          </div>
         </div>
-        <a href="#learnmore" class="brands_sport_linkbutton">Learn more <span> → </span></a>
-      </div>
-    </div>
 
     <!--end Maria Maksymyak finish-->
+
 
     <!--Valentyna Vilchak starts Blog-->
     <br />
     <div class="blog">
       <div class="brands-carousel">
-        <button class="brands-carousel__prev">🢀</button>
+        <button class="brands-carousel__prev"><i class="fa-solid fa-circle-arrow-left"></i></button>
         <div class="brands-carousel__slide-container"></div>
-        <button class="brands-carousel__next">🢂</button>
+        <button class="brands-carousel__next"><i class="fa-solid fa-circle-arrow-right"></i></button>
       </div>
 
       <div class="blog__title-subtitle" id="blog">
@@ -683,9 +695,9 @@
         <p>No blog posts yet...</p>
       </div>
 
-        </div>
-      </div>
-   
+    </div>
+    </div>
+
     <br />
     <!--Valentyna Vilchak ends Blog-->
   </main>
@@ -764,8 +776,10 @@
   </footer>
   <script src="js/countdown.js"></script>
   <script src="js/burger-menu.js"></script>
+  <script src="js/header-clock.js"></script>
   <script src="js/collection-tab.js"></script>
   <script src="js/blog.js"></script>
+  <script src="js/sale-clock.js"></script>
   <!-- <script src="js/discount.js"></script> -->
 </body>
 

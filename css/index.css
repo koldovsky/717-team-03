@@ -14,4 +14,9 @@
 @import url(deal-of-the-month.css); /*DARIA MEUSH*/
 @import url(fitness-collection.css);
 @import url(discount.css);
+<<<<<<< HEAD
 @import url(discount-carousel);
+=======
+@import url(discount-carousel); 
+@import url(products.css); /*Bohdan Lutsiv*/
+>>>>>>> bb6c1e8f1aec97c468c0da23a4cea4ce51c9c401
