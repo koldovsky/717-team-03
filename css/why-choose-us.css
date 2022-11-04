@@ -7,8 +7,8 @@
 .why-title {
   color: var(--main-text-color);
   padding-bottom: 15px;
-  font-size: 52px;
-  line-height: 59px;
+  font-size: 38px;
+  line-height: 43px;
   font-weight: 400;
   text-align: center;
 }
@@ -65,11 +65,19 @@
   .why-categories {
     grid-template-columns: repeat(2, 1fr);
   }
+  .why-title {
+    font-size: 38px;
+    line-height: 43px;
+  }
 }
 
 @media (min-width: 991px) {
   .why-categories {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .why-title {
+    font-size: 45px;
+    line-height: 51px;
   }
 }
 
@@ -79,5 +87,9 @@
   }
   .why-categories-item {
     padding: 25px 15px;
+  }
+  .why-title {
+    font-size: 52px;
+    line-height: 59px;
   }
 }
