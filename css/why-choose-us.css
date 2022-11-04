@@ -25,7 +25,7 @@
   grid-template-columns: 1fr;
   display: grid;
   row-gap: 30px;
-  display: grid;
+
   align-items: center;
   justify-content: center;
   justify-items: center;
