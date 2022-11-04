@@ -32,6 +32,7 @@
   line-height: 27px;
   font-family: "PT Sans", sans-serif;
   max-width: 470px;
+  text-align: center;
 }
 .red-dot {
   color: var(--alternate-text-color);
@@ -39,7 +40,7 @@
 
 .why-categories-item {
   border: 1.5px solid rgba(33, 39, 54, 0.2);
-  padding: 60px 25px;
+  padding: 20px 20px;
   grid-template-columns: 1fr;
   display: grid;
   row-gap: 30px;
