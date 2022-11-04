@@ -61,19 +61,3 @@
     padding: 25px 15px;
   }
 }
-
-.why-categories-item-title {
-  color: var(--main-text-color);
-  font-size: 25px;
-  line-height: 30px;
-  font-weight: 300;
-}
-.why-categories-item-description {
-  color: var(--paragraph-text-color);
-  font-size: 16px;
-  line-height: 27px;
-  font-family: "PT Sans", sans-serif;
-}
-.red-dot {
-  color: var(--alternate-text-color);
-}

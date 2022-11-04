@@ -129,3 +129,40 @@
 .categories-arrivals>.categories-divider {
     width: 18%;
 }
+
+/* countdown styles */
+
+
+.categories__countdown-container {
+    min-width: 50%;
+    margin: auto;
+    margin-left: 70px;
+    margin-top: -20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-text-color);
+    font-family: 'PT Sans', sans-serif;
+}
+
+.categories__launch-time {
+    display: flex;
+    border: var(--paragraph-text-color) double 2px;
+    margin-left: -134px;
+    background-color: var(--countdown-bg-color);
+}
+
+
+.categories__launch-time div {
+    flex-basis: 100px;
+    padding: 4px;
+    text-align: center;
+    margin: 8px;
+}
+
+.categories__launch-time div p {
+    font-size: 30px;
+    margin-bottom: 2px;
+}
