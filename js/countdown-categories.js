@@ -21,10 +21,10 @@
   
       if (difference < 0) {
         clearInterval(x);
-        document.querySelector(".days").innerHTML = "00";
-        document.querySelector(".hours").innerHTML = "00";
-        document.querySelector(".minutes").innerHTML = "00";
-        document.querySelector(".seconds").innerHTML = "00";
+        document.querySelector(".categories-days").innerHTML = "00";
+        document.querySelector(".categories-hours").innerHTML = "00";
+        document.querySelector(".categories-minutes").innerHTML = "00";
+        document.querySelector(".categories-seconds").innerHTML = "00";
       }
     }
   
