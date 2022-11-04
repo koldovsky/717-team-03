@@ -26,10 +26,20 @@
   grid-template-columns: 1fr;
   display: grid;
   row-gap: 30px;
-
   align-items: center;
   justify-content: center;
   justify-items: center;
+}
+.wrapper-why-choose-us {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+.why-categories {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
 }
 @media (min-width: 770px) {
   .why-categories {
@@ -51,17 +61,7 @@
     padding: 25px 15px;
   }
 }
-.wrapper-why-choose-us {
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 25px;
-  margin-bottom: 40px;
-}
-.why-categories {
-  display: grid;
-  justify-items: center;
-  gap: 20px;
-}
+
 .why-categories-item-title {
   color: var(--main-text-color);
   font-size: 25px;
