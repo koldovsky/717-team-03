@@ -40,13 +40,7 @@
   margin: 0 auto;
   font-family: "PT Sans", sans-serif;
 }
-/*.carousel__brands {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}*/
+
 .blog {
   margin-top: 80px;
   margin-bottom: 80px;
@@ -75,12 +69,13 @@
 .fa-circle-arrow-right {
   color: #222323;
   font-size: 2em;
+  cursor: pointer;
 }
 .fa-circle-arrow-right:hover {
-  color: rgba(33, 39, 54, 0.12);
+  color: rgba(33, 39, 54, 0.6);
 }
 .fa-circle-arrow-left:hover {
-  color: rgba(33, 39, 54, 0.12);
+  color: rgba(33, 39, 54, 0.6);
 }
 .brands-carousel__prev,
 .brands-carousel__next {
