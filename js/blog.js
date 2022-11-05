@@ -1,26 +1,30 @@
 (function () {
   const slides = [
-    '<div class="slide"><img src="img/blog/adidas.svg" alt="adidas" class="brands-carousel__img"></div>',
-    '<div class="slide"><img src="img/blog/asics.svg" alt="asics" class="brands-carousel__img"></div>',
-    '<div class="slide"><img src="img/blog/new-balance.svg" alt="new-balance" class="brands-carousel__img"></div>',
-    '<div class="slide"><img src="img/blog/nike.svg" alt="nike" class="brands-carousel__img"></div>',
-    '<div class="slide"><img src="img/blog/reebok.svg" alt="reebok" class="brands-carousel__img"></div>',
+    '<div class="slide"><img src="img/adidas.svg" alt="adidas" class="brands-carousel__img"></div>',
+    '<div class="slide"><img src="img/asics.svg" alt="asics" class="brands-carousel__img"></div>',
+    '<div class="slide"><img src="img/new-balance.svg" alt="new-balance" class="brands-carousel__img"></div>',
+    '<div class="slide"><img src="img/nike.svg" alt="nike" class="brands-carousel__img"></div>',
+    '<div class="slide"><img src="img/reebok.svg" alt="reebok" class="brands-carousel__img"></div>',
   ];
   let currentSlideIndx = 0;
   function renderSlide() {
     const slideContainer = document.querySelector(".brands-carousel-container");
     slideContainer.innerHTML = slides[currentSlideIndx];
-    if (window.innerWidth > 768) {
+    if (window.innerWidth > 600) {
       const secondSlideInd =
         currentSlideIndx + 1 >= slides.length ? 0 : currentSlideIndx + 1;
       slideContainer.innerHTML += slides[secondSlideInd];
-      if (window.innerWidth > 990) {
+
+      if (window.innerWidth > 768) {
         const thirdSlideInd =
           secondSlideInd + 1 >= slides.length ? 0 : secondSlideInd + 1;
-        const fourthSlideInd =
-          thirdSlideInd + 1 >= slides.length ? 0 : thirdSlideInd + 1;
-        slideContainer.innerHTML +=
-          slides[thirdSlideInd] + slides[fourthSlideInd];
+        slideContainer.innerHTML += slides[thirdSlideInd];
+
+        if (window.innerWidth > 992) {
+          const fourthSlideInd =
+            thirdSlideInd + 1 >= slides.length ? 0 : thirdSlideInd + 1;
+          slideContainer.innerHTML += slides[fourthSlideInd];
+        }
       }
     }
   }
