@@ -23,7 +23,6 @@
         font-stretch: 100%;
         display: flex;
         font-weight: 400;
-        
         letter-spacing: normal;
         list-style: 31.28px;
         margin-bottom:0px;
@@ -57,11 +56,15 @@
         margin-left: 175px;
         margin-right: 0px;
         margin-top: 0px;
-        overflow-wrap: break-word;
+        
         padding-bottom: 0px;
         padding-left: 0px;
         padding-right: 0px;
-        padding-top: 0px;  
+        padding-top: 0px;
+    }
+
+    .heading-title-collection {
+        color: var(--alternate-text-color);
     }
 
     .video-button {
@@ -97,3 +100,14 @@
         padding-right: 32px;
         margin-left: 20px;
     }
+    
+    .short_movie {
+        justify-content: center;
+        align-items: center;
+        margin-left: 175px;
+        font-weight: 700;
+        margin-top: 100px;
+        padding-left: 0;
+        padding-right: 32px;
+    }
+    

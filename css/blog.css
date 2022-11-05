@@ -7,8 +7,8 @@
 .blog-title {
   color: var(--main-text-color);
   padding-bottom: 13px;
-  font-size: 38px;
-  line-height: 43px;
+  font-size: 52px;
+  line-height: 59px;
   font-weight: 400;
   text-align: center;
 }
@@ -20,6 +20,7 @@
   line-height: 30px;
   text-align: center;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 .red-dot {
   color: var(--alternate-text-color);
@@ -41,68 +42,129 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.blog {
-  margin-top: 80px;
-  margin-bottom: 80px;
+#blog {
+  margin-top: 5px;
 }
 .brands-carousel {
   display: flex;
-  margin: auto;
   justify-content: center;
+  min-width: 320px;
+  position: relative;
   padding-left: 15px;
   padding-right: 15px;
 }
-.brands-carousel__slide-container {
+.brands-carousel-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
 }
 .slide {
-  border: 1px solid rgba(33, 39, 54, 0.12);
-  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1.5px solid rgba(33, 39, 54, 0.12);
+  padding: 20px 20px;
+  margin: 20px 20px;
+
+  max-width: 488px;
+  max-height: 266px;
 }
-.fa-circle-arrow-left,
-.fa-circle-arrow-right {
-  color: #222323;
-  font-size: 2em;
+.brands-carousel__img {
+}
+.brands-carousel-prev {
+  transform: rotate(180deg);
+  padding: 5px;
+  position: absolute;
+  top: 45%;
+  left: 25px;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  border: 0px;
+  background-color: rgb(187, 187, 187);
   cursor: pointer;
 }
-.fa-circle-arrow-right:hover {
-  color: rgba(33, 39, 54, 0.6);
+.brands-carousel-next {
+  position: absolute;
+  top: 45%;
+  right: 30px;
+  border-radius: 50%;
+  width: 28px;
+  height: 29px;
+  border: 0px;
+  padding: 5px;
+  background-color: rgb(187, 187, 187);
+  cursor: pointer;
 }
-.fa-circle-arrow-left:hover {
-  color: rgba(33, 39, 54, 0.6);
+.brands-carousel__btn-prev {
+  width: 12px;
+  height: 12px;
 }
-.brands-carousel__prev,
-.brands-carousel__next {
-  outline: none;
-  border: 0;
-  background: transparent;
+.brands-carousel__btn-next {
+  width: 12px;
+  height: 12px;
 }
-#blog {
-  margin-top: 100px;
-}
-@media (min-width: 770px) {
-  .blog-title {
-    font-size: 38px;
-    line-height: 43px;
+
+@media (min-width: 768px) {
+  .brands-carousel-container {
+    justify-content: space-around;
+  }
+  .slide {
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 20px;
+    margin: 100px 20px;
+    min-width: 300px;
+    min-height: 170px;
+  }
+  .brands-carousel__img {
+    max-width: 200px;
+    height: 50%;
   }
 }
 
-@media (min-width: 991px) {
-  .blog-title {
-    font-size: 45px;
-    line-height: 51px;
+@media (min-width: 990px) {
+  .slide {
+    min-height: 178px;
+    min-width: 170px;
+  }
+  .brands-carousel-prev {
+    left: 20px;
+  }
+  .brands-carousel-next {
+    right: 20px;
   }
 }
 
-@media (min-width: 1100px) {
-  .blog-title {
-    font-size: 52px;
-    line-height: 59px;
+@media (min-width: 1200px) {
+  .slide {
+    min-height: 160px;
+    min-width: 260px;
+  }
+  .brands-carousel-prev {
+    padding: 5px;
+    left: 20px;
+    background-color: #a594943b;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+  .brands-carousel-next {
+    padding: 5px;
+
+    right: 20px;
+    background-color: #a594943b;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+
+  .brands-carousel-next:hover {
+    background-color: transparent;
+  }
+  .brands-carousel-prev:hover {
+    background-color: transparent;
   }
 }
