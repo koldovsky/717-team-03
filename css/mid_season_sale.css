@@ -1,4 +1,4 @@
- .mid_season_sale {
+.mid_season_sale {
     display: flex;
     flex-direction: row;
   }
@@ -36,4 +36,27 @@
     font-family: PT Sans,sans-serif;
     color: #717474;
     margin: 20px;
+    text-align: center;
+  }
+  .line-up-title {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .text-product {
+    color: rgb(113, 116, 116);
+    font-size: 18px;
+    text-align: left;
+  }
+  .image-product-sale {
+    margin-bottom: 20px;
+  }
+  .sale-product-bay {
+    margin: 20px;
+  }
+  .sale-bottom {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 20px;
+    height: 35px;
+    text-align: center;
   }
