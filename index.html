@@ -303,30 +303,36 @@
 
     <!-- Oleksandra Mrykhina starts 5-th section (finess collection) -->
     <link rel="stylesheet" href="css/fitness-collection.css">
-    <section class="fitness-collection">
-      <div class="heading-section">
+      <section class="fitness-collection">
+       <div class="heading-section">
         <p class="heading-subtitle">TRENDING</p>
-         <h2 class="heading-section-title">NEW<span class="heading-title-collection">FITNESS</span>COLLECTION</span>
-         </h2>
-      <div>
-            <!--<svg width="100" class="video-button" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 96 96" x="0px" y="0px"
-            style="max-width: 100%" height="100%">
-            <path
-              d="M38 68.476c-0.328 0-0.652-0.080-0.948-0.244-0.648-0.34-1.052-1.020-1.052-1.756v-36.952c0-0.736 0.404-1.416 1.052-1.752 0.644-0.352 1.432-0.32 2.048 0.088l28 18.476c0.56 0.368 0.9 0.992 0.9 1.664s-0.336 1.304-0.9 1.672l-28 18.476c-0.332 0.22-0.716 0.328-1.1 0.328zM40 33.244v29.524l22.368-14.756-22.368-14.768z"
-              fill="currentColor"></path>
-            <path
-              d="M48 4c24.256 0 44 19.744 44 44s-19.744 44-44 44c-24.26 0-44-19.744-44-44s19.74-44 44-44zM48 0c-26.508 0-48 21.492-48 48s21.492 48 48 48 48-21.492 48-48-21.492-48-48-48v0z"
-              fill="currentColor"></path>
-          </svg>-->
-        </div>
-        <div class="short_movie">
-         <iframe width="600" height="400" src="https://www.youtube.com/embed/1VNQB0SYLII" title="Nike Running - Spec Ad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="shopping__link__btn">
-         <a href="#collection" class="shopping-link-button">Shop now<span class="categories-arrow"> →</span></a>
-        </div>
-      </div>
+         <h2 class="heading-section-title">NEW<span class="heading-title-collection">FITNESS</span>COLLECTION</span></h2>
+         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"/>
+            <video src="videos/Activewear commercial for MoralAthletica.mp4"
+           id="video"
+           class="screen"
+           width="300" height="200" poster="img/poster.png">
+           </video>
+         <div class="controls">
+           <button class="btn" id="play">
+             <i class="fa fa-play fa-2x"></i>
+           </button>
+           <button class="btn" id="stop">
+             <i class="fa fa-stop fa-2x"></i>
+           </button>
+           <input
+             type="range"
+             id="progress"
+             class="progress"
+             min="0"
+             max="100"
+             step="0.1"
+             value="0"/>
+           <span class="timestamp" id="timestamp">00:00</span>
+         </div>
     </section>
     <!-- Oleksandra Mrykhina ends 5-th section (finess collection) -->
 
@@ -804,7 +810,7 @@
   <script src="js/collection-tab.js"></script>
   <script src="js/blog.js"></script>
   <script src="js/sale-clock.js"></script>
-  <script src="js/video.js"></script>
+  <script src="js/script.js"></script>
   <script src="js/countdown-categories.js"></script>
   <!-- <script src="js/discount.js"></script> -->
 </body>
