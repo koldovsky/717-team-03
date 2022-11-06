@@ -122,22 +122,8 @@
 }
 
 @media (min-width: 600px) {
-  .brands-carousel-container {
-    justify-content: space-around;
-  }
   .slide {
-    display: flex;
-    align-items: center;
-    padding: 0px;
-    margin: 5px 5px;
-    max-width: 400px;
-    height: 100;
-  }
-  .brands-carousel-prev {
-    left: 0px;
-  }
-  .brands-carousel-next {
-    right: 0px;
+    height: 150px;
   }
   .blog-title {
     font-size: 30px;
@@ -146,8 +132,7 @@
 }
 @media (min-width: 768px) {
   .slide {
-    min-width: 170px;
-    height: 150px;
+    height: 130px;
   }
   .blog-title {
     font-size: 38px;
@@ -155,36 +140,8 @@
   }
 }
 @media (min-width: 990px) {
-  .slide {
-    min-width: 170px;
-    height: 150px;
-  }
   .blog-title {
     font-size: 45px;
     line-height: 51px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .slide {
-    max-width: 270px;
-    height: 160px;
-    padding: 15px;
-  }
-  .brands-carousel-prev {
-    padding: 5px;
-    left: 0px;
-    background-color: #a594943b;
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
-  }
-  .brands-carousel-next {
-    padding: 5px;
-    right: 0;
-    background-color: #a594943b;
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
   }
 }
