@@ -92,5 +92,23 @@
     }
 }
 
+@media (max-width: 500px) { 
+    .brands{
+        display: flex;
+        align-items:flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap:10px;
+        margin-block: 100px;
+        margin-left: 10%;
+    }
+    .brands_sport_subtitle {
+        font-size: 40px;}
+
+    .brands_list{
+        display: flex;
+        flex-direction: columns;
+    }
+}
 
 
