@@ -1,5 +1,6 @@
 .blog {
-  margin-bottom: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .divider-component {
   margin: 0 auto;
@@ -14,6 +15,7 @@
   line-height: 59px;
   font-weight: 400;
   text-align: center;
+  margin-top: 30px;
 }
 
 .blog-subtitle {
@@ -23,7 +25,7 @@
   line-height: 30px;
   text-align: center;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 .red-dot {
   color: var(--alternate-text-color);
@@ -69,12 +71,10 @@
   border: 1.5px solid rgba(33, 39, 54, 0.12);
   padding: 20px 20px;
   margin: 20px 20px;
+  max-width: 500px;
+  height: 210px;
+}
 
-  max-width: 488px;
-  max-height: 266px;
-}
-.brands-carousel__img {
-}
 .brands-carousel-prev {
   transform: rotate(180deg);
   padding: 5px;
@@ -109,42 +109,43 @@
   height: 12px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .brands-carousel-container {
     justify-content: space-around;
   }
   .slide {
     display: flex;
     align-items: center;
-    width: auto;
-    padding: 20px;
-    margin: 100px 20px;
-    min-width: 300px;
-    min-height: 170px;
-  }
-  .brands-carousel__img {
-    max-width: 200px;
-    height: 50%;
-  }
-}
-
-@media (min-width: 990px) {
-  .slide {
-    min-height: 178px;
-    min-width: 170px;
+    padding: 0px;
+    margin: 5px 5px;
+    max-width: 400px;
+    height: 100;
   }
   .brands-carousel-prev {
-    left: 20px;
+    left: 10px;
   }
   .brands-carousel-next {
-    right: 20px;
+    right: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .slide {
+    min-width: 170px;
+    height: 150px;
+  }
+}
+@media (min-width: 990px) {
+  .slide {
+    min-width: 170px;
+    height: 150px;
   }
 }
 
 @media (min-width: 1200px) {
   .slide {
-    min-height: 160px;
-    min-width: 260px;
+    max-width: 270px;
+    height: 160px;
+    padding: 15px;
   }
   .brands-carousel-prev {
     padding: 5px;
