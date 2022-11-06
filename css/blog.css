@@ -1,6 +1,6 @@
 .blog {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .divider-component {
   margin: 0 auto;
@@ -15,7 +15,7 @@
   line-height: 59px;
   font-weight: 400;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .blog-subtitle {
@@ -25,7 +25,7 @@
   line-height: 30px;
   text-align: center;
   margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .red-dot {
   color: var(--alternate-text-color);
