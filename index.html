@@ -1,788 +1,1028 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sport Clothes Store</title>
+    <link
+      rel="shortcut icon"
+      href="./img/icon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sport Clothes Store</title>
-  <link rel="shortcut icon" href="./img/icon/favicon.ico" type="image/x-icon">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/index.css">
-</head>
-
-<body>
-
-  <!--Yaryna Martyniuk starts-->
-  <header class="header" id="header">
-    <div class="header__upperline">
-      <div class="header__container">
-        <div class="header__upperline-inner">
-          <span class="header__upperline-text">We've extended our returns period to 30 days.</span>
-          <div class="header__upperline-clock"></div>
-          <div class="header__upperline-contacts">
-            <a class="header__upperline-contacts-link" href="mailto:workout@email.com">workout@email.com</a>
-            <a class="header__upperline-contacts-link" href="tel:+12345678900">+1 (234) 567 89 00</a>
+  <body>
+    <!--Yaryna Martyniuk starts-->
+    <header class="header" id="header">
+      <div class="header__upperline">
+        <div class="header__container">
+          <div class="header__upperline-inner">
+            <span class="header__upperline-text"
+              >We've extended our returns period to 30 days.</span
+            >
+            <div class="header__upperline-clock"></div>
+            <div class="header__upperline-contacts">
+              <a
+                class="header__upperline-contacts-link"
+                href="mailto:workout@email.com"
+                >workout@email.com</a
+              >
+              <a class="header__upperline-contacts-link" href="tel:+12345678900"
+                >+1 (234) 567 89 00</a
+              >
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="banner-bg">
-      <nav class="header__nav">
-        <div class="header__container">
-          <div class="header__nav-container">
-            <div class="header__logo-container">
-              <img src="img/icon/logo-icon.svg" alt="logo" id="logo">
-              <div class="navigation-burger">
-                <span></span>
+      <div class="banner-bg">
+        <nav class="header__nav">
+          <div class="header__container">
+            <div class="header__nav-container">
+              <div class="header__logo-container">
+                <img src="img/icon/logo-icon.svg" alt="logo" id="logo" />
+                <div class="navigation-burger">
+                  <span></span>
+                </div>
               </div>
-            </div>
-            <div class="navigation-wrapper">
-              <ul class="header__menu">
-                <li class="header__menu-item">
-                  <a class="header__menu-link" href="#about">About us.</a>
-                </li>
-                <li class="header__menu-item">
-                  <a class="header__menu-link" href="#sale">Sale.</a>
-                </li>
-                <li class="header__menu-item">
-                  <a class="header__menu-link" href="#collection">Collections.</a>
-                </li>
-                <li class="header__menu-item">
-                  <a class="header__menu-link navigation__link" href="#blog">Blog.</a>
-                </li>
-                <li class="header__menu-item">
-                  <a class="header__menu-link" href="#contact-us">Contact us.</a>
-                </li>
-              </ul>
-              <div class="header__social-icons">
-                <ul class="header__social-icons-list">
-                  <li>
-                    <a href="https://www.facebook.com/"><img class="header__social-icons-img"
-                        src="img/icon/facebook-icon.svg" alt="Facebook icon"></a>
+              <div class="navigation-wrapper">
+                <ul class="header__menu">
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="#about">About us.</a>
                   </li>
-                  <li>
-                    <a href="https://www.instagram.com/"><img class="header__social-icons-img"
-                        src="img/icon/instagram-icon.svg" alt="Instagram icon"></a>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="#sale">Sale.</a>
                   </li>
-                  <li>
-                    <a href="https://www.youtube.com/"><img class="header__social-icons-img"
-                        src="img/icon/youtube-icon.svg" alt="Youtube icon"></a>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="#collection"
+                      >Collections.</a
+                    >
+                  </li>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link navigation__link" href="#blog"
+                      >Blog.</a
+                    >
+                  </li>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="#contact-us"
+                      >Contact us.</a
+                    >
                   </li>
                 </ul>
+                <div class="header__social-icons">
+                  <ul class="header__social-icons-list">
+                    <li>
+                      <a href="https://www.facebook.com/"
+                        ><img
+                          class="header__social-icons-img"
+                          src="img/icon/facebook-icon.svg"
+                          alt="Facebook icon"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/"
+                        ><img
+                          class="header__social-icons-img"
+                          src="img/icon/instagram-icon.svg"
+                          alt="Instagram icon"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/"
+                        ><img
+                          class="header__social-icons-img"
+                          src="img/icon/youtube-icon.svg"
+                          alt="Youtube icon"
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </nav>
-      <section class="header__banner">
-        <div class="header__container">
-          <div class="header__banner-inner">
-            <p class="header__subtitle">Aspire to move</p>
-            <h1 class="header__title">
-              New <span class="header__title_collections"> collections </span> by
-              top brands<span class="dot">.</span>
-            </h1>
-          </div>
-          <div class="header__banner-btn">
-            <a href="#collection">Shop now <span class="header__banner-arrow"> → </span></a>
-          </div>
-        </div>
-      </section>
-    </div>
-  </header>
-
-  <main class="main">
-    <div class="categories">
-      <div class="categories-arrivals block">
-        <p class="categories-title">NEW ARRIVALS<span class="dot">.</span>
-        </p>
-        <div class="categories-divider"></div>
-        <a href="#collection" class="categories-arrivals-link categories-btn">Shop Collection<span
-            class="categories-arrow">→</span></a>
-      </div>
-      <div class="categories-trainers block">
-        <p class="categories-title">
-          TRAINERS<span class="dot">.</span>
-        </p>
-        <div class="categories-divider"></div>
-        <a href="#collection" class="categories-trainers-link categories-btn">Shop Collection<span
-            class="categories-arrow">→</span></a>
-      </div>
-      <div class="categories-sale block">
-        <!-- countdown starts -->
-        <div class="categories__countdown-container">
-          <div class="categories__launch-time">
-            <div class="categories-time">
-              <p class="categories-days">20</p>
-              <span>days</span>
+        </nav>
+        <section class="header__banner">
+          <div class="header__container">
+            <div class="header__banner-inner">
+              <p class="header__subtitle">Aspire to move</p>
+              <h1 class="header__title">
+                New
+                <span class="header__title_collections"> collections </span> by
+                top brands<span class="dot">.</span>
+              </h1>
             </div>
-            <div class="categories-time">
-              <p class="categories-hours">10</p>
-              <span>hours</span>
-            </div>
-            <div class="categories-time">
-              <p class="categories-minutes">2</p>
-              <span>minutes</span>
-            </div>
-            <div class="categories-time">
-              <p class="categories-seconds">60</p>
-              <span>seconds</span>
+            <div class="header__banner-btn">
+              <a href="#collection"
+                >Shop now <span class="header__banner-arrow"> → </span></a
+              >
             </div>
           </div>
-        </div>
-        <!-- countdown ends -->
-        <p class="categories-title">HOT SALE <span class="dot">.</span></p>
-        <div class="categories-divider"></div>
-        <a href="#sale" class="categories-sale-link categories-btn">Shop Collection<span
-            class="categories-arrow">→</span></a>
+        </section>
       </div>
-    </div>
-    <!--Yaryna Martyniuk ends-->
+    </header>
 
-    <!--Valentyna Vilchak starts Why-choose-us-->
-    <div class="wrapper-why-choose-us">
-      <section class="why">
-        <h2 class="why-title">Why Choose Us<span class="red-dot">.</span></h2>
-        <div class="divider-component"></div>
-        <br>
-        <p class="why-subtitle">
-          Keep fit, follow a healthy lifestyle with us!
-        </p>
-        <br>
-        <div class="why-categories">
-          <article class="why-categories-item">
-            <img src="img/why-choose-us/shipping.svg" alt="shipping" width="60">
-            <h3 class="why-categories-item-title">Free Shipping Over $90</h3>
-            <p class="why-categories-item-description">
-              Get advantage of our free worldwide shipping on all orders over
-              $90.
-            </p>
-          </article>
-          <article class="why-categories-item">
-            <img src="img/why-choose-us/return.svg" alt="return" width="60">
-            <h3 class="why-categories-item-title">Easy 30-Day Return</h3>
-            <p class="why-categories-item-description">
-              If the item does not suit you, please send it back to us within
-              thirty days.
-            </p>
-          </article>
-          <article class="why-categories-item">
-            <img src="img/why-choose-us/eco.svg" alt="eco" width="60">
-            <h3 class="why-categories-item-title">Eco Materials</h3>
-            <p class="why-categories-item-description">
-              All items are made with at least 30% recycled materials and zero
-              virgin polyester.
-            </p>
-          </article>
-          <article class="why-categories-item">
-            <img src="img/why-choose-us/payment.svg" alt="payment" width="60">
-            <h3 class="why-categories-item-title">20 Payment Methods</h3>
-            <p class="why-categories-item-description">
-              Pay for your orders with credit cards, PayPal, AliPay, and other
-              payment methods.
-            </p>
-          </article>
+    <main class="main">
+      <div class="categories">
+        <div class="categories-arrivals block">
+          <p class="categories-title">NEW ARRIVALS<span class="dot">.</span></p>
+          <div class="categories-divider"></div>
+          <a href="#collection" class="categories-arrivals-link categories-btn"
+            >Shop Collection<span class="categories-arrow">→</span></a
+          >
         </div>
-      </section>
-    </div>
-    <!-- Valentyna Vilchak ends Why-choose-us-->
-
-    <!--Daria Meush starts -->
-    <!--image-->
-    <section class="about__us" id="about">
-      <div class="about-us__image">
+        <div class="categories-trainers block">
+          <p class="categories-title">TRAINERS<span class="dot">.</span></p>
+          <div class="categories-divider"></div>
+          <a href="#collection" class="categories-trainers-link categories-btn"
+            >Shop Collection<span class="categories-arrow">→</span></a
+          >
+        </div>
+        <div class="categories-sale block">
+          <!-- countdown starts -->
+          <div class="categories__countdown-container">
+            <div class="categories__launch-time">
+              <div class="categories-time">
+                <p class="categories-days">20</p>
+                <span>days</span>
+              </div>
+              <div class="categories-time">
+                <p class="categories-hours">10</p>
+                <span>hours</span>
+              </div>
+              <div class="categories-time">
+                <p class="categories-minutes">2</p>
+                <span>minutes</span>
+              </div>
+              <div class="categories-time">
+                <p class="categories-seconds">60</p>
+                <span>seconds</span>
+              </div>
+            </div>
+          </div>
+          <!-- countdown ends -->
+          <p class="categories-title">HOT SALE <span class="dot">.</span></p>
+          <div class="categories-divider"></div>
+          <a href="#sale" class="categories-sale-link categories-btn"
+            >Shop Collection<span class="categories-arrow">→</span></a
+          >
+        </div>
       </div>
-      <!--title "about us"-->
-      <div class="about-us__text">
-        <h2 class="about-us__basic">
-          ABOUT US
-          <span class="about__point">.</span>
-        </h2>
-        <div class="about-divider-component"></div>
-        <!--
+      <!--Yaryna Martyniuk ends-->
+
+      <!--Valentyna Vilchak starts Why-choose-us-->
+      <div class="wrapper-why-choose-us">
+        <section class="why">
+          <h2 class="why-title">Why Choose Us<span class="red-dot">.</span></h2>
+          <div class="divider-component"></div>
+          <br />
+          <p class="why-subtitle">
+            Keep fit, follow a healthy lifestyle with us!
+          </p>
+          <br />
+          <div class="why-categories">
+            <article class="why-categories-item">
+              <img
+                src="img/why-choose-us/shipping.svg"
+                alt="shipping"
+                width="60"
+              />
+              <h3 class="why-categories-item-title">Free Shipping Over $90</h3>
+              <p class="why-categories-item-description">
+                Get advantage of our free worldwide shipping on all orders over
+                $90.
+              </p>
+            </article>
+            <article class="why-categories-item">
+              <img src="img/why-choose-us/return.svg" alt="return" width="60" />
+              <h3 class="why-categories-item-title">Easy 30-Day Return</h3>
+              <p class="why-categories-item-description">
+                If the item does not suit you, please send it back to us within
+                thirty days.
+              </p>
+            </article>
+            <article class="why-categories-item">
+              <img src="img/why-choose-us/eco.svg" alt="eco" width="60" />
+              <h3 class="why-categories-item-title">Eco Materials</h3>
+              <p class="why-categories-item-description">
+                All items are made with at least 30% recycled materials and zero
+                virgin polyester.
+              </p>
+            </article>
+            <article class="why-categories-item">
+              <img
+                src="img/why-choose-us/payment.svg"
+                alt="payment"
+                width="60"
+              />
+              <h3 class="why-categories-item-title">20 Payment Methods</h3>
+              <p class="why-categories-item-description">
+                Pay for your orders with credit cards, PayPal, AliPay, and other
+                payment methods.
+              </p>
+            </article>
+          </div>
+        </section>
+      </div>
+      <!-- Valentyna Vilchak ends Why-choose-us-->
+
+      <!--Daria Meush starts -->
+      <!--image-->
+      <section class="about__us" id="about">
+        <div class="about-us__image"></div>
+        <!--title "about us"-->
+        <div class="about-us__text">
+          <h2 class="about-us__basic">
+            ABOUT US
+            <span class="about__point">.</span>
+          </h2>
+          <div class="about-divider-component"></div>
+          <!--
         <div class="divider-component"
           style="height: 2px; width: 15%; background-color: rgb(255, 0, 0)" >
       </div>-->
-        <!--information "about us"-->
-        <div class="information__about-us">
-          <p class="basic__description">
-            Workout is an American fitness store created by fitness geeks for
-            those who love sport and try to keep fit.
-          </p>
-          <p class="description">
-            At Workout, we know that great results do not come from standing
-            still. We all need to move, push boundaries, and achieve better
-            results every day. The mission of our shop is to support you in
-            this.
-          </p>
-          <p class="description_final">
-            We're sure that everyday fitness can change your lives and bodies
-            forever. And we keep selling comfortable and high-tech clothes and
-            shoes for your outstanding results.
-          </p>
+          <!--information "about us"-->
+          <div class="information__about-us">
+            <p class="basic__description">
+              Workout is an American fitness store created by fitness geeks for
+              those who love sport and try to keep fit.
+            </p>
+            <p class="description">
+              At Workout, we know that great results do not come from standing
+              still. We all need to move, push boundaries, and achieve better
+              results every day. The mission of our shop is to support you in
+              this.
+            </p>
+            <p class="description_final">
+              We're sure that everyday fitness can change your lives and bodies
+              forever. And we keep selling comfortable and high-tech clothes and
+              shoes for your outstanding results.
+            </p>
+          </div>
+          <!--navigation social networks-->
+          <nav>
+            <div class="about-us__social-icons">
+              <ul class="about-us__social-icons-list">
+                <li class="facebook">
+                  <a href="https://www.facebook.com/"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="30"
+                      class="si633b489f671e76000d9f254ec7719488fcba4b97ace44a4d829a68a71664829608023 svgIcon_1J7 outlined_2wD darkTheme_3jZ"
+                      viewBox="0 0 32 32"
+                    >
+                      <path
+                        class="outer_bDW"
+                        fill="#222323"
+                        d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z"
+                      ></path>
+                      <path
+                        d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                        class="border_2yy"
+                        fill="#f40106"
+                      ></path>
+                      <path
+                        class="logo_2gS"
+                        d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z"
+                        fill="#f40106"
+                      ></path></svg
+                  ></a>
+                </li>
+                <li class="instagram">
+                  <a href="https://www.instagram.com/"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="30"
+                      class="si633b489f671e76000d9f254ec7719488fcba4b97ace44a4d829a68a71664829608023 svgIcon_1J7 outlined_2wD darkTheme_3jZ"
+                      viewBox="0 0 32 32"
+                    >
+                      <g>
+                        <path
+                          class="outer_bDW"
+                          fill="#222323"
+                          d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                        ></path>
+                      </g>
+                      <path
+                        d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                        class="border_2yy"
+                        fill="#f40106"
+                      ></path>
+                      <g>
+                        <path
+                          class="logo_2gS"
+                          fill="#f40106"
+                          d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                        ></path>
+                      </g></svg
+                  ></a>
+                </li>
+                <li class="youtube">
+                  <a href="https://www.youtube.com/"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="30"
+                      class="si633b489f671e76000d9f254ec7719488fcba4b97ace44a4d829a68a71664829608023 svgIcon_1J7 outlined_2wD darkTheme_3jZ"
+                      viewBox="0 0 32 32"
+                    >
+                      <path
+                        class="outer_bDW"
+                        fill="#222323"
+                        d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"
+                      ></path>
+                      <path
+                        d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                        class="border_2yy"
+                        fill="#f40106"
+                      ></path>
+                      <path
+                        class="logo_2gS"
+                        fill="#f40106"
+                        d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"
+                      ></path></svg
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-        <!--navigation social networks-->
-        <nav>
-          <div class="about-us__social-icons">
-            <ul class="about-us__social-icons-list">
-              <li class="facebook">
-                <a href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30"
-                    class="si633b489f671e76000d9f254ec7719488fcba4b97ace44a4d829a68a71664829608023 svgIcon_1J7 outlined_2wD darkTheme_3jZ"
-                    viewBox="0 0 32 32">
-                    <path class="outer_bDW" fill="#222323"
-                      d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z">
-                    </path>
-                    <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"
-                      fill="#f40106"></path>
-                    <path class="logo_2gS"
-                      d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z"
-                      fill="#f40106"></path>
-                  </svg></a>
+      </section>
+      <!--end Daria Meush-->
+
+      <!-- Oleksandra Mrykhina starts 5-th section (finess collection) -->
+      <section class="fitness-collection">
+        <div class="fitness-container">
+          <p class="heading-subtitle">TRENDING</p>
+          <h2 class="heading-section-title">
+            NEW<span class="heading-title-collection">FITNESS</span>COLLECTION
+          </h2>
+          <video
+            src="videos/activewear-commercial-for-moralathletica.mp4"
+            id="video"
+            class="screen"
+            width="370"
+            height="280"
+            poster="img/poster.png"
+          ></video>
+          <div class="controls">
+            <button class="btn" id="play">
+              <i class="fa fa-play fa-2x"></i>
+            </button>
+            <button class="btn" id="stop">
+              <i class="fa fa-stop fa-2x"></i>
+            </button>
+            <input
+              type="range"
+              id="progress"
+              class="progress"
+              min="0"
+              max="100"
+              step="0.1"
+              value="0"
+            />
+            <span class="timestamp" id="timestamp">00:00</span>
+          </div>
+          <div class="shopping__link-btn">
+            <a href="#collection"
+              >Shop now <span class="shopping__link-arrow"> → </span></a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Oleksandra Mrykhina ends 5-th section (finess collection) -->
+
+      <!--start Bohdan Lutsiv-->
+      <section class="mid-season_sale" id="sale">
+        <div class="line-up-title">
+          <div class="sale-head">
+            <h2 class="sale-head-h2">mid-season sale</h2>
+            <span class="red-point-sale">.</span>
+          </div>
+          <div class="sale-line-center"></div>
+          <div>
+            <p class="sale-center-text">
+              Shop clothes and trainers that are chosen by thousands of our
+              clients. Click on the image to see the product details and click
+              Add to Cart to make the purchase. We are committed to give you the
+              best buying experience!
+            </p>
+          </div>
+        </div>
+        <!-- <div class="header-nav__menu-item clock"></div> -->
+        <div class="mid_season_sale">
+          <div class="sale-product-bay" id="trainers-adidas">
+            <div class="text-product">
+              <img
+                class="image-product-sale"
+                src="img/mid_season_sale/trainers-adidas.jpg"
+                alt="trainers-adidas"
+              />
+              <a href="product.html">Adidas Cloudfoam Trainers</a>
+            </div>
+            <p class="money_sale">$60,00</p>
+            <button class="sale-bottom">Add to Cart</button>
+          </div>
+          <div class="sale-product-bay" id="rebook-shorts">
+            <div class="text-product">
+              <img
+                class="image-product-sale"
+                src="img/mid_season_sale/rebook-shorts.jpg"
+                alt="rebook-shorts"
+              />
+              <a href="product.html">Reebok Workout Shorts</a>
+            </div>
+            <p class="money_sale">$25,00</p>
+            <button class="sale-bottom">Add to Cart</button>
+          </div>
+          <div class="sale-product-bay" id="puma-shoes">
+            <div class="text-product">
+              <img
+                class="image-product-sale"
+                src="img/mid_season_sale/puma-shoes.jpg"
+                alt="puma-shoes"
+              />
+              <a href="product.html">Puma Fitness Shoes in Grey</a>
+            </div>
+            <p class="money_sale">$60,00</p>
+            <button class="sale-bottom">Add to Cart</button>
+          </div>
+          <div class="sale-product-bay" id="puma-tank_top">
+            <div class="text-product">
+              <img
+                class="image-product-sale"
+                src="img/mid_season_sale/puma-tank_top.jpg"
+                alt="puma-tank_top"
+              />
+              <a href="product.html">Puma Essential Tank Top</a>
+            </div>
+            <p class="money_sale">$43,00</p>
+            <button class="sale-bottom">Add to Cart</button>
+          </div>
+          <div class="sale-product-bay" id="nike-t-shirt">
+            <div class="text-product">
+              <img
+                class="image-product-sale"
+                src="img/mid_season_sale/nike-t-shirt.jpg"
+                alt="nike-T-shirt"
+              />
+              <a href="product.html">Nike Classic Polo T-Shirt</a>
+            </div>
+            <p class="money_sale">$23,00</p>
+            <button class="sale-bottom">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+      <!--end Bohdan Lutsiv-->
+
+      <!-- Max Pal start -->
+      <section class="discount" id="discount">
+        <div class="discount-module">
+          <h3 class="discount-title">sale of the month</h3>
+          <p class="discount__main-text">
+            get your discount<span class="discount__dot-ui">.</span>
+          </p>
+          <div class="discount-button">
+            <a href="#sale" class="discount-button__link"> Shop now → </a>
+          </div>
+        </div>
+      </section>
+      <div class="discount-carousel">
+        <div id="carousel-wrapper">
+          <div id="menu">
+            <div id="current-option">
+              <span
+                id="current-option-text1"
+                data-previous-text=""
+                data-next-text=""
+              ></span>
+              <span
+                id="current-option-text2"
+                data-previous-text=""
+                data-next-text=""
+              ></span>
+            </div>
+            <button id="previous-option"></button>
+            <button id="next-option"></button>
+          </div>
+          <div id="image"></div>
+        </div>
+      </div>
+      <!-- Max Pal end section discount -->
+
+      <!-- Iryna Litvinova starts section collection -->
+      <section class="collection" id="collection">
+        <div class="collection-container">
+          <h2 class="collection-title">
+            Main Collection<span class="collection-title-point">.</span>
+          </h2>
+          <div class="collection-divider-line"></div>
+          <p class="collection-text">
+            Shop our main fitness collection for men and women represented by
+            the famous brands.
+          </p>
+          <div class="collection-tab-box">
+            <div class="collection-tab">
+              <button
+                class="collection-tablinks collection-tablinks-women collection-tablinks--active"
+                id="defaultOpen"
+              >
+                Women
+              </button>
+              <button class="collection-tablinks collection-tablinks-men">
+                Men
+              </button>
+              <button class="collection-tablinks collection-tablinks-shoes">
+                Shoes
+              </button>
+            </div>
+            <div id="women" class="collection-tabcontent">
+              <div class="collection-card-box">
+                <div class="collection-card">
+                  <a class="collection-card-link" href="#">
+                    <img
+                      class="collection-card-img"
+                      src="img/collection/puma-sports-bra.jpg"
+                      alt="Puma Sports Bra"
+                    />
+                    <h3 class="collection-card-title">Puma Sports Bra</h3>
+                  </a>
+                  <p class="collection-card-price">$12,00</p>
+                  <button class="collection-card-btn">Add to Cart</button>
+                </div>
+                <div class="collection-card">
+                  <a class="collection-card-link" href="#">
+                    <img
+                      class="collection-card-img"
+                      src="img/collection/reebok-longsleeve-top.jpg"
+                      alt="Reebok Long Sleeve Top"
+                    />
+                    <h3 class="collection-card-title">
+                      Reebok Long Sleeve Top
+                    </h3>
+                  </a>
+                  <p class="collection-card-price">$18,00</p>
+                  <button class="collection-card-btn">Add to Cart</button>
+                </div>
+                <div class="collection-card">
+                  <a class="collection-card-link" href="#">
+                    <img
+                      class="collection-card-img"
+                      src="img/collection/quicksilver-workout-top.jpg"
+                      alt="Quicksilver Workout Top"
+                    />
+                    <h3 class="collection-card-title">
+                      Quicksilver Workout Top
+                    </h3>
+                  </a>
+                  <p class="collection-card-price">$12,00</p>
+                  <button class="collection-card-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div id="men" class="collection-tabcontent">
+              <div class="collection-card-box">
+                <div class="collection-card">
+                  <a class="collection-card-link" href="#">
+                    <img
+                      class="collection-card-img"
+                      src="img/collection/adidas-compression-tee.jpg"
+                      alt="Adidas Compression Tee"
+                    />
+                    <h3 class="collection-card-title">
+                      Adidas Compression Tee
+                    </h3>
+                  </a>
+                  <p class="collection-card-price">$33,00</p>
+                  <button class="collection-card-btn">Add to Cart</button>
+                </div>
+                <div class="collection-card">
+                  <a class="collection-card-link" href="#">
+                    <img
+                      class="collection-card-img"
+                      src="img/collection/reebok-fitness-jacket.jpg"
+                      alt="Reebok Fitness Jacket"
+                    />
+                    <h3 class="collection-card-title">Reebok Fitness Jacket</h3>
+                  </a>
+                  <p class="collection-card-price">$52,00</p>
+                  <button class="collection-card-btn">Add to Cart</button>
+                </div>
+                <div class="collection-card">
+                  <a class="collection-card-link" href="#">
+                    <img
+                      class="collection-card-img"
+                      src="img/collection/quicksilver-tech-tshirt.jpg"
+                      alt="Quicksilver Tech T-Shirt"
+                    />
+                    <h3 class="collection-card-title">
+                      Quicksilver Tech T-Shirt
+                    </h3>
+                  </a>
+                  <p class="collection-card-price">$21,00</p>
+                  <button class="collection-card-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div id="shoes" class="collection-tabcontent">
+              <div class="collection-card-box">
+                <div class="collection-card">
+                  <a class="collection-card-link" href="#">
+                    <img
+                      class="collection-card-img"
+                      src="img/collection/nike-amanda-running-shoes.jpg"
+                      alt="Nike Amanda Running Shoes"
+                    />
+                    <h3 class="collection-card-title">
+                      Nike Amanda Running Shoes
+                    </h3>
+                  </a>
+                  <p class="collection-card-price">$120,00</p>
+                  <button class="collection-card-btn">Add to Cart</button>
+                </div>
+                <div class="collection-card">
+                  <a class="collection-card-link" href="#">
+                    <img
+                      class="collection-card-img"
+                      src="img/collection/puma-basket-shoes.jpg"
+                      alt="Puma Basket Shoes"
+                    />
+                    <h3 class="collection-card-title">Puma Basket Shoes</h3>
+                  </a>
+                  <p class="collection-card-price">$140,00</p>
+                  <button class="collection-card-btn">Add to Cart</button>
+                </div>
+                <div class="collection-card">
+                  <a class="collection-card-link" href="#">
+                    <img
+                      class="collection-card-img"
+                      src="img/collection/adidas-campus-shoes.jpg"
+                      alt="Adidas Campus"
+                    />
+                    <h3 class="collection-card-title">Adidas Campus</h3>
+                  </a>
+                  <p class="collection-card-price">$130,00</p>
+                  <button class="collection-card-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Iryna Litvinova ends section collection -->
+
+      <!--Daria Meush starts -->
+      <section class="deal-of-the-month">
+        <!--block text-->
+        <div class="deal__text">
+          <h2 class="basic__text">
+            DEAL OF THE MONTH
+            <span class="deal__point">.</span>
+          </h2>
+          <p class="condition__text">
+            <span class="deal__condition__text"> PUMA SPORTS BRA </span>
+            <span class="price__text"> $50 </span>
+            <span class="price__text__crossed-out">
+              <s>$70</s>
+            </span>
+          </p>
+          <p class="description__deal">
+            Start your fitness story right away with this comfortable bra and
+            get advantage of our discount.
+          </p>
+          <nav class="link_new-arrivals">
+            <div class="link_details">
+              <a href="#new__arrivals">More Details</a>
+              <svg
+                class="arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                x="0px"
+                y="0px"
+                viewBox="0 0 100 100"
+                enable-background="new 0 0 100 100"
+                xml:space="preserve"
+                width="25"
+                height="100%"
+              >
+                <g fill="currentColor">
+                  <polygon
+                    points="76.389,53.202 76.389,63.601 89.991,50.003 76.39,36.401 76.389,46.8 10.011,46.8 10.011,53.201  "
+                    fill="currentColor"
+                  ></polygon>
+                </g>
+              </svg>
+            </div>
+          </nav>
+          <!--block readout-->
+          <div id="countdown" class="deal_of_the_month_countdown countdown">
+            <div class="days">
+              <h2 id="days">00</h2>
+              <small>days</small>
+            </div>
+            <div class="hours">
+              <h2 id="hours">00</h2>
+              <small>hours</small>
+            </div>
+            <div class="minutes">
+              <h2 id="minutes">00</h2>
+              <small>minutes</small>
+            </div>
+            <div class="seconds">
+              <h2 id="seconds">00</h2>
+              <small>seconds</small>
+            </div>
+          </div>
+        </div>
+        <!--image-->
+        <div class="deal-of-the-month__image"></div>
+      </section>
+      <!--end Daria Meush-->
+
+      <!--Mamedov Oleksandr div starts-->
+      <section class="colection">
+        <div class="collection-title">
+          <h2 class="">New arrivals<span>.</span></h2>
+        </div>
+        <div
+          class="divider-line"
+          style="height: 2px; width: 100px; background-color: #e0e0e0"
+        ></div>
+        <p class="colection text">
+          Be the first to buy new items by leading brands
+        </p>
+        <form action="#">
+          <button type="submit">More Products</button>
+        </form>
+        <div class="categories__carousel">
+          <div class="section__content--collection"></div>
+          <a href="catalog-shop"></a>
+          <div class="nike_winter"></div>
+          <img
+            width="100"
+            src="img/nike_winter-_jacket_in_blue.jpg"
+            alt="nike inter acket in blue"
+          />
+          <p>Nike Winter Jacket in Blue</p>
+          <span class="prise_new">$60,00</span>
+          <form action="#">
+            <button type="submit">Add to Cart</button>
+          </form>
+          <div class="adidas_black">
+            <img
+              width="100"
+              src="img/adidas_black_trainer.jpg"
+              alt="adidas black trainers"
+            />
+            <p>Adidas Black Trainers</p>
+            <span class="prise_new">$60,00</span>
+            <form action="#">
+              <button type="submit">Add to Cart</button>
+            </form>
+          </div>
+          <div class="reebok_red_duster">
+            <img
+              width="100"
+              src="img/reebok_red_duster.jpg"
+              alt="reebok red duster"
+            />
+            <p>Reebok Red Duster</p>
+            <span class="prise_new">$60,00</span>
+            <form action="#">
+              <button type="submit">Add to Cart</button>
+            </form>
+          </div>
+          <div class="asics_jordan 2000">
+            <img
+              width="100"
+              src="img/asics_jordan_2000.jpg"
+              alt="asics jordan 2000"
+            />
+            <p>Asics Jordan 2000</p>
+            <span class="prise_new">$60,00</span>
+            <form action="#">
+              <button type="submit">Add to Cart</button>
+            </form>
+          </div>
+          <div class="puma_textile_running_shoes">
+            <img
+              width="100"
+              src="img/puma_textile_running_bhoes.jpg"
+              alt="puma textile running shoes"
+            />
+            <p>Puma Textile Running Shoes</p>
+            <span class="prise_new">$60,00</span>
+            <form action="#">
+              <button type="submit">Add to Cart</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!--Mamedov Oleksandr div finish-->
+
+      <!--Maria Maksymyak starts-->
+      <div class="brands_wrapper">
+        <div class="brands">
+          <div class="brands_sport">
+            <p class="brands_sport_title">100% ORIGINAL BRANDS</p>
+          </div>
+          <h2 class="brands_sport_subtitle">KEEP FIT WITH COMFORT.</h2>
+          <div class="brands_list">
+            <ul class="icon_brands_list">
+              <li class="icon_brands_list">
+                <img src="img/icon/icon_brands.svg" alt="icon" width="15" /> Top
+                brands
               </li>
-              <li class="instagram">
-                <a href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30"
-                    class="si633b489f671e76000d9f254ec7719488fcba4b97ace44a4d829a68a71664829608023 svgIcon_1J7 outlined_2wD darkTheme_3jZ"
-                    viewBox="0 0 32 32">
-                    <g>
-                      <path class="outer_bDW" fill="#222323"
-                        d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
-                      </path>
-                    </g>
-                    <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"
-                      fill="#f40106"></path>
-                    <g>
-                      <path class="logo_2gS" fill="#f40106"
-                        d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
-                      </path>
-                    </g>
-                  </svg></a>
+              <li class="icon_brands_list">
+                <img src="img/icon/icon_brands.svg" alt="icon" width="15" />
+                Delivery with DHL
               </li>
-              <li class="youtube">
-                <a href="https://www.youtube.com/"><svg xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30"
-                    class="si633b489f671e76000d9f254ec7719488fcba4b97ace44a4d829a68a71664829608023 svgIcon_1J7 outlined_2wD darkTheme_3jZ"
-                    viewBox="0 0 32 32">
-                    <path class="outer_bDW" fill="#222323"
-                      d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
-                    </path>
-                    <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"
-                      fill="#f40106"></path>
-                    <path class="logo_2gS" fill="#f40106"
-                      d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
-                    </path>
-                  </svg></a>
+              <li class="icon_brands_list">
+                <img src="img/icon/icon_brands.svg" alt="icon" width="15" />
+                Easy returns
               </li>
             </ul>
           </div>
-        </nav>
+          <div class="brands_sport_text">
+            <p class="brands_sport_text">
+              Workout offers fitness clothing and footwear for those who want to
+              change their lives and bodies for better. We work only with the
+              best sport brands to ensure that your training is really effective
+              and comfortable.
+            </p>
+          </div>
+          <a href="#about" class="brands_sport_linkbutton"
+            >Learn more <span> → </span></a
+          >
+        </div>
       </div>
-    </section>
-    <!--end Daria Meush-->
+      <!--end Maria Maksymyak finish-->
 
-    <!-- Oleksandra Mrykhina starts 5-th section (finess collection) -->
-    <section class="fitness-collection">
-      <div class="fitness-container">
-        <p class="heading-subtitle">TRENDING</p>
-        <h2 class="heading-section-title">NEW<span class="heading-title-collection">FITNESS</span>COLLECTION</h2>
-        <video src="videos/activewear-commercial-for-moralathletica.mp4" id="video" class="screen" width="370"
-          height="280" poster="img/poster.png">
-        </video>
-        <div class="controls">
-          <button class="btn" id="play">
-            <i class="fa fa-play fa-2x"></i>
-          </button>
-          <button class="btn" id="stop">
-            <i class="fa fa-stop fa-2x"></i>
-          </button>
-          <input type="range" id="progress" class="progress" min="0" max="100" step="0.1" value="0">
-          <span class="timestamp" id="timestamp">00:00</span>
-        </div>
-        <div class="shopping__link-btn">
-          <a href="#collection">Shop now <span class="shopping__link-arrow"> → </span></a>
-        </div>
-      </div>
-    </section>
-    <!-- Oleksandra Mrykhina ends 5-th section (finess collection) -->
-
-    <!--start Bohdan Lutsiv-->
-    <section class="mid-season_sale" id="sale">
-      <div class="line-up-title">
-        <div class="sale-head">
-          <h2 class="sale-head-h2">mid-season sale</h2>
-          <span class="red-point-sale">.</span>
-        </div>
-        <div class="sale-line-center"></div>
-        <div>
-          <p class="sale-center-text">
-            Shop clothes and trainers that are chosen by thousands of our
-            clients. Click on the image to see the product details and click Add
-            to Cart to make the purchase. We are committed to give you the best
-            buying experience!
-          </p>
-        </div>
-      </div>
-      <!-- <div class="header-nav__menu-item clock"></div> -->
-      <div class="mid_season_sale">
-        <div class="sale-product-bay" id="trainers-adidas">
-          <div class="text-product">
-            <img class="image-product-sale" src="img/mid_season_sale/trainers-adidas.jpg" alt="trainers-adidas">
-            <a href="product.html">Adidas Cloudfoam Trainers</a>
-          </div>
-          <p class="money_sale">$60,00</p>
-          <button class="sale-bottom">Add to Cart</button>
-        </div>
-        <div class="sale-product-bay" id="rebook-shorts">
-          <div class="text-product">
-            <img class="image-product-sale" src="img/mid_season_sale/rebook-shorts.jpg" alt="rebook-shorts">
-            <a href="product.html">Reebok Workout Shorts</a>
-          </div>
-          <p class="money_sale">$25,00</p>
-          <button class="sale-bottom">Add to Cart</button>
-        </div>
-        <div class="sale-product-bay" id="puma-shoes">
-          <div class="text-product">
-            <img class="image-product-sale" src="img/mid_season_sale/puma-shoes.jpg" alt="puma-shoes">
-            <a href="product.html">Puma Fitness Shoes in Grey</a>
-          </div>
-          <p class="money_sale">$60,00</p>
-          <button class="sale-bottom">Add to Cart</button>
-        </div>
-        <div class="sale-product-bay" id="puma-tank_top">
-          <div class="text-product">
-            <img class="image-product-sale" src="img/mid_season_sale/puma-tank_top.jpg" alt="puma-tank_top">
-            <a href="product.html">Puma Essential Tank Top</a>
-          </div>
-          <p class="money_sale">$43,00</p>
-          <button class="sale-bottom">Add to Cart</button>
-        </div>
-        <div class="sale-product-bay" id="nike-t-shirt">
-          <div class="text-product">
-            <img class="image-product-sale" src="img/mid_season_sale/nike-t-shirt.jpg" alt="nike-T-shirt">
-            <a href="product.html">Nike Classic Polo T-Shirt</a>
-          </div>
-          <p class="money_sale">$23,00</p>
-          <button class="sale-bottom">Add to Cart</button>
-        </div>
-      </div>
-    </section>
-    <!--end Bohdan Lutsiv-->
-
-    <!-- Max Pal start -->
-    <section class="discount" id="discount">
-      <div class="discount-module">
-        <h3 class="discount-title">
-          sale of the month
-        </h3>
-        <p class="discount__main-text">
-          get your discount<span class="discount__dot-ui">.</span>
-        </p>
-        <div class="discount-button">
-          <a href="#sale" class="discount-button__link">
-            Shop now →
-          </a>
-        </div>
-      </div>
-    </section>
-    <div class="discount-carousel">
-      <div id="carousel-wrapper">
-        <div id="menu">
-          <div id="current-option">
-            <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
-            <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
-          </div>
-          <button id="previous-option"></button>
-          <button id="next-option"></button>
-        </div>
-        <div id="image"></div>
-      </div>
-    </div>
-    <!-- Max Pal end section discount -->
-
-    <!-- Iryna Litvinova starts section collection -->
-    <section class="collection" id="collection">
-      <div class="collection-container">
-        <h2 class="collection-title">
-          Main Collection<span class="collection-title-point">.</span>
-        </h2>
-        <div class="collection-divider-line"></div>
-        <p class="collection-text">
-          Shop our main fitness collection for men and women represented by
-          the famous brands.
-        </p>
-        <div class="collection-tab-box">
-          <div class="collection-tab">
-            <button class="collection-tablinks collection-tablinks-women collection-tablinks--active" id="defaultOpen">
-              Women
-            </button>
-            <button class="collection-tablinks collection-tablinks-men">Men</button>
-            <button class="collection-tablinks collection-tablinks-shoes">Shoes</button>
-          </div>
-          <div id="women" class="collection-tabcontent">
-            <div class="collection-card-box">
-              <div class="collection-card">
-                <a class="collection-card-link" href="#">
-                  <img class="collection-card-img" src="img/collection/puma-sports-bra.jpg" alt="Puma Sports Bra">
-                  <h3 class="collection-card-title">Puma Sports Bra</h3>
-                </a>
-                <p class="collection-card-price">$12,00</p>
-                <button class="collection-card-btn">Add to Cart</button>
-              </div>
-              <div class="collection-card">
-                <a class="collection-card-link" href="#">
-                  <img class="collection-card-img" src="img/collection/reebok-longsleeve-top.jpg"
-                    alt="Reebok Long Sleeve Top">
-                  <h3 class="collection-card-title">
-                    Reebok Long Sleeve Top
-                  </h3>
-                </a>
-                <p class="collection-card-price">$18,00</p>
-                <button class="collection-card-btn">Add to Cart</button>
-              </div>
-              <div class="collection-card">
-                <a class="collection-card-link" href="#">
-                  <img class="collection-card-img" src="img/collection/quicksilver-workout-top.jpg"
-                    alt="Quicksilver Workout Top">
-                  <h3 class="collection-card-title">
-                    Quicksilver Workout Top
-                  </h3>
-                </a>
-                <p class="collection-card-price">$12,00</p>
-                <button class="collection-card-btn">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <div id="men" class="collection-tabcontent">
-            <div class="collection-card-box">
-              <div class="collection-card">
-                <a class="collection-card-link" href="#">
-                  <img class="collection-card-img" src="img/collection/adidas-compression-tee.jpg"
-                    alt="Adidas Compression Tee">
-                  <h3 class="collection-card-title">
-                    Adidas Compression Tee
-                  </h3>
-                </a>
-                <p class="collection-card-price">$33,00</p>
-                <button class="collection-card-btn">Add to Cart</button>
-              </div>
-              <div class="collection-card">
-                <a class="collection-card-link" href="#">
-                  <img class="collection-card-img" src="img/collection/reebok-fitness-jacket.jpg"
-                    alt="Reebok Fitness Jacket">
-                  <h3 class="collection-card-title">Reebok Fitness Jacket</h3>
-                </a>
-                <p class="collection-card-price">$52,00</p>
-                <button class="collection-card-btn">Add to Cart</button>
-              </div>
-              <div class="collection-card">
-                <a class="collection-card-link" href="#">
-                  <img class="collection-card-img" src="img/collection/quicksilver-tech-tshirt.jpg"
-                    alt="Quicksilver Tech T-Shirt">
-                  <h3 class="collection-card-title">
-                    Quicksilver Tech T-Shirt
-                  </h3>
-                </a>
-                <p class="collection-card-price">$21,00</p>
-                <button class="collection-card-btn">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <div id="shoes" class="collection-tabcontent">
-            <div class="collection-card-box">
-              <div class="collection-card">
-                <a class="collection-card-link" href="#">
-                  <img class="collection-card-img" src="img/collection/nike-amanda-running-shoes.jpg"
-                    alt="Nike Amanda Running Shoes">
-                  <h3 class="collection-card-title">
-                    Nike Amanda Running Shoes
-                  </h3>
-                </a>
-                <p class="collection-card-price">$120,00</p>
-                <button class="collection-card-btn">Add to Cart</button>
-              </div>
-              <div class="collection-card">
-                <a class="collection-card-link" href="#">
-                  <img class="collection-card-img" src="img/collection/puma-basket-shoes.jpg" alt="Puma Basket Shoes">
-                  <h3 class="collection-card-title">Puma Basket Shoes</h3>
-                </a>
-                <p class="collection-card-price">$140,00</p>
-                <button class="collection-card-btn">Add to Cart</button>
-              </div>
-              <div class="collection-card">
-                <a class="collection-card-link" href="#">
-                  <img class="collection-card-img" src="img/collection/adidas-campus-shoes.jpg" alt="Adidas Campus">
-                  <h3 class="collection-card-title">Adidas Campus</h3>
-                </a>
-                <p class="collection-card-price">$130,00</p>
-                <button class="collection-card-btn">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Iryna Litvinova ends section collection -->
-
-    <!--Daria Meush starts -->
-    <section class="deal-of-the-month">
-      <!--block text-->
-      <div class="deal__text">
-        <h2 class="basic__text">
-          DEAL OF THE MONTH
-          <span class="deal__point">.</span>
-        </h2>
-        <p class="condition__text">
-          <span class="deal__condition__text"> PUMA SPORTS BRA </span>
-          <span class="price__text"> $50 </span>
-          <span class="price__text__crossed-out">
-            <s>$70</s>
-          </span>
-        </p>
-        <p class="description__deal">
-          Start your fitness story right away with this comfortable bra and
-          get advantage of our discount.
-        </p>
-        <nav class="link_new-arrivals">
-          <div class="link_details">
-            <a href="#new__arrivals">More Details</a>
-            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-              version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"
-              xml:space="preserve" width="25" height="100%">
-              <g fill="currentColor">
-                <polygon
-                  points="76.389,53.202 76.389,63.601 89.991,50.003 76.39,36.401 76.389,46.8 10.011,46.8 10.011,53.201  "
-                  fill="currentColor"></polygon>
-              </g>
-            </svg>
-          </div>
-        </nav>
-        <!--block readout-->
-        <div id="countdown" class="deal_of_the_month_countdown countdown">
-          <div class="days">
-            <h2 id="days">00</h2>
-            <small>days</small>
-          </div>
-          <div class="hours">
-            <h2 id="hours">00</h2>
-            <small>hours</small>
-          </div>
-          <div class="minutes">
-            <h2 id="minutes">00</h2>
-            <small>minutes</small>
-          </div>
-          <div class="seconds">
-            <h2 id="seconds">00</h2>
-            <small>seconds</small>
-          </div>
-        </div>
-      </div>
-      <!--image-->
-      <div class="deal-of-the-month__image">
-      </div>
-    </section>
-    <!--end Daria Meush-->
-
-    <!--Mamedov Oleksandr div starts-->
-    <section class="colection">
-      <div class="collection-title">
-        <h2 class="">New arrivals<span>.</span></h2>
-      </div>
-      <div class="divider-line" style="height: 2px; width: 100px; background-color: #e0e0e0"></div>
-      <p class="colection text">
-        Be the first to buy new items by leading brands
-      </p>
-      <form action="#">
-        <button type="submit">More Products</button>
-      </form>
-      <div class="categories__carousel">
-        <div class="section__content--collection"></div>
-        <a href="catalog-shop"></a>
-        <div class="nike_winter"></div>
-        <img width="100" src="img/nike_winter-_jacket_in_blue.jpg" alt="nike inter acket in blue">
-        <p>Nike Winter Jacket in Blue</p>
-        <span class="prise_new">$60,00</span>
-        <form action="#">
-          <button type="submit">Add to Cart</button>
-        </form>
-        <div class="adidas_black">
-          <img width="100" src="img/adidas_black_trainer.jpg" alt="adidas black trainers">
-          <p>Adidas Black Trainers</p>
-          <span class="prise_new">$60,00</span>
-          <form action="#">
-            <button type="submit">Add to Cart</button>
-          </form>
-        </div>
-        <div class="reebok_red_duster">
-          <img width="100" src="img/reebok_red_duster.jpg" alt="reebok red duster">
-          <p>Reebok Red Duster</p>
-          <span class="prise_new">$60,00</span>
-          <form action="#">
-            <button type="submit">Add to Cart</button>
-          </form>
-        </div>
-        <div class="asics_jordan 2000">
-          <img width="100" src="img/asics_jordan_2000.jpg" alt="asics jordan 2000">
-          <p>Asics Jordan 2000</p>
-          <span class="prise_new">$60,00</span>
-          <form action="#">
-            <button type="submit">Add to Cart</button>
-          </form>
-        </div>
-        <div class="puma_textile_running_shoes">
-          <img width="100" src="img/puma_textile_running_bhoes.jpg" alt="puma textile running shoes">
-          <p>Puma Textile Running Shoes</p>
-          <span class="prise_new">$60,00</span>
-          <form action="#">
-            <button type="submit">Add to Cart</button>
-          </form>
-        </div>
-      </div>
-    </section>
-    <!--Mamedov Oleksandr div finish-->
-
-    <!--Maria Maksymyak starts-->
-    <div class="brands_wrapper">
-      <div class="brands">
-        <div class="brands_sport">
-          <p class="brands_sport_title">
-            100% ORIGINAL BRANDS
-          </p>
-        </div>
-        <h2 class="brands_sport_subtitle">
-          KEEP FIT WITH COMFORT.
-        </h2>
-        <div class="brands_list">
-          <ul class="icon_brands_list">
-            <li class="icon_brands_list">
-              <img src="img/icon/icon_brands.svg" alt="icon" width=15> Top brands
-            </li>
-            <li class="icon_brands_list">
-              <img src="img/icon/icon_brands.svg" alt="icon" width=15> Delivery with DHL
-            </li>
-            <li class="icon_brands_list">
-              <img src="img/icon/icon_brands.svg" alt="icon" width=15> Easy returns
-            </li>
-          </ul>
-        </div>
-        <div class="brands_sport_text">
-          <p class="brands_sport_text">
-            Workout offers fitness clothing and footwear for those who want to change their lives and bodies for better.
-            We work only with the best sport brands to ensure that your training is really effective and comfortable.
-          </p>
-        </div>
-        <a href="#about" class="brands_sport_linkbutton">Learn more <span> → </span></a>
-      </div>
-    </div>
-    <!--end Maria Maksymyak finish-->
-
-    <!--Valentyna Vilchak starts Blog-->
- <div class="blog">
-      <div class="blog-container">
-    <div class="brands-carousel">
+      <!--Valentyna Vilchak starts Blog-->
+      <div class="blog">
+        <div class="blog-container">
+          <div class="brands-carousel">
             <button class="brands-carousel-prev">
-              <svg class="arrow-svg_1j4" viewBox="0 0 30 30"><defs><path d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z" id="a-1664826136290"></path></defs><use fill-rule="nonzero" opacity="0.5" xlink:href="#a-1664826136290"></use></svg></button>            <div class="brands-carousel-container">
-            </div>
+              <svg class="arrow-svg_1j4" viewBox="0 0 30 30">
+                <defs>
+                  <path
+                    d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                    id="a-1664826136290"
+                  ></path>
+                </defs>
+                <use
+                  fill-rule="nonzero"
+                  opacity="0.5"
+                  xlink:href="#a-1664826136290"
+                ></use>
+              </svg>
+            </button>
+            <div class="brands-carousel-container"></div>
             <button class="brands-carousel-next">
-              <svg class="arrow-svg_1j4" viewBox="0 0 30 30"><defs><path d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z" id="a-1664826136291"></path></defs><use fill-rule="nonzero" opacity="0.5" xlink:href="#a-1664826136290"></use></svg>            </button>
+              <svg class="arrow-svg_1j4" viewBox="0 0 30 30">
+                <defs>
+                  <path
+                    d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                    id="a-1664826136291"
+                  ></path>
+                </defs>
+                <use
+                  fill-rule="nonzero"
+                  opacity="0.5"
+                  xlink:href="#a-1664826136290"
+                ></use>
+              </svg>
+            </button>
+          </div>
+          <div class="blog__title-subtitle" id="blog">
+            <h2 class="blog-title">Blog <span class="red-dot">.</span></h2>
+            <div class="divider-component"></div>
+            <p class="blog-subtitle">
+              Read the latest articles from our experts.
+            </p>
+          </div>
+          <div class="blog-content">
+            <p>No blog posts yet...</p>
+          </div>
         </div>
-      <div class="blog__title-subtitle" id="blog">
-       
-        <h2 class="blog-title">Blog <span class="red-dot">.</span></h2>
-        <div class="divider-component"></div>
-        <p class="blog-subtitle">Read the latest articles from our experts.</p>
       </div>
-      <div class="blog-content">
-        <p>No blog posts yet...</p>
-      </div>
-        </div>
-      </div>
-      </div>
-    <!--Valentyna Vilchak ends Blog-->
-  </main>
 
-  <!-- Start Max Pal -->
-  <div class="contacts" id="contact-us">
-    <!-- Maps integration start -->
-    <div class="maps">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48375.575191432086!2d-74.0270549534192!3d40.729606584239285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598f3597444d%3A0x235a85560800e250!2sGYM%20NYC!5e0!3m2!1sru!2sua!4v1665045158337!5m2!1sru!2sua"
-        width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-      <!-- Contacts integration -->
-      <div class="maps__contancts">
-        <aside class="maps__contacts-info">
-          <h2>CONTACTS</h2>
-          <p class="street">325 University Ave Newmark, NJ 07102</p>
-          <address>
-            <a href="mailto:workout@gmail.com">workout@gmail.com</a><br>
-            <a href="tel:+12345678900">+1 (234) 567 89 00</a>
-          </address>
-        </aside>
+      <!--Valentyna Vilchak ends Blog-->
+    </main>
+
+    <!-- Start Max Pal -->
+    <div class="contacts" id="contact-us">
+      <!-- Maps integration start -->
+      <div class="maps">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48375.575191432086!2d-74.0270549534192!3d40.729606584239285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598f3597444d%3A0x235a85560800e250!2sGYM%20NYC!5e0!3m2!1sru!2sua!4v1665045158337!5m2!1sru!2sua"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+        <!-- Contacts integration -->
+        <div class="maps__contancts">
+          <aside class="maps__contacts-info">
+            <h2>CONTACTS</h2>
+            <p class="street">325 University Ave Newmark, NJ 07102</p>
+            <address>
+              <a href="mailto:workout@gmail.com">workout@gmail.com</a><br />
+              <a href="tel:+12345678900">+1 (234) 567 89 00</a>
+            </address>
+          </aside>
+        </div>
+        <!-- End of Contacts integration -->
       </div>
-      <!-- End of Contacts integration -->
+      <!-- Maps integtation finish -->
     </div>
-    <!-- Maps integtation finish -->
-  </div>
-  <footer>
-    <section class="footer">
-      <div class="infozone">
-        <a href="#header"><img class="footer__logo" src="./img/icon/logo-icon.svg" alt="Workout Logo"></a>
-        <p class="brand__description">
-          Workout offers fitness clothing and footwear for those who want to
-          change their lives and bodies for better.
-        </p>
-      </div>
-      <div class="footer-navigation">
-        <h4 class="footer__navigation-heading">NAVIGATION</h4>
-        <span class="footer-line">_______</span>
-        <nav class="footer__nav">
-          <a href="#about" class="footer__nav-item">About us.</a>
-          <a href="#sale" class="footer__nav-item">Sale.</a>
-          <a href="#collection" class="footer__nav-item">Collections.</a>
-          <a href="#blog" class="footer__nav-item">Blog.</a>
-          <a href="#contact-us" class="footer__nav-item">Contact us.</a>
-        </nav>
-      </div>
-      <div class="footer-shop">
-        <h4 class="footer-shop__heading">SHOP</h4>
-        <span class="footer-line">_______</span>
-        <nav class="footer__shop-navigation">
-          <a href="#collection" class="footer-shop__item"> Women.</a>
-          <a href="#collection" class="footer-shop__item">Men.</a>
-          <a href="#collection" class="footer-shop__item">Shoes.</a>
-          <a href="#sale" class="footer-shop__item">Sale</a>
-        </nav>
-      </div>
-      <div class="follow-nav">
-        <h4 class="footer__follow-navigation">FOLLOW</h4>
-        <span class="footer-line">_______</span>
-        <nav class="footer__socialmedia-follow">
-          <a href="https://www.facebook.com/" class="footer__follow-item"><img src="./img/icon/facebook.png"
-              alt="facebook icon" class="media-icon"></a>
-          <a href="https://www.instagram.com/" class="footer__follow-instagram"><img src="./img/icon/instagram.png"
-              alt="instagram icon" class=" media-icon"></a>
-          <a href="https://www.youtube.com" class="footer__follow-item"><img src="./img/icon/youtube.png"
-              alt="youtube icon" class="media-icon"></a>
-        </nav>
-      </div>
-      <div class="copyright">
-        <p class="created-by">© Created by</p>
-        <p class="all__rights-reserved">All rights Reserved</p>
-      </div>
-    </section>
-  </footer>
-  <script src="js/countdown.js"></script>
-  <script src="js/burger-menu.js"></script>
-  <script src="js/header-clock.js"></script>
-  <script src="js/collection-tab.js"></script>
-  <script src="js/blog.js"></script>
-  <script src="js/sale-clock.js"></script>
-  <script src="js/video-script.js"></script>
-  <script src="js/countdown-categories.js"></script>
-  <!-- <script src="js/discount.js"></script> -->
-</body>
+    <footer>
+      <section class="footer">
+        <div class="infozone">
+          <a href="#header"
+            ><img
+              class="footer__logo"
+              src="./img/icon/logo-icon.svg"
+              alt="Workout Logo"
+          /></a>
+          <p class="brand__description">
+            Workout offers fitness clothing and footwear for those who want to
+            change their lives and bodies for better.
+          </p>
+        </div>
+        <div class="footer-navigation">
+          <h4 class="footer__navigation-heading">NAVIGATION</h4>
+          <span class="footer-line">_______</span>
+          <nav class="footer__nav">
+            <a href="#about" class="footer__nav-item">About us.</a>
+            <a href="#sale" class="footer__nav-item">Sale.</a>
+            <a href="#collection" class="footer__nav-item">Collections.</a>
+            <a href="#blog" class="footer__nav-item">Blog.</a>
+            <a href="#contact-us" class="footer__nav-item">Contact us.</a>
+          </nav>
+        </div>
+        <div class="footer-shop">
+          <h4 class="footer-shop__heading">SHOP</h4>
+          <span class="footer-line">_______</span>
+          <nav class="footer__shop-navigation">
+            <a href="#collection" class="footer-shop__item"> Women.</a>
+            <a href="#collection" class="footer-shop__item">Men.</a>
+            <a href="#collection" class="footer-shop__item">Shoes.</a>
+            <a href="#sale" class="footer-shop__item">Sale</a>
+          </nav>
+        </div>
+        <div class="follow-nav">
+          <h4 class="footer__follow-navigation">FOLLOW</h4>
+          <span class="footer-line">_______</span>
+          <nav class="footer__socialmedia-follow">
+            <a href="https://www.facebook.com/" class="footer__follow-item"
+              ><img
+                src="./img/icon/facebook.png"
+                alt="facebook icon"
+                class="media-icon"
+            /></a>
+            <a
+              href="https://www.instagram.com/"
+              class="footer__follow-instagram"
+              ><img
+                src="./img/icon/instagram.png"
+                alt="instagram icon"
+                class="media-icon"
+            /></a>
+            <a href="https://www.youtube.com" class="footer__follow-item"
+              ><img
+                src="./img/icon/youtube.png"
+                alt="youtube icon"
+                class="media-icon"
+            /></a>
+          </nav>
+        </div>
+        <div class="copyright">
+          <p class="created-by">© Created by</p>
+          <p class="all__rights-reserved">All rights Reserved</p>
+        </div>
+      </section>
+    </footer>
+    <script src="js/countdown.js"></script>
+    <script src="js/burger-menu.js"></script>
+    <script src="js/header-clock.js"></script>
+    <script src="js/collection-tab.js"></script>
+    <script src="js/blog.js"></script>
+    <script src="js/sale-clock.js"></script>
+    <script src="js/video-script.js"></script>
+    <script src="js/countdown-categories.js"></script>
+    <!-- <script src="js/discount.js"></script> -->
+  </body>
 </html>
