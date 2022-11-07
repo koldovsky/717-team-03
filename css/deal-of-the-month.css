@@ -70,8 +70,9 @@
 }
 
 #days {
-    padding-left: 5px ;
+    padding-left: 5px;
 }
+
 .days {
     margin: 50px 10px 0 10px;
     border: 0.5px solid;
@@ -92,6 +93,7 @@
 #hours {
     padding-left: 5px;
 }
+
 .hours {
     margin: 50px 10px 0 10px;
     border: 0.5px solid;
@@ -103,6 +105,7 @@
     font-size: 20px;
     line-height: 1;
 }
+
 .hours small {
     padding-left: 2px;
 }
@@ -117,6 +120,7 @@ small {
 #minutes {
     padding-left: 5px;
 }
+
 .minutes {
     margin: 50px 10px 0 10px;
     border: 0.5px solid;
@@ -133,6 +137,7 @@ small {
 #seconds {
     padding-left: 5px;
 }
+
 .seconds {
     margin: 50px 10px 0 10px;
     border: 0.5px solid;
@@ -149,6 +154,7 @@ small {
     margin-left: 170px;
     display: flex;
 }
+
 @media (max-width:1346px) {
     .deal-of-the-month {
         display: flex;
@@ -199,10 +205,12 @@ small {
         position: absolute;
     }
 }
+
 @media (max-width:1050px) {
     .description__deal {
         padding-right: 40px;
     }
+
     .days {
         margin: 50px 10px 0 20px;
         border: 0.5px solid;
@@ -215,6 +223,7 @@ small {
         line-height: 1;
         justify-items: center;
     }
+
     .hours {
         margin: 50px 10px 0 0;
         border: 0.5px solid;
@@ -227,6 +236,7 @@ small {
         line-height: 1;
         justify-items: center;
     }
+
     .minutes {
         margin: 50px 10px 0 0;
         border: 0.5px solid;
@@ -239,6 +249,7 @@ small {
         line-height: 1;
         justify-items: center;
     }
+
     .seconds {
         margin: 50px 10px 0 0;
         border: 0.5px solid;
@@ -251,6 +262,7 @@ small {
         line-height: 1;
         justify-items: center;
     }
+
     small {
         font-size: 15px;
     }
@@ -262,6 +274,7 @@ small {
         width: 100%;
         height: 1382px;
     }
+
     .deal-of-the-month__image {
         position: relative;
         top: 0;
@@ -279,6 +292,7 @@ small {
         width: 100%;
         height: 1382px;
     }
+
     .deal-of-the-month__image {
         position: relative;
         top: 0;
@@ -311,11 +325,13 @@ small {
         font-size: 50px;
         padding: 120px 0 0 30px;
     }
+
     .condition__text {
         width: 320px;
         font-size: 15px;
         padding: 20px 0 0 30px;
     }
+
     .description__deal {
         width: 320px;
         font-size: 15px;
@@ -340,6 +356,7 @@ small {
         line-height: 1;
         justify-items: center;
     }
+
     .hours {
         margin: 50px 10px 0 0;
         border: 0.5px solid;
@@ -352,6 +369,7 @@ small {
         line-height: 1;
         justify-items: center;
     }
+
     .minutes {
         margin: 50px 10px 0 0;
         border: 0.5px solid;
@@ -364,6 +382,7 @@ small {
         line-height: 1;
         justify-items: center;
     }
+
     .seconds {
         margin: 50px 10px 0 0;
         border: 0.5px solid;
@@ -376,9 +395,8 @@ small {
         line-height: 1;
         justify-items: center;
     }
+
     small {
         font-size: 9px;
     }
 }
-
-
