@@ -1,5 +1,4 @@
 (function () {
-    // const carouselCards = [...document.querySelectorAll(".arrivals-card")];
     const carouselArrivalsCards = [
       '<div class="arrivals-card" data-active><a class="arrivals-card-link" href="#"><img class="arrivals-card-img" src="img/arrivals/adidas_black_trainer.jpg" alt="Adidas black"><p class="arrivals-card-title">Adidas Black Trainers</p></a><p class="arrivals-card-price">$60,00</p><button class="arrivals-card-btn" type="submit">Add to Cart</button></div>',
       '<div class="arrivals-card" data-active><a class="arrivals-card-link" href="#"><img class="arrivals-card-img" src="img/arrivals/asics_jordan_2000.jpg" alt="Asics Jordan"><p class="arrivals-card-title">Asics Jordan 2000</p></a><p class="arrivals-card-price">$200,00</p><button class="arrivals-card-btn" type="submit">Add to Cart</button></div>',
