@@ -1,0 +1,105 @@
+.contacts {
+  position: relative;
+  cursor: pointer;
+}
+
+.contacts-maps {
+  filter: grayscale(100%);
+  background-color: var(--alternate-p-text-color);
+  pointer-events: none;
+}
+
+.contacts-info {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  color: var(--paragraph-text-color);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: absolute;
+  top: 120px;
+  right: 100px;
+  z-index: 2000;
+  background-color: var(--alternate-p-text-color);
+}
+
+.contacts-title {
+  font-family: 'Bebas Neue', cursive;
+  padding-bottom: 15px;
+  font-size: 52px;
+  line-height: 59px;
+  font-weight: 400;
+  color: var(--main-text-color);
+  text-align: center;
+}
+
+.contacts-title-point {
+  color: var(--alternate-text-color);
+  line-height: 0;
+}
+
+.contacts-address {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.contacts-phone {
+  display: block;
+  margin-top: 24px;
+  transition: 0, 5s;
+  cursor: pointer;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  color: var(--paragraph-text-color);
+  margin-bottom: 20px;
+}
+
+.contacts-phone:hover {
+  text-decoration: underline;
+}
+
+.contacts-mail {
+  display: block;
+  padding: 15px;
+  transition: 0, 5s;
+  cursor: pointer;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  color: var(--paragraph-text-color);
+}
+
+.contacts-mail:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+
+  .contacts-info {
+    right: 10%;
+    left: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .contacts-title {
+    font-size: 45px;
+    line-height: 51px;
+  }
+}
+@media (max-width: 767px) {
+  .contacts-title {
+    font-size: 38px;
+    line-height: 43px;
+  }
+}
