@@ -61,18 +61,13 @@
     width: 650px;
 }
 
-.link_details {
+.link_new-arrivals {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     padding-left: 180px;
     padding-top: 30px;
     width: 650px;
 }
-
-.arrow {
-    padding-top: 10px;
-}
-
 
 
 .days {
@@ -137,39 +132,86 @@ small {
     display: flex;
 }
 
+@media (max-width:320px) {
+    .deal-of-the-month__image {
+        width: 300px;
+    }
+
+    .deal-of-the-month {
+        display: table;
+        width: 100%;
+        height: 1590px;
+    }
+}
+
 @media (max-width:736px) {
     .deal-of-the-month {
         display: block;
         width: 100%;
+        height: 1590px;
     }
 
     .deal-of-the-month__image {
-        position: relative;
         top: 0;
         left: 0;
         margin-left: 0;
         margin-top: 30px;
-        width: 100%;
-    }
-
-    .information__about-us {
-        padding: 0 10px 0 10px;
         width: 100%;
     }
 }
 
-@media (max-width:1050px) {
+@media (max-width:900px) {
+
+}
+
+
+@media (max-width:1346px) {
     .deal-of-the-month {
-        display: block;
-        width: 100%;
+        display: flex;
+        height: 1000px;
+    }
+
+    .basic__text {
+        width: 400px;
+        font-size: 120px;
+        padding: 120px 0 0 60px;
+    }
+
+    .condition__text {
+        font-size: 20px;
+        width: 400px;
+        padding: 20px 0 0 60px;
+    }
+
+    .description__deal {
+        font-size: 20px;
+        width: 500px;
+        padding: 30px 0 0 60px;
+    }
+
+    .link_new-arrivals {
+        font-size: 15px;
+        width: 400px;
+        padding: 40px 0 0 60px;
+    }
+
+    .link_details {
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .deal_of_the_month_countdown {
+        width: 500px;
+        margin-left: 40px;
     }
 
     .deal-of-the-month__image {
-        position: relative;
-        top: 0;
-        left: 0;
-        margin-left: 0;
-        margin-top: 30px;
-        width: 100%;
+        height: 1000px;
+        background-image: url(../img/background-timer.jpg);
+        background-color: transparent;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto;
+        position: absolute;
     }
 }

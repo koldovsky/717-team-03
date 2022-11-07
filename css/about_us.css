@@ -167,4 +167,7 @@
         width: 300px;
         font-size: 6px;
     }
+    .about-us__image {
+        width: 320px;
+    }
 }
