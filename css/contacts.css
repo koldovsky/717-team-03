@@ -20,8 +20,8 @@
   font-weight: 400;
   color: var(--paragraph-text-color);
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-left: 100px;
   padding-right: 100px;
   position: absolute;
@@ -33,7 +33,7 @@
 
 .contacts-title {
   font-family: 'Bebas Neue', cursive;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   font-size: 52px;
   line-height: 59px;
   font-weight: 400;
@@ -51,12 +51,11 @@
   font-size: 16px;
   line-height: 27px;
   font-weight: 400;
-  margin-bottom: 20px;
 }
 
 .contacts-phone {
   display: block;
-  margin-top: 24px;
+  margin-top: 10px;
   transition: 0, 5s;
   cursor: pointer;
   font-family: 'PT Sans', sans-serif;
@@ -64,7 +63,6 @@
   line-height: 27px;
   font-weight: 400;
   color: var(--paragraph-text-color);
-  margin-bottom: 20px;
 }
 
 .contacts-phone:hover {
@@ -73,7 +71,7 @@
 
 .contacts-mail {
   display: block;
-  padding: 15px;
+  padding: 10px;
   transition: 0, 5s;
   cursor: pointer;
   font-family: 'PT Sans', sans-serif;
@@ -92,8 +90,9 @@
   .contacts-info {
     right: 10%;
     left: 10%;
-    padding-left: 50px;
-    padding-right: 50px;
+    top: 310px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .contacts-title {

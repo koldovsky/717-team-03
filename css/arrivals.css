@@ -2,26 +2,8 @@
   margin-top: 120px;
   margin-bottom: 120px;
 }
-.arrivals-container {
-  /* max-width: 1200px; */
-  padding: 0 15px;
-  margin-right: auto;
-   margin-left: auto;
-  display: flex;
-}
-.arrivals-divider-line {
-  height: 2px;
-  width: 30%;
-  background-color: var(--paragraph-text-color-accent-light);
-}
-
-.arrivals {
-  margin-top: 120px;
-  margin-bottom: 120px;
-}
 
 .arrivals-container {
-  /* max-width: 1200px; */
   padding: 0 15px;
   margin-right: auto;
   margin-left: auto;
