@@ -12,7 +12,6 @@
   text-align: center;
 }
 
-
 .sale-head-h2 {
   font-size: 52px;
   line-height: 59px;
@@ -30,7 +29,6 @@
   background: #e0e0e0;
   max-width: 8%;
   margin: 15px auto;
-
 }
 
 .sale-center-text {
@@ -43,14 +41,11 @@
   margin-bottom: 50px;
 }
 
-
-
 /* clock */
 .header-nav__menu-item .clock {
   size: 50px;
 }
 
-/* частина з картками товарів */
 .mid_season_sale {
   display: flex;
   flex-direction: row;
@@ -63,13 +58,11 @@
   margin-right: auto;
 }
 
-
 .sale-product-bay {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
 
 .text-product {
   transition: 0.5s;
@@ -118,9 +111,6 @@
   background-color: var(--alternate-text-color);
 }
 
-
-
-
 @media (max-width: 1279px) {
   .mid_season_sale {
     max-width: 1200px;
@@ -129,7 +119,6 @@
   }
 }
 
-/* для карток три верхній ряд і дві нижній */
 @media (max-width: 991px) {
   .sale-container {
     padding-left: 24px;
@@ -157,9 +146,7 @@
   }
 }
 
-/* для карток 2рядки по дві картинки і 3 рядок одна */
 @media (max-width: 767px) {
-
   .sale-product-bay {
     width: 46%;
   }
@@ -182,9 +169,7 @@
   }
 }
 
-/* по одній картці */
 @media (max-width: 530px) {
-
   .sale-product-bay {
     width: 100%;
   }

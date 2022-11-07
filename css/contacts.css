@@ -86,11 +86,10 @@
 }
 
 @media (max-width: 991px) {
-
   .contacts-info {
     right: 10%;
     left: 10%;
-    top: 310px;
+    top: 320px;
     padding-left: 30px;
     padding-right: 30px;
   }
