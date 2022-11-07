@@ -89,7 +89,7 @@
   width: 28px;
   height: 28px;
   border: 0px;
-  background-color: rgb(187, 187, 187);
+  background-color: rgb(179, 179, 179);
   cursor: pointer;
 }
 .brands-carousel-next {
@@ -101,7 +101,7 @@
   height: 29px;
   border: 0px;
   padding: 5px;
-  background-color: rgb(187, 187, 187);
+  background-color: rgb(179, 179, 179);
   cursor: pointer;
 }
 .brands-carousel__btn-prev {
@@ -113,10 +113,10 @@
   height: 12px;
 }
 .brands-carousel-next:hover {
-  background-color: transparent;
+  background-color: rgb(202, 202, 202);
 }
 .brands-carousel-prev:hover {
-  background-color: transparent;
+  background-color: rgb(202, 202, 202);
 }
 
 @media (min-width: 600px) {
