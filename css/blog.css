@@ -2,18 +2,21 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .blog-container {
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
+
 .divider-component {
   margin: 0 auto;
   height: 2px;
   width: 8%;
   background-color: var(--paragraph-text-color-accent-light);
 }
+
 .blog-title {
   color: var(--main-text-color);
   padding-bottom: 13px;
@@ -33,9 +36,11 @@
   margin-top: 15px;
   margin-bottom: 30px;
 }
+
 .red-dot {
   color: var(--alternate-text-color);
 }
+
 .blog-content {
   color: var(--main-text-color);
   font-size: 24px;
@@ -55,20 +60,22 @@
 #blog {
   margin-top: 5px;
 }
+
 .brands-carousel {
   display: flex;
   justify-content: center;
-  min-width: 320px;
   position: relative;
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .brands-carousel-container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 15px;
 }
+
 .slide {
   display: flex;
   align-items: center;
@@ -92,6 +99,7 @@
   background-color: rgb(179, 179, 179);
   cursor: pointer;
 }
+
 .brands-carousel-next {
   position: absolute;
   top: 40%;
@@ -104,17 +112,21 @@
   background-color: rgb(179, 179, 179);
   cursor: pointer;
 }
+
 .brands-carousel__btn-prev {
   width: 12px;
   height: 12px;
 }
+
 .brands-carousel__btn-next {
   width: 12px;
   height: 12px;
 }
+
 .brands-carousel-next:hover {
   background-color: rgb(202, 202, 202);
 }
+
 .brands-carousel-prev:hover {
   background-color: rgb(202, 202, 202);
 }
@@ -123,20 +135,24 @@
   .slide {
     height: 150px;
   }
+
   .blog-title {
     font-size: 30px;
     line-height: 36px;
   }
 }
+
 @media (min-width: 768px) {
   .slide {
     height: 130px;
   }
+
   .blog-title {
     font-size: 38px;
     line-height: 43px;
   }
 }
+
 @media (min-width: 990px) {
   .blog-title {
     font-size: 45px;

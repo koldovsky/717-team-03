@@ -208,6 +208,27 @@
     }
 }
 
+@media (max-width:550px) {
+    .about-us__image {
+        background-image: url(../img/about-us.jpg);
+        width: 100%;
+        height: 350px;
+    }
+
+    .about-us__basic {
+        width: 400px;
+    }
+
+    .about__us {
+        display: block;
+        width: 100%;
+    }
+
+    .about-us__text {
+        width: 40%;
+    }
+}
+
 @media (max-width:320px) {
     .about-us__basic {
         width: 300px;
