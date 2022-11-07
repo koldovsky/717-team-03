@@ -6,56 +6,95 @@
 }
 .why-title {
   color: var(--main-text-color);
+  padding-bottom: 15px;
   font-size: 38px;
   line-height: 43px;
+  font-weight: 400;
   text-align: center;
 }
 .why-subtitle {
   color: var(--paragraph-text-color);
   font-family: "PT Sans", sans-serif;
-
   font-size: 20px;
   line-height: 30px;
   text-align: center;
-}
-.why-categories-item {
-  border: 1px solid rgba(33, 39, 54, 0.2);
-  padding: 60px 25px;
-
-  flex-direction: column;
-
-  gap: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-@media (min-width: 560px) {
-  .why-categories {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
-  }
-}
-
-@media (min-width: 660px) {
-  .why-categories {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@media (min-width: 960px) {
-  .why-categories {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-.wrapper-why-choose-us {
-  max-width: 1300px;
-  margin: 0 auto;
+  margin-bottom: 25px;
 }
 .why-categories-item-title {
   color: var(--main-text-color);
-  font-size: 22px;
+  font-size: 25px;
   line-height: 30px;
+  font-weight: 300;
+}
+.why-categories-item-description {
+  color: var(--paragraph-text-color);
+  font-size: 16px;
+  line-height: 27px;
+  font-family: "PT Sans", sans-serif;
+  max-width: 470px;
+  text-align: center;
+}
+.red-dot {
+  color: var(--alternate-text-color);
+}
+
+.why-categories-item {
+  border: 1.5px solid rgba(33, 39, 54, 0.2);
+  padding: 20px 20px;
+  grid-template-columns: 1fr;
+  display: grid;
+  row-gap: 30px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.wrapper-why-choose-us {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.why-categories {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+}
+@media (min-width: 770px) {
+  .why-categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .why-title {
+    font-size: 38px;
+    line-height: 43px;
+  }
+}
+
+@media (min-width: 991px) {
+  .why-categories {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .why-title {
+    font-size: 45px;
+    line-height: 51px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .why-categories {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .why-categories-item {
+    padding: 25px 15px;
+  }
+}
+
+.why-categories-item-title {
+  color: var(--main-text-color);
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 300;
 }
 .why-categories-item-description {
   color: var(--paragraph-text-color);

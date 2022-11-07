@@ -64,7 +64,7 @@
 }
 
 @media (min-width: 991px) {
-    .categories-arrivals {
+    .categories-sale {
         max-width: 50%;
         flex-basis: 50%;
     }
@@ -74,7 +74,7 @@
         max-width: 25%;
     }
 
-    .categories-sale {
+    .categories-arrivals {
         flex-basis: 25%;
         max-width: 25%;
     }
@@ -118,7 +118,6 @@
 
 .dot {
     color: var(--alternate-text-color);
-    margin-left: -7px;
 }
 
 .categories-divider {
@@ -129,4 +128,72 @@
 
 .categories-arrivals>.categories-divider {
     width: 18%;
+}
+
+/* countdown styles */
+
+
+.categories__countdown-container {
+    min-width: 50%;
+    margin: auto;
+    margin-left: 70px;
+    margin-top: -20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-text-color);
+    font-family: 'PT Sans', sans-serif;
+}
+
+.categories__launch-time {
+    display: flex;
+    border: var(--paragraph-text-color) double 2px;
+    margin-left: -75px;
+    background-color: var(--countdown-bg-color);
+}
+
+.categories__launch-time div {
+    flex-basis: 100px;
+    padding: 4px;
+    text-align: center;
+    margin: 8px;
+}
+
+categories__launch-time div p {
+    font-size: 17px;
+}
+
+@media (min-width:768px) {
+    .categories__launch-time {
+        margin-right: 5px;
+    }
+
+    .categories__launch-time div p {
+        font-size: 30px;
+        margin-bottom: 2px;
+    }
+}
+
+@media (min-width:991px) {
+    .categories__launch-time {
+        margin-right: 46px;
+    }
+
+    .categories__launch-time div p {
+        font-size: 30px;
+        margin-bottom: 2px;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .categories__launch-time {
+        margin-right: 56px;
+    }
+
+    .categories__launch-time div p {
+        font-size: 30px;
+    }
 }

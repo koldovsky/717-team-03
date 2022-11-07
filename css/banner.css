@@ -49,15 +49,8 @@
     color: var(--alternate-text-color);
 }
 
-.header__title_dot {
+.dot {
     color: var(--alternate-text-color);
-    margin-left: -20px;
-}
-
-@media (max-width:768px) {
-    .header__title_dot {
-        margin-left: -8px;
-    }
 }
 
 .header__subtitle {
@@ -99,3 +92,4 @@
     font-size: 1.2rem;
     transition: font-size .3s ease-in-out;
 }
+

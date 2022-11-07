@@ -1,56 +1,49 @@
 (function () {
   const slides = [
-    '<div class="slide"><img src="img/blog/adidas.svg" alt="Adidas"></div>',
-    '<div class="slide"><img src="img/blog/asics.svg" alt="Asics"></div>',
-    '<div class="slide"><img src="img/blog/new-balance.svg" alt="New-Balance"></div>',
-    '<div class="slide"><img src="img/blog/nike.svg" alt="Nike"></div>',
-    '<div class="slide"><img src="img/blog/reebok.svg" alt="Reebok"></div>',
+    '<div class="slide"><img src="img/blog/adidas.svg" alt="adidas" class="brands-carousel__img"></div>',
+    '<div class="slide"><img src="img/blog/asics.svg" alt="asics" class="brands-carousel__img"></div>',
+    '<div class="slide"><img src="img/blog/new-balance.svg" alt="new-balance" class="brands-carousel__img"></div>',
+    '<div class="slide"><img src="img/blog/nike.svg" alt="nike" class="brands-carousel__img"></div>',
+    '<div class="slide"><img src="img/blog/reebok.svg" alt="reebok" class="brands-carousel__img"></div>',
   ];
-  let currentSlideIdx = 0;
+  let currentSlideIndx = 0;
   function renderSlide() {
-    const slideContainer = document.querySelector(
-      ".brands-carousel__slide-container"
-    );
+    const slideContainer = document.querySelector(".brands-carousel-container");
+    slideContainer.innerHTML = slides[currentSlideIndx];
+    if (window.innerWidth > 600) {
+      const secondSlideInd =
+        currentSlideIndx + 1 >= slides.length ? 0 : currentSlideIndx + 1;
+      slideContainer.innerHTML += slides[secondSlideInd];
 
-    slideContainer.innerHTML = slides[currentSlideIdx];
+      if (window.innerWidth > 768) {
+        const thirdSlideInd =
+          secondSlideInd + 1 >= slides.length ? 0 : secondSlideInd + 1;
+        slideContainer.innerHTML += slides[thirdSlideInd];
 
-    if (window.innerWidth > 350) {
-      const secondSlideIdx =
-        currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
-      slideContainer.innerHTML += slides[secondSlideIdx];
-      if (window.innerWidth > 500) {
-        const thirdSlideIdx =
-          secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
-
-        if (window.innerWidth > 700) {
-          const fourthSlideIdx =
-            thirdSlideIdx + 1 >= slides.length ? 0 : thirdSlideIdx + 1;
-          slideContainer.innerHTML += slides[fourthSlideIdx];
-          if (window.innerWidth > 900) {
-            const fifthSlideIdx =
-              fourthSlideIdx + 1 >= slides.length ? 0 : fourthSlideIdx + 1;
-            slideContainer.innerHTML += slides[fifthSlideIdx];
-          }
+        if (window.innerWidth > 992) {
+          const fourthSlideInd =
+            thirdSlideInd + 1 >= slides.length ? 0 : thirdSlideInd + 1;
+          slideContainer.innerHTML += slides[fourthSlideInd];
         }
       }
     }
   }
   function nextSlide() {
-    currentSlideIdx =
-      currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+    currentSlideIndx =
+      currentSlideIndx + 1 >= slides.length ? 0 : currentSlideIndx + 1;
     renderSlide();
   }
   function prevSlide() {
-    currentSlideIdx =
-      currentSlideIdx - 1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
+    currentSlideIndx =
+      currentSlideIndx - 1 < 0 ? slides.length - 1 : currentSlideIndx - 1;
     renderSlide();
   }
-  //setInterval(nextSlide, 1000);
   renderSlide();
-  const nextButton = document.querySelector(".brands-carousel__next");
-  nextButton.addEventListener("click", nextSlide);
-  const prevButton = document.querySelector(".brands-carousel__prev");
-  prevButton.addEventListener("click", prevSlide);
+  const nextBtn = document.querySelector(".brands-carousel-next");
+  nextBtn.addEventListener("click", nextSlide);
+
+  const prevBtn = document.querySelector(".brands-carousel-prev");
+  prevBtn.addEventListener("click", prevSlide);
 
   window.addEventListener("resize", renderSlide);
 })();

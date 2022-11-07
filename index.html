@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sport Clothes Store</title>
   <link rel="shortcut icon" href="./img/icon/favicon.ico" type="image/x-icon">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/index.css">
-  <script src="https://kit.fontawesome.com/1f41b8fc28.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
   <!--Yaryna Martyniuk starts-->
   <header class="header" id="header">
-
     <div class="header__upperline">
       <div class="header__container">
         <div class="header__upperline-inner">
@@ -28,20 +28,16 @@
         </div>
       </div>
     </div>
-
     <div class="banner-bg">
-
       <nav class="header__nav">
         <div class="header__container">
           <div class="header__nav-container">
             <div class="header__logo-container">
               <img src="img/icon/logo-icon.svg" alt="logo" id="logo">
-
               <div class="navigation-burger">
                 <span></span>
               </div>
             </div>
-
             <div class="navigation-wrapper">
               <ul class="header__menu">
                 <li class="header__menu-item">
@@ -80,15 +76,13 @@
           </div>
         </div>
       </nav>
-
-
       <section class="header__banner">
         <div class="header__container">
           <div class="header__banner-inner">
             <p class="header__subtitle">Aspire to move</p>
             <h1 class="header__title">
               New <span class="header__title_collections"> collections </span> by
-              top brands <span class="header__title_dot">.</span>
+              top brands<span class="dot">.</span>
             </h1>
           </div>
           <div class="header__banner-btn">
@@ -96,37 +90,53 @@
           </div>
         </div>
       </section>
-
     </div>
   </header>
 
   <main class="main">
     <div class="categories">
-
       <div class="categories-arrivals block">
-        <p class="categories-title">
-          NEW ARRIVALS <span class="dot">.</span>
+        <p class="categories-title">NEW ARRIVALS<span class="dot">.</span>
         </p>
-
         <div class="categories-divider"></div>
-
         <a href="#collection" class="categories-arrivals-link categories-btn">Shop Collection<span
             class="categories-arrow">→</span></a>
       </div>
-
       <div class="categories-trainers block">
         <p class="categories-title">
-          TRAINERS <span class="dot">.</span>
+          TRAINERS<span class="dot">.</span>
         </p>
         <div class="categories-divider"></div>
         <a href="#collection" class="categories-trainers-link categories-btn">Shop Collection<span
             class="categories-arrow">→</span></a>
       </div>
-
       <div class="categories-sale block">
+        <!-- countdown starts -->
+        <div class="categories__countdown-container">
+          <div class="categories__launch-time">
+            <div class="categories-time">
+              <p class="categories-days">20</p>
+              <span>days</span>
+            </div>
+            <div class="categories-time">
+              <p class="categories-hours">10</p>
+              <span>hours</span>
+            </div>
+            <div class="categories-time">
+              <p class="categories-minutes">2</p>
+              <span>minutes</span>
+            </div>
+            <div class="categories-time">
+              <p class="categories-seconds">60</p>
+              <span>seconds</span>
+            </div>
+          </div>
+        </div>
+        <!-- countdown ends -->
         <p class="categories-title">HOT SALE <span class="dot">.</span></p>
         <div class="categories-divider"></div>
-        <a href="#sale" class="categories-sale-link categories-btn">Shop Collection<span class="categories-arrow">→</span></a>
+        <a href="#sale" class="categories-sale-link categories-btn">Shop Collection<span
+            class="categories-arrow">→</span></a>
       </div>
     </div>
     <!--Yaryna Martyniuk ends-->
@@ -135,7 +145,6 @@
     <div class="wrapper-why-choose-us">
       <section class="why">
         <h2 class="why-title">Why Choose Us<span class="red-dot">.</span></h2>
-        <br>
         <div class="divider-component"></div>
         <br>
         <p class="why-subtitle">
@@ -156,10 +165,9 @@
             <h3 class="why-categories-item-title">Easy 30-Day Return</h3>
             <p class="why-categories-item-description">
               If the item does not suit you, please send it back to us within
-              30 days.
+              thirty days.
             </p>
           </article>
-
           <article class="why-categories-item">
             <img src="img/why-choose-us/eco.svg" alt="eco" width="60">
             <h3 class="why-categories-item-title">Eco Materials</h3>
@@ -179,7 +187,7 @@
         </div>
       </section>
     </div>
-    <br>
+
     <!-- Valentyna Vilchak ends Why-choose-us-->
 
     <!--Daria Meush starts -->
@@ -277,124 +285,135 @@
     <!--end Daria Meush-->
 
     <!-- Oleksandra Mrykhina starts 5-th section (finess collection) -->
-    <link rel="stylesheet" href="css/fitness-collection.css">
     <section class="fitness-collection">
-      <div class="heading-section">
+      <div class="fitness-container">
         <p class="heading-subtitle">TRENDING</p>
-        <h2 class="heading-section-title">NEW FITNESS COLLECTION<span class="point"
-            style="color: var(--alternate-text-color);">.</span></h2>
-        <div>
-          <!--video shoud be added-->
-          <svg width="100" class="video-button" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 96 96" x="0px" y="0px"
-            style="max-width: 100%" height="100%">
-            <path
-              d="M38 68.476c-0.328 0-0.652-0.080-0.948-0.244-0.648-0.34-1.052-1.020-1.052-1.756v-36.952c0-0.736 0.404-1.416 1.052-1.752 0.644-0.352 1.432-0.32 2.048 0.088l28 18.476c0.56 0.368 0.9 0.992 0.9 1.664s-0.336 1.304-0.9 1.672l-28 18.476c-0.332 0.22-0.716 0.328-1.1 0.328zM40 33.244v29.524l22.368-14.756-22.368-14.768z"
-              fill="currentColor"></path>
-            <path
-              d="M48 4c24.256 0 44 19.744 44 44s-19.744 44-44 44c-24.26 0-44-19.744-44-44s19.74-44 44-44zM48 0c-26.508 0-48 21.492-48 48s21.492 48 48 48 48-21.492 48-48-21.492-48-48-48v0z"
-              fill="currentColor"></path>
-          </svg>
+        <h2 class="heading-section-title">NEW<span class="heading-title-collection">FITNESS</span>COLLECTION</h2>
+        <video src="videos/activewear-commercial-for-moralathletica.mp4" id="video" class="screen" width="370"
+          height="280" poster="img/poster.png">
+        </video>
+        <div class="controls">
+          <button class="btn" id="play">
+            <i class="fa fa-play fa-2x"></i>
+          </button>
+          <button class="btn" id="stop">
+            <i class="fa fa-stop fa-2x"></i>
+          </button>
+          <input type="range" id="progress" class="progress" min="0" max="100" step="0.1" value="0">
+          <span class="timestamp" id="timestamp">00:00</span>
         </div>
-        <div class="shopping__link__btn">
-          <a href="#collection" class="shopping-link-button">Shop now<span class="categories-arrow"> →</span></a>
+        <div class="shopping__link-btn">
+          <a href="#collection">Shop now <span class="shopping__link-arrow"> → </span></a>
         </div>
       </div>
     </section>
     <!-- Oleksandra Mrykhina ends 5-th section (finess collection) -->
 
     <!--start Bohdan Lutsiv-->
+    <section class="sale" id="sale">
+      <!-- додала контейнер для заголовка, лінії та тексту; зайве видалила  -->
+      <div class="sale-container">
 
-    <section class="mid-season_sale" id="sale">
-      <div>
-        <h2>mid-season sale</h2>
-        <span>.....</span>
-        <p>
+        <h2 class="sale-head-h2">mid-season sale<span class="red-point-sale">.</span></h2>
+        <div class="sale-line-center"></div>
+        <p class="sale-center-text">
           Shop clothes and trainers that are chosen by thousands of our
           clients. Click on the image to see the product details and click Add
           to Cart to make the purchase. We are committed to give you the best
           buying experience!
         </p>
+
       </div>
-      <div class="header-nav__menu-item clock"></div>
+      <!-- закінчується контейнер -->
+
+      <!-- годинник  -->
+      <!-- <div class="header-nav__menu-item clock"></div> -->
+
+
+      <!-- частина з картками товарів -->
       <div class="mid_season_sale">
-        <div class="trainers-adidas" id="trainers-adidas">
-          <div>
-            <img src="img/mid_season_sale/trainers-adidas.jpg" alt="trainers-adidas">
+
+        <div class="sale-product-bay" id="trainers-adidas">
+          <div class="text-product">
+            <img class="image-product-sale" src="img/mid_season_sale/trainers-adidas.jpg" alt="trainers-adidas">
             <a href="product.html">Adidas Cloudfoam Trainers</a>
           </div>
           <p class="money_sale">$60,00</p>
-          <button>Add to Cart</button>
+          <button class="sale-bottom">Add to Cart</button>
         </div>
-        <div class="rebook-shorts" id="rebook-shorts">
-          <div>
-            <img src="img/mid_season_sale/rebook-shorts.jpg" alt="rebook-shorts">
+
+        <div class="sale-product-bay" id="rebook-shorts">
+          <div class="text-product">
+            <img class="image-product-sale" src="img/mid_season_sale/rebook-shorts.jpg" alt="rebook-shorts">
             <a href="product.html">Reebok Workout Shorts</a>
           </div>
           <p class="money_sale">$25,00</p>
-          <button>Add to Cart</button>
+          <button class="sale-bottom">Add to Cart</button>
         </div>
-        <div class="puma-shoes" id="puma-shoes">
-          <div>
-            <img src="img/mid_season_sale/puma-shoes.jpg" alt="puma-shoes">
+
+
+        <div class="sale-product-bay" id="puma-shoes">
+          <div class="text-product">
+            <img class="image-product-sale" src="img/mid_season_sale/puma-shoes.jpg" alt="puma-shoes">
             <a href="product.html">Puma Fitness Shoes in Grey</a>
           </div>
           <p class="money_sale">$60,00</p>
-          <button>Add to Cart</button>
+          <button class="sale-bottom">Add to Cart</button>
         </div>
-        <div class="puma-tank_top" id="puma-tank_top">
-          <div>
-            <img src="img/mid_season_sale/puma-tank_top.jpg" alt="puma-tank_top">
+
+        <!-- дописані класи sale-product-middle-size для останній двох карток середнього розміру, щоб застосувати в медіа @media (max-width: 991px) -->
+        <div class="sale-product-bay sale-product-middle-size " id="puma-tank_top">
+          <div class="text-product">
+            <img class="image-product-sale" src="img/mid_season_sale/puma-tank_top.jpg" alt="puma-tank_top">
             <a href="product.html">Puma Essential Tank Top</a>
           </div>
           <p class="money_sale">$43,00</p>
-          <button>Add to Cart</button>
+          <button class="sale-bottom">Add to Cart</button>
         </div>
-        <div class="nike-t-shirt" id="nike-t-shirt">
-          <div>
-            <img src="img/mid_season_sale/nike-t-shirt.jpg" alt="nike-T-shirt">
+        <!-- дописаний ще один клас sale-product-big-size для останньої картки, щоб застосувати в медіа  @media (max-width: 767px)-->
+        <div class="sale-product-bay sale-product-middle-size sale-product-big-size" id="nike-t-shirt">
+          <div class="text-product">
+            <img class="image-product-sale" src="img/mid_season_sale/nike-t-shirt.jpg" alt="nike-T-shirt">
             <a href="product.html">Nike Classic Polo T-Shirt</a>
           </div>
           <p class="money_sale">$23,00</p>
-          <button>Add to Cart</button>
+          <button class="sale-bottom">Add to Cart</button>
         </div>
+
       </div>
     </section>
     <!--end Bohdan Lutsiv-->
 
+    <!-- Max Pal start -->
     <section class="discount" id="discount">
       <div class="discount-module">
         <h3 class="discount-title">
           sale of the month
         </h3>
         <p class="discount__main-text">
-          get your discount
-          <span class="discount__dot-ui">
-            .
-          </span>
-          <div class="discount-button">
-            <a href="#sale" class="discount-button__link">
-              Shop now →
-            </a>
-          </div>
-        </p>     
+          get your discount<span class="discount__dot-ui">.</span>
+        </p>
+        <div class="discount-button">
+          <a href="#sale" class="discount-button__link">
+            Shop now →
+          </a>
+        </div>
       </div>
     </section>
-    <section class="discount-carousel">
+    <div class="discount-carousel">
       <div id="carousel-wrapper">
         <div id="menu">
-            <div id="current-option">
-              <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
-              <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
-            </div>
-            <button id="previous-option"></button>
-            <button id="next-option"></button>
-          
+          <div id="current-option">
+            <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
+            <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
+          </div>
+          <button id="previous-option"></button>
+          <button id="next-option"></button>
         </div>
         <div id="image"></div>
       </div>
-    </section>
-
+    </div>
+    <!-- Max Pal end section discount -->
 
     <!-- Iryna Litvinova starts section collection -->
     <section class="collection" id="collection">
@@ -638,7 +657,6 @@
     <!--Mamedov Oleksandr div finish-->
 
     <!--Maria Maksymyak starts-->
-    <link rel="stylesheet" href="css/brands.css">
     <div class="brands_wrapper">
       <div class="brands">
         <div class="brands_sport">
@@ -649,11 +667,17 @@
         <h2 class="brands_sport_subtitle">
           KEEP FIT WITH COMFORT.
         </h2>
-        <div class="w-icon-list">
-          <ul>
-            <li style="display:inline">Top brands</li>
-            <li style="display:inline">Delivery with DHL</li>
-            <li style="display:inline">Easy returns</li>
+        <div class="brands_list">
+          <ul class="icon_brands_list">
+            <li class="icon_brands_list">
+              <img src="img/icon/icon_brands.svg" alt="icon" width=15> Top brands
+            </li>
+            <li class="icon_brands_list">
+              <img src="img/icon/icon_brands.svg" alt="icon" width=15> Delivery with DHL
+            </li>
+            <li class="icon_brands_list">
+              <img src="img/icon/icon_brands.svg" alt="icon" width=15> Easy returns
+            </li>
           </ul>
         </div>
         <div class="brands_sport_text">
@@ -665,60 +689,60 @@
         <a href="#about" class="brands_sport_linkbutton">Learn more <span> → </span></a>
       </div>
     </div>
-
     <!--end Maria Maksymyak finish-->
 
     <!--Valentyna Vilchak starts Blog-->
-    <br />
     <div class="blog">
-      <div class="brands-carousel">
-        <button class="brands-carousel__prev"><i class="fa-solid fa-circle-arrow-left"></i></button>
-        <div class="brands-carousel__slide-container"></div>
-        <button class="brands-carousel__next"><i class="fa-solid fa-circle-arrow-right"></i></button>
-      </div>
-
-      <div class="blog__title-subtitle" id="blog">
-        <br />
-        <h2 class="blog-title">Blog <span class="red-dot">.</span></h2>
-        <div class="divider-component"></div>
-        <p class="blog-subtitle">Read the latest articles from our experts.</p>
-        <br />
-      </div>
-      <div class="blog-content">
-        <p>No blog posts yet...</p>
-      </div>
-
+      <div class="blog-container">
+        <div class="brands-carousel">
+          <button class="brands-carousel-prev">
+            <svg class="arrow-svg_1j4" viewBox="0 0 30 30">
+              <defs>
+                <path
+                  d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                  id="a-1664826136290"></path>
+              </defs>
+              <use fill-rule="nonzero" opacity="0.5" xlink:href="#a-1664826136290"></use>
+            </svg></button>
+          <div class="brands-carousel-container">
+          </div>
+          <button class="brands-carousel-next">
+            <svg class="arrow-svg_1j4" viewBox="0 0 30 30">
+              <defs>
+                <path
+                  d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                  id="a-1664826136291"></path>
+              </defs>
+              <use fill-rule="nonzero" opacity="0.5" xlink:href="#a-1664826136290"></use>
+            </svg> </button>
+        </div>
+        <div class="blog__title-subtitle" id="blog">
+          <h2 class="blog-title">Blog <span class="red-dot">.</span></h2>
+          <div class="divider-component"></div>
+          <p class="blog-subtitle">Read the latest articles from our experts.</p>
+        </div>
+        <div class="blog-content">
+          <p>No blog posts yet...</p>
         </div>
       </div>
-   
-    <br />
-    <!--Valentyna Vilchak ends Blog-->
-  </main>
-  <!-- Start Max Pal -->
-  <div class="contacts" id="contact-us">
-    <!-- Maps integration start -->
-    <div class="maps">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48375.575191432086!2d-74.0270549534192!3d40.729606584239285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598f3597444d%3A0x235a85560800e250!2sGYM%20NYC!5e0!3m2!1sru!2sua!4v1665045158337!5m2!1sru!2sua"
-        width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-
-      <!-- Contacts integration -->
-      <div class="maps__contancts">
-        <aside class="maps__contacts-info">
-          <h2>CONTACTS</h2>
-          <p class="street">325 University Ave Newmark, NJ 07102</p>
-          <address>
-            <a href="mailto:workout@gmail.com">workout@gmail.com</a><br>
-            <a href="tel:+12345678900">+1 (234) 567 89 00</a>
-          </address>
-        </aside>
-      </div>
-      <!-- End of Contacts integration -->
     </div>
-    <!-- Maps integtation finish -->
-  </div>
+    <!--Valentyna Vilchak ends Blog-->
+
+    <!-- Start Max Pal -->
+    <section class="contacts" id="contact-us">
+      <div class="contacts-maps">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12093.614456616513!2d-74.17916028711754!3d40.73114354899453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2537102f5f5df%3A0xc3d5dc357162b4ec!2s325%20University%20Ave%2C%20Newark%2C%20NJ%2007102%2C%20USA!5e0!3m2!1sen!2sua!4v1667664913847!5m2!1sen!2sua"
+          style="border:none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="contacts-info">
+        <h2 class="contacts-title">CONTACTS<span class="contacts-title-point">.</span></h2>
+        <p class="contacts-address">325 University Ave<br>Newmark, NJ 07102</p>
+        <a class="contacts-phone" href="tel:+12345678900">+1 (234) 567 89 00</a>
+        <a class="contacts-mail" href="mailto:workout@gmail.com">workout@gmail.com</a>
+      </div>
+    </section>
+  </main>
   <footer>
     <section class="footer">
       <div class="infozone">
@@ -743,9 +767,9 @@
         <h4 class="footer-shop__heading">SHOP</h4>
         <span class="footer-line">_______</span>
         <nav class="footer__shop-navigation">
-          <a href="#women" class="footer-shop__item"> Women.</a>
-          <a href="#men" class="footer-shop__item">Men.</a>
-          <a href="#shoes" class="footer-shop__item">Shoes.</a>
+          <a href="#collection" class="footer-shop__item"> Women.</a>
+          <a href="#collection" class="footer-shop__item">Men.</a>
+          <a href="#collection" class="footer-shop__item">Shoes.</a>
           <a href="#sale" class="footer-shop__item">Sale</a>
         </nav>
       </div>
@@ -773,6 +797,8 @@
   <script src="js/collection-tab.js"></script>
   <script src="js/blog.js"></script>
   <script src="js/sale-clock.js"></script>
+  <script src="js/video-script.js"></script>
+  <script src="js/countdown-categories.js"></script>
   <!-- <script src="js/discount.js"></script> -->
 </body>
 

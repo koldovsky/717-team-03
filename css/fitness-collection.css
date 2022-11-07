@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
-:root{ 
+:root { 
     font-family: Bebas Neue, cursive;
-    }
+}
 
     .fitness-collection {
         background-image: url(../img/background_new_fitness_collection.jpg);
@@ -16,6 +16,15 @@
         padding-bottom: 210px;
     }
 
+    .fitness-container {
+        max-width: 1200px;
+        padding-left: 15px;
+        padding-left: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }  
+
     .heading-subtitle {
         font-family: Bebas Neue, cursive;
         color: #717474;
@@ -23,18 +32,8 @@
         font-stretch: 100%;
         display: flex;
         font-weight: 400;
-        
         letter-spacing: normal;
         list-style: 31.28px;
-        margin-bottom:0px;
-        margin-left: 175px;
-        margin-right: 0px;
-        margin-top: 0px;
-        overflow-wrap: break-word;
-        padding-bottom: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-top: 0px;
     }
     
     .heading-section-title {
@@ -53,15 +52,14 @@
         line-height: 93px;
         vertical-align: baseline;
         list-style: 31.28px;
-        margin-bottom:0px;
-        margin-left: 175px;
+        margin-bottom:100px;
+        margin-left: 0px;
         margin-right: 0px;
         margin-top: 0px;
-        overflow-wrap: break-word;
-        padding-bottom: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-top: 0px;  
+    }
+
+    .heading-title-collection {
+        color: var(--alternate-text-color);
     }
 
     .video-button {
@@ -73,8 +71,10 @@
         margin-left: 950px;
     }
 
-    .shopping__link__btn {
-        margin-top: 50px;
+    .shopping__link-btn {
+        font-family: Arial;
+        font-weight: bold;
+        margin-top: 80px;
         margin-left: 15px;
         display: flex;
         flex-direction: row;
@@ -84,16 +84,23 @@
         background-color: var(--alternate-text-color);
         width: 164px;
         height: 58px;
-        margin-left: 175px;
     }
-        
-    .shopping__link__btn>a {
-        font-family: PT Sans;
+    
+    .shopping__link-btn:hover {
+        box-shadow: inset 164px 0 0 0 var(--main-text-color);
+        transition: box-shadow .5s ease-in-out;
+    }
+    
+    .shopping__link-btn>a {
         font-size: 1rem;
-        font-weight: 700;
         text-decoration: none;
         color: var(--alternate-p-text-color);
         padding-left: 0;
         padding-right: 32px;
         margin-left: 20px;
+    }
+    
+    .shopping__link-btn>a:hover {
+        font-size: 1.2rem;
+        transition: font-size .3s ease-in-out;
     }

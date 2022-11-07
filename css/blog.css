@@ -1,3 +1,13 @@
+.blog {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.blog-container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 .divider-component {
   margin: 0 auto;
   height: 2px;
@@ -6,16 +16,22 @@
 }
 .blog-title {
   color: var(--main-text-color);
+  padding-bottom: 13px;
   font-size: 38px;
   line-height: 43px;
+  font-weight: 400;
   text-align: center;
+  margin-top: 30px;
 }
+
 .blog-subtitle {
   color: var(--paragraph-text-color);
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 .red-dot {
   color: var(--alternate-text-color);
@@ -27,58 +43,103 @@
   border: 1px solid rgba(33, 39, 54, 0.12);
   display: flex;
   height: 450px;
-  max-width: 1000px;
   justify-content: center;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600;
   line-height: 32;
   align-items: center;
   margin: 0 auto;
-}
-/*.carousel__brands {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}*/
-.carousel__brands-item {
-  border: 1px solid rgba(33, 39, 54, 0.12);
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-family: "PT Sans", sans-serif;
 }
 
+#blog {
+  margin-top: 5px;
+}
 .brands-carousel {
   display: flex;
-  margin: auto;
   justify-content: center;
+  min-width: 320px;
+  position: relative;
   padding-left: 15px;
   padding-right: 15px;
 }
-.brands-carousel__slide-container {
+.brands-carousel-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
 }
 .slide {
-  border: 1px solid rgba(33, 39, 54, 0.12);
-  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.fa-circle-arrow-left,
-.fa-circle-arrow-right {
-  color: #222323;
-  font-size: 2em;
+  border: 1.5px solid rgba(33, 39, 54, 0.12);
+  padding: 20px 20px;
+  max-width: 500px;
+  height: 210px;
 }
 
-.brands-carousel__prev,
-.brands-carousel__next {
-  outline: none;
-  border: 0;
-  background: transparent;
+.brands-carousel-prev {
+  transform: rotate(180deg);
+  padding: 5px;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  border: 0px;
+  background-color: rgb(179, 179, 179);
+  cursor: pointer;
+}
+.brands-carousel-next {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  border-radius: 50%;
+  width: 28px;
+  height: 29px;
+  border: 0px;
+  padding: 5px;
+  background-color: rgb(179, 179, 179);
+  cursor: pointer;
+}
+.brands-carousel__btn-prev {
+  width: 12px;
+  height: 12px;
+}
+.brands-carousel__btn-next {
+  width: 12px;
+  height: 12px;
+}
+.brands-carousel-next:hover {
+  background-color: rgb(202, 202, 202);
+}
+.brands-carousel-prev:hover {
+  background-color: rgb(202, 202, 202);
+}
+
+@media (min-width: 600px) {
+  .slide {
+    height: 150px;
+  }
+  .blog-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+@media (min-width: 768px) {
+  .slide {
+    height: 130px;
+  }
+  .blog-title {
+    font-size: 38px;
+    line-height: 43px;
+  }
+}
+@media (min-width: 990px) {
+  .blog-title {
+    font-size: 45px;
+    line-height: 51px;
+  }
 }
