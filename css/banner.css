@@ -1,7 +1,6 @@
 .header__banner {
     padding-top: 110px;
     padding-bottom: 110px;
-    min-width: 320px;
     line-height: 1.7;
     font-family: PT Sans, sans-serif;
     font-weight: 400;
@@ -23,9 +22,9 @@
     gap: 16px;
 }
 
-@media (min-width:768px) and (max-width:990px){
+@media (min-width:768px) and (max-width:990px) {
     .header__banner-inner {
-        width:450px;
+        width: 450px;
     }
 }
 
@@ -92,4 +91,3 @@
     font-size: 1.2rem;
     transition: font-size .3s ease-in-out;
 }
-

@@ -69,6 +69,9 @@
     width: 650px;
 }
 
+#days {
+    padding-left: 5px;
+}
 
 .days {
     margin: 50px 10px 0 10px;
@@ -83,6 +86,14 @@
     justify-items: center;
 }
 
+.days small {
+    padding-left: 5px;
+}
+
+#hours {
+    padding-left: 5px;
+}
+
 .hours {
     margin: 50px 10px 0 10px;
     border: 0.5px solid;
@@ -95,11 +106,19 @@
     line-height: 1;
 }
 
+.hours small {
+    padding-left: 2px;
+}
+
 small {
     color: gray;
     font-size: 15px;
     padding: 0 0 20px 0;
 
+}
+
+#minutes {
+    padding-left: 5px;
 }
 
 .minutes {
@@ -113,6 +132,10 @@ small {
     font-size: 20px;
     line-height: 1;
     justify-items: center;
+}
+
+#seconds {
+    padding-left: 5px;
 }
 
 .seconds {
@@ -131,39 +154,6 @@ small {
     margin-left: 170px;
     display: flex;
 }
-
-@media (max-width:320px) {
-    .deal-of-the-month__image {
-        width: 300px;
-    }
-
-    .deal-of-the-month {
-        display: table;
-        width: 100%;
-        height: 1590px;
-    }
-}
-
-@media (max-width:736px) {
-    .deal-of-the-month {
-        display: block;
-        width: 100%;
-        height: 1590px;
-    }
-
-    .deal-of-the-month__image {
-        top: 0;
-        left: 0;
-        margin-left: 0;
-        margin-top: 30px;
-        width: 100%;
-    }
-}
-
-@media (max-width:900px) {
-
-}
-
 
 @media (max-width:1346px) {
     .deal-of-the-month {
@@ -213,5 +203,200 @@ small {
         background-repeat: no-repeat;
         margin: auto;
         position: absolute;
+    }
+}
+
+@media (max-width:1050px) {
+    .description__deal {
+        padding-right: 40px;
+    }
+
+    .days {
+        margin: 50px 10px 0 20px;
+        border: 0.5px solid;
+        width: 80px;
+        height: 80px;
+        padding: 10px 20px 0 13px;
+        border-radius: 5px;
+        border-color: gray;
+        font-size: 25px;
+        line-height: 1;
+        justify-items: center;
+    }
+
+    .hours {
+        margin: 50px 10px 0 0;
+        border: 0.5px solid;
+        width: 80px;
+        height: 80px;
+        padding: 10px 20px 0 13px;
+        border-radius: 5px;
+        border-color: gray;
+        font-size: 25px;
+        line-height: 1;
+        justify-items: center;
+    }
+
+    .minutes {
+        margin: 50px 10px 0 0;
+        border: 0.5px solid;
+        width: 80px;
+        height: 80px;
+        padding: 10px 20px 0 13px;
+        border-radius: 5px;
+        border-color: gray;
+        font-size: 25px;
+        line-height: 1;
+        justify-items: center;
+    }
+
+    .seconds {
+        margin: 50px 10px 0 0;
+        border: 0.5px solid;
+        width: 80px;
+        height: 80px;
+        padding: 10px 20px 0 13px;
+        border-radius: 5px;
+        border-color: gray;
+        font-size: 25px;
+        line-height: 1;
+        justify-items: center;
+    }
+
+    small {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:900px) {
+    .deal-of-the-month {
+        display: block;
+        width: 100%;
+        height: 1382px;
+    }
+
+    .deal-of-the-month__image {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media (max-width:736px) {
+    .deal-of-the-month {
+        display: block;
+        width: 100%;
+        height: 1382px;
+    }
+
+    .deal-of-the-month__image {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+        height: 500px;
+    }
+
+}
+
+
+
+@media (max-width:320px) {
+    .deal-of-the-month__image {
+        position: relative;
+        width: 320px;
+        height: 250px;
+    }
+
+    .deal-of-the-month {
+        display: block;
+        height: 798px;
+    }
+
+
+    .basic__text {
+        width: 320px;
+        font-size: 50px;
+        padding: 120px 0 0 30px;
+    }
+
+    .condition__text {
+        width: 320px;
+        font-size: 15px;
+        padding: 20px 0 0 30px;
+    }
+
+    .description__deal {
+        width: 320px;
+        font-size: 15px;
+        padding: 20px 0 0 30px;
+    }
+
+    .link_new-arrivals {
+        width: 320px;
+        font-size: 15px;
+        padding: 20px 0 0 30px;
+    }
+
+    .days {
+        margin: 50px 10px 0 0;
+        border: 0.5px solid;
+        width: 50px;
+        height: 50px;
+        padding: 10px 20px 0 13px;
+        border-radius: 5px;
+        border-color: gray;
+        font-size: 10px;
+        line-height: 1;
+        justify-items: center;
+    }
+
+    .hours {
+        margin: 50px 10px 0 0;
+        border: 0.5px solid;
+        width: 50px;
+        height: 50px;
+        padding: 10px 20px 0 13px;
+        border-radius: 5px;
+        border-color: gray;
+        font-size: 10px;
+        line-height: 1;
+        justify-items: center;
+    }
+
+    .minutes {
+        margin: 50px 10px 0 0;
+        border: 0.5px solid;
+        width: 50px;
+        height: 50px;
+        padding: 10px 20px 0 13px;
+        border-radius: 5px;
+        border-color: gray;
+        font-size: 10px;
+        line-height: 1;
+        justify-items: center;
+    }
+
+    .seconds {
+        margin: 50px 10px 0 0;
+        border: 0.5px solid;
+        width: 50px;
+        height: 50px;
+        padding: 10px 20px 0 13px;
+        border-radius: 5px;
+        border-color: gray;
+        font-size: 10px;
+        line-height: 1;
+        justify-items: center;
+    }
+
+    small {
+        font-size: 9px;
     }
 }
