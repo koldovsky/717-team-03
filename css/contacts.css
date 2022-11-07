@@ -6,12 +6,13 @@
 .contacts-maps {
   filter: grayscale(100%);
   background-color: var(--alternate-p-text-color);
-  pointer-events: none;
 }
+
 .contacts-maps iframe {
   width: 100%;
   height: 600px;
 }
+
 .contacts-info {
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
@@ -100,6 +101,7 @@
     line-height: 51px;
   }
 }
+
 @media (max-width: 767px) {
   .contacts-title {
     font-size: 38px;
