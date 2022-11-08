@@ -6,8 +6,11 @@
 .sale-product-title {
   color: #f40106;
   font-family: PT Sans,sans-serif;
-  size: 16px;
+  font-size: 16px;
   width: 100%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 250px;
 }
 .sale-product-image {
   display: flex;
@@ -16,7 +19,8 @@
   padding-right: 150px;
 }
 .sale-product-information {
-  width: 45%;
+  width: 35%;
+  padding-right: 100px;
 }
 .sale-product-information-tittle {
   color: #61a854;
@@ -31,9 +35,48 @@
 .sale-product-information-code {
   color: #222323;
   font-size: 14px;
-  font-family: Bebas Neue,cursive;
-};
+  font-family: PT Sans,sans-serif;
+  margin: 8px 0px 0px;
+}
 .sale-product-information-price {
+  color: #717474;
   font-size: 20px;
   font-family: PT Sans,sans-serif;
+  margin-top: 35px;
+}
+.sale-product-information-line {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #edf0f5;
+}
+.sale-product-information-counter {
+  width: 15%;
+  height: 40px;
+}
+.sale-product-information-button {
+  width: 80%;
+  height: 40px;
+  background-color: red;
+}
+.sale-product-information-discription {
+  color: #717474;
+  font-size: 16px;
+  font-family: PT Sans,sans-serif;
+  margin-top: 60px;
+}
+.sale-product-information-line-discription {
+  border-bottom: 1px solid #edf0f5;
+}
+.sale-product-information-text {
+  color: #717474;
+  font-size: 16px;
+  font-family: PT Sans,sans-serif;
+  margin-top: 25px;
+}
+.sale-product-image-mini {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 150px;
+  margin-left: 250px;
 }
