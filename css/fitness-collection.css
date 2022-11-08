@@ -16,7 +16,7 @@
         margin-left: auto;
         margin-right: auto;
         text-align: left;
-    }  
+    }
 
     .heading-subtitle {
         font-family: 'Bebas Neue', cursive;
@@ -28,7 +28,7 @@
         letter-spacing: normal;
         list-style: 31.28px;
     }
-    
+
     .heading-section-title {
         font-family: 'Bebas Neue', cursive;
         color: #222323;
@@ -45,7 +45,7 @@
         line-height: 93px;
         vertical-align: baseline;
         list-style: 31.28px;
-        margin-bottom:100px;
+        margin-bottom: 100px;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 0px;
@@ -63,15 +63,16 @@
         max-width: 100%;
         margin-left: 950px;
     }
+
     .screen {
         width: 370px;
         height: 280px;
     }
+
     .shopping__link-btn {
         font-family: 'PT Sans', sans-serif;
         font-weight: bold;
         margin-top: 80px;
-        margin-left: 15px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -81,12 +82,12 @@
         width: 164px;
         height: 58px;
     }
-    
+
     .shopping__link-btn:hover {
         box-shadow: inset 164px 0 0 0 var(--main-text-color);
         transition: box-shadow .5s ease-in-out;
     }
-    
+
     .shopping__link-btn>a {
         font-size: 1rem;
         text-decoration: none;
@@ -95,7 +96,7 @@
         padding-right: 32px;
         margin-left: 20px;
     }
-    
+
     .shopping__link-btn>a:hover {
         font-size: 1.2rem;
         transition: font-size .3s ease-in-out;
@@ -105,9 +106,10 @@
         .screen {
             width: 100%;
         }
-       } 
+    }
+
     @media (max-width: 400px) {
-           .heading-section-title {
+        .heading-section-title {
             font-size: 62px;
         }
     }
