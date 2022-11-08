@@ -312,17 +312,18 @@
 
     .about-us__social-icons-list {
         padding-left: 36px;
+        padding-top: 20px;
     }
 
     .facebook {
-        padding: 2px 10px 0 0;
+        padding: 4px 10px 0 0;
     }
 
     .instagram {
-        padding: 2px 10px 0 10px;
+        padding: 4px 10px 0 10px;
     }
 
     .youtube {
-        padding: 2px 10px 0 10px;
+        padding: 4px 10px 0 10px;
     }
 }
