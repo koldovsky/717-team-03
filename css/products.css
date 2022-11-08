@@ -20,16 +20,20 @@
 }
 .sale-product-information-tittle {
   color: #61a854;
-  size: 16px;
+  font-size: 16px;
   font-family: PT Sans,sans-serif;
 }
 .sale-product-information-name {
   color: #222323;
-  size: 23px;
-  font: Bebas Neue,cursive;
+  font-size: 23px;
+  font-family: Bebas Neue,cursive;
 }
 .sale-product-information-code {
   color: #222323;
-  size: 14px;
-  font-family:  Bebas Neue,cursive;
+  font-size: 14px;
+  font-family: Bebas Neue,cursive;
 };
+.sale-product-information-price {
+  font-size: 20px;
+  font-family: PT Sans,sans-serif;
+}
