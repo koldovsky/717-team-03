@@ -53,11 +53,14 @@
 .sale-product-information-counter {
   width: 15%;
   height: 40px;
+  text-align: center;
+  font-size: 25px;
 }
 .sale-product-information-button {
   width: 80%;
   height: 40px;
   background-color: red;
+  font-size: 25px;
 }
 .sale-product-information-discription {
   color: #717474;
