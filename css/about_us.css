@@ -22,6 +22,10 @@
     padding: 0 30px 0 30px;
 }
 
+.information__about-us p {
+    margin-block-end: 0;
+}
+
 .about__point {
     color: red;
 }
@@ -154,18 +158,18 @@
     .basic__description {
         padding-top: 10px;
         padding-left: 1px;
-        width: 700px;
+        width: 650px;
     }
 
     .description {
         padding-left: 1px;
-        width: 700px;
+        width: 650px;
     }
 
     .description_final {
         padding-top: 20px;
         padding-left: 1px;
-        width: 700px;
+        width: 650px;
     }
 
     .about-us__social-icons-list {
@@ -198,31 +202,6 @@
     }
 
     .basic__description {
-        width: 650px;
-    }
-
-    .description {
-        width: 650px;
-    }
-
-    .description_final {
-        width: 650px;
-    }
-}
-
-@media (max-width:736px) {
-    .about__us {
-        display: block;
-        width: 100%;
-    }
-
-    .about-us__image {
-        background-image: url(../img/about-us.jpg);
-        width: 100%;
-        height: 500px;
-    }
-
-    .basic__description {
         width: 500px;
     }
 
@@ -234,6 +213,7 @@
         width: 500px;
     }
 }
+
 
 @media (max-width:560px) {
     .about__us {
@@ -243,6 +223,7 @@
 
     .information__about-us {
         padding-right: 0;
+        margin-block-end: 0;
     }
 
     .about-us__image {
@@ -259,51 +240,32 @@
         width: 350px;
     }
 
-    .basic__description p {
-        margin-right: 0;
-    }
+    /* .basic__description p {
+        margin-block-end: 0;
+    } */
 
     .description {
         width: 350px;
     }
 
-    .description p {
+    /*.description p {
         margin-right: 0;
-    }
+    }*/
 
     .description_final {
         width: 350px;
     }
 
-    .description_final p {
+    /*.description_final p {
         margin-right: 0;
-    }
+    }*/
+
     .about-us__social-icons-list {
         padding-right: 0;
     }
 }
 
 @media (max-width:400px) {
-    .about__us {
-        display: block;
-        width: 100%;
-    }
-
-    .basic__description {
-        width: 300px;
-    }
-
-    .description {
-        width: 300px;
-    }
-
-    .description_final {
-        width: 300px;
-
-    }
-}
-
-@media (max-width:320px) {
     .about-us__basic {
         width: 300px;
         font-size: 35px;
@@ -317,7 +279,7 @@
     }
 
     .basic__description {
-        width: 300px;
+        width: 270px;
         font-size: 20px;
         padding-left: 5px;
         padding-top: 10px;
@@ -326,7 +288,7 @@
     }
 
     .description {
-        width: 300px;
+        width: 270px;
         font-size: 17px;
         padding-left: 5px;
         padding-top: 20px;
@@ -335,7 +297,7 @@
     }
 
     .description_final {
-        width: 300px;
+        width: 270px;
         font-size: 17px;
         padding-left: 5px;
         padding-top: 20px;
